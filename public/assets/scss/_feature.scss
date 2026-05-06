@@ -1,0 +1,373 @@
+//feature-list
+.feature-list-one {
+    margin-bottom: 40px;
+
+    .icon {
+        color: $white;
+        display: inline-block;
+        background: $theme-color2;
+        font-size: 14px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        line-height: 20px;
+        text-align: center;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+
+    .feature-title {
+        color: $heding;
+        font-size: 22px;
+        font-weight: 400;
+        font-family: $latoFont;
+        line-height: 1.72;
+        margin-bottom: 0;
+        flex: 1;
+
+
+        b {
+            font-weight: 600;
+        }
+    }
+
+
+    @media #{$max-laptop} {
+        .icon {
+            margin-right: 5px;
+        }
+    }
+
+    @media #{$max-lg} {
+        .feature-title {
+            font-size: 18px;
+        }
+    }
+
+    @media #{$max-lg} {
+        .feature-title {
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+.feature-wrap-one {
+    border: 1.5px solid $hr-border-color;
+    padding: 40px 45px 40px 40px;
+    @include transition(.4s);
+
+    &.fw-one {
+        border-radius: 30px 0 0 0;
+    }
+
+    &.fw-three {
+        border-radius: 0 0 0 30px;
+    }
+
+    &.fw-two {
+        border-radius: 0 30px 0 0;
+    }
+
+    &.fw-four {
+        border-radius: 0 0 30px 0;
+    }
+
+    .icon {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 29px;
+        background: $light;
+        @include transition(.4s);
+    }
+
+
+    .feature-title {
+        font-size: 32px;
+        font-weight: 600;
+        font-family: $poppinsFont;
+        margin-bottom: 18px;
+        line-height: 1.1;
+
+        a {
+            color: $heding;
+            @include transition(.4s);
+        }
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+        color: $body-text-color;
+        margin-bottom: 0;
+        @include transition(.4s);
+    }
+
+    &:hover {
+        background: $theme-color;
+
+        .icon {
+            background: $white;
+        }
+
+        .feature-title {
+            color: $white;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    @media #{$max-laptop} {
+        .feature-title {
+            font-size: 24px;
+        }
+    }
+
+    @media #{$max-lg} {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.feature-wrap-two {
+    .icon {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 24px;
+        margin-bottom: 29px;
+        background: $theme-color2;
+        @include transition(.4s);
+    }
+
+    .feature-content {
+        flex: 1;
+    }
+
+
+    .feature-title {
+        font-size: 32px;
+        font-weight: 600;
+        font-family: $poppinsFont;
+        margin-bottom: 18px;
+        line-height: 1.1;
+
+        a {
+            color: $heding;
+            @include transition(.4s);
+        }
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+        color: $body-text-color;
+        margin-bottom: 0;
+        @include transition(.4s);
+    }
+
+    @media #{$max-laptop} {
+        .feature-title {
+            font-size: 24px;
+        }
+    }
+
+    @media #{$max-lg} {}
+}
+
+
+.feature-wrap-three {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    @include transition(.4s);
+
+
+    .icon {
+        width: max-content;
+        height: max-content;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 22px;
+        position: relative;
+        z-index: 1;
+        @include transition(.4s);
+    }
+
+    .bg-shape {
+        width: 146px;
+        height: 146px;
+        border-radius: 50%;
+        animation: rotation infinite linear 35s;
+    }
+
+    .front-icon {
+        display: inline-block;
+        position: absolute;
+        z-index: 2;
+    }
+
+
+    .feature-title {
+        font-size: 32px;
+        font-weight: 600;
+        font-family: $poppinsFont;
+        margin-bottom: 18px;
+        line-height: 1.1;
+
+        a {
+            color: $heding;
+            @include transition(.4s);
+        }
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+        color: $body-text-color;
+        margin-bottom: 23px;
+        @include transition(.4s);
+    }
+
+    .more-btn {
+        display: inline-block;
+    }
+
+    &:hover {
+
+        .icon {
+            .bg-shape {
+                filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(359deg) brightness(79%) contrast(93%);
+            }
+        }
+
+        .feature-title {
+            color: $theme-color;
+        }
+    }
+
+    @media #{$max-laptop} {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .feature-title {
+            font-size: 24px;
+        }
+    }
+
+    @media #{$max-lg} {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+.feature-wrap-four {
+    background: $white;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    border: 1.5px solid $hr-border-color;
+    padding: 45px 45px 33px 45px;
+    @include transition(.4s);
+
+
+    .icon {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 34px;
+        background: $theme-color2;
+        @include transition(.4s);
+    }
+
+
+    .feature-title {
+        font-size: 32px;
+        font-weight: 600;
+        font-family: $poppinsFont;
+        margin-bottom: 15px;
+        line-height: 1.1;
+
+        a {
+            color: $heding;
+            @include transition(.4s);
+        }
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+        color: $body-text-color;
+        margin-bottom: 20px;
+        @include transition(.4s);
+    }
+
+    &:hover {
+        border-color: $theme-color;
+        transform: translateY(-10px);
+
+        .icon {
+            background: $theme-color;
+        }
+    }
+
+    @media #{$max-laptop} {
+        .feature-title {
+            font-size: 24px;
+        }
+    }
+
+    @media #{$max-lg} {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+.feature-wrap-five {
+    .icon {
+        color: $white;
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: $theme-color;
+    }
+
+    .content {
+        flex: 1;
+        margin-left: 15px;
+        max-width: 523px;
+    }
+}
+
+//what-we-do-section 3
+.shape-w3a {
+    right: -10%;
+    top: -127px;
+}
+
+.shape-w3b {
+    top: -170px;
+    left: 0;
+}

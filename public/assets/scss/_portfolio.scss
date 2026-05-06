@@ -1,0 +1,37 @@
+//portfolio-wrap
+.portfolio-wrap-one {
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+
+    img {
+        border-radius: 30px;
+    }
+
+    .icon-link {
+        color: $title;
+        font-size: 30px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: $theme-color;
+        position: absolute;
+        z-index: 2;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    &:hover {
+        .icon-link {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+}

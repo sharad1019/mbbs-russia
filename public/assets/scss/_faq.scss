@@ -1,0 +1,314 @@
+.faq-que-list {
+    .accordion-item:first-of-type>.accordion-header .accordion-button {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .accordion-item {
+
+        border: 0;
+        background-color: transparent;
+        border: 1.5px solid $hr-border-color;
+        border-radius: 15px;
+
+        margin-bottom: 30px;
+
+        button:focus,
+        input:focus,
+        input:focus,
+        textarea,
+        textarea:focus {
+            outline: 0;
+        }
+
+        &.active {
+            border-color: $theme-color;
+        }
+
+        .accordion-button {
+            border: 0;
+            border-radius: 0;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            transition: unset;
+            color: $theme-color;
+            font-size: 26px;
+            font-family: $latoFont;
+            font-weight: 600;
+            line-height: 1.875rem;
+            box-shadow: none;
+            background: transparent;
+            padding: 0;
+            padding: 33px 0 32px 30px;
+            position: relative;
+            box-shadow: 0;
+            -webkit-transition: unset;
+            -moz-transition: unset;
+            -ms-transition: unset;
+            -o-transition: unset;
+            word-wrap: normal;
+            display: inline-block;
+
+            .number {
+                font-size: 22px;
+                font-weight: 400;
+                margin-right: 12px;
+            }
+
+            &.collapsed {
+                border: 0;
+                border-radius: 15px;
+            }
+
+            @media #{$laptop} {
+                padding: 21px 20px;
+            }
+
+            @media #{$lg} {
+                padding: 21px 20px;
+                font-size: 18px;
+
+                .number {
+                    font-size: 18px;
+                }
+            }
+
+            @media #{$xs} {
+                padding: 21px 10px;
+                font-size: 18px;
+
+                .number {
+                    font-size: 18px;
+                }
+            }
+
+            // &:not(.collapsed) {
+            //     color: $white;
+            //     background-color: unset;
+            //     box-shadow: unset;
+            // }
+            &:focus {
+                box-shadow: none;
+                outline: 0;
+            }
+
+            &::before {
+                content: "\F63B";
+                position: absolute;
+                font-family: "bootstrap-icons";
+                font-size: 20px;
+                font-weight: 300;
+                color: $white;
+                text-align: center;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                line-height: 29px;
+                border: 1px solid $theme-color;
+                background: $theme-color;
+                border-radius: 50%;
+                right: 20px;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: 0.3s linear;
+                z-index: 1;
+
+                @media #{$md} {
+                    right: 10px;
+                    font-size: 16px;
+                }
+
+                @media #{$xs} {
+                    right: 5px;
+                    font-size: 16px;
+                }
+            }
+
+            &::after {
+                display: none;
+            }
+        }
+
+        .collapsed {
+            color: $heding;
+            border: 0;
+
+            &::before {
+                content: "\F4FE";
+                color: $white;
+                transform: translateY(-50%);
+                font-size: 25px;
+                line-height: 29px;
+                background: $theme-color2;
+                border-color: $theme-color2;
+            }
+        }
+
+        .accordion-body {
+            padding-top: 25px;
+            padding-bottom: 15px;
+            padding-bottom: 27px;
+            padding-left: 30px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-top: 1.5px solid $hr-border-color;
+        }
+
+        @media #{$max-xs} {
+            .accordion-body {
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+.faq-style-2 {
+
+    .accordion-item {
+        border-radius: 15px;
+        border: 1.5px solid $hr-border-color;
+        padding: 0;
+
+        &.active {
+            border: 1.5px solid $black;
+            border-radius: 15px;
+        }
+
+        .accordion-button {
+            font-size: 26px;
+            font-weight: 600;
+            font-family: $latoFont;
+            background: transparent;
+            color: $heding;
+            background: transparent;
+            border: 0;
+            padding: 35px 25px 33px 50px;
+
+            .number {
+                font-size: 22px;
+                font-weight: 400;
+                margin-right: 7px;
+            }
+
+            &::before {
+                content: "\f63b";
+                color: $body-text-color;
+                background: transparent;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 50%;
+            }
+
+            &.collapsed {
+                padding: 35px 25px 33px 50px;
+                border: 0;
+                background: transparent;
+            }
+        }
+
+
+        .collapsed {
+            border: 0;
+
+            &::before {
+                content: "\F4FE";
+                color: $body-text-color;
+                background: transparent;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 50%;
+                transform: translateY(-50%) rotate(0deg);
+            }
+
+        }
+
+        .accordion-body {
+            background: transparent;
+            border-top: 0;
+            padding-top: 25px;
+            padding-left: 50px;
+            padding-right: 25px;
+            border-top: 1.5px solid $hr-border-color;
+
+            p {
+                color: $body-text-color;
+            }
+        }
+    }
+
+    @media #{$max-lg} {
+        .accordion-item {
+
+            .accordion-button {
+                font-size: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+
+                &.collapsed {
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+            }
+
+            .accordion-body {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+
+    @media #{$max-xs} {
+        .accordion-item {
+            .accordion-button {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.faq-style-3 {
+    .accordion-item {
+        .accordion-button {
+            background: $theme-color;
+            color: $white;
+
+            &::before {
+                color: $black;
+                background: $white;
+                border-color: $white;
+            }
+
+            .number {
+                font-size: 22px;
+                font-weight: 400;
+                font-family: $latoFont;
+            }
+
+            &.collapsed {
+                color: $black;
+                background: transparent;
+
+                &::before {
+                    color: $white;
+                    background: $theme-color2;
+                    border-color: $theme-color2;
+                }
+            }
+        }
+
+        .accordion-body {
+            background: $theme-color;
+
+            P {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}

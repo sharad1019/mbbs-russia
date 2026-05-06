@@ -1,0 +1,717 @@
+.contact-form-wrapper {
+    padding: 50px 50px 50px 50px;
+    background: #f4f4f4;
+    border-radius: 30px;
+
+    @media #{$max-lg} {
+        padding: 15px 15px 12px 15px;
+    }
+
+    @media #{$max-md} {
+        padding: 30px 15px;
+    }
+}
+
+.contact-form-wrapper-two {
+    padding: 55px 50px 60px 55px;
+
+    @media #{$max-lg} {
+        padding: 25px 15px;
+    }
+}
+
+.contact-form-wrapper-three {
+    padding: 50px 50px 50px 50px;
+    border: 1.5px solid $theme-color;
+    border-radius: 30px;
+
+    @media #{$max-lg} {
+        padding: 15px 15px 12px 15px;
+    }
+
+    @media #{$max-md} {
+        padding: 30px 15px;
+    }
+}
+
+.contact-img-box {
+    .shape-c1 {
+        position: relative;
+        left: -33%;
+        top: 18px;
+    }
+
+    @media #{$max-xl} {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.contact-form {
+    .input-wrapper {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 30px;
+
+        label {
+            font-size: 18px;
+            color: $title;
+            font-weight: 500;
+            font-family: $poppinsFont;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        input,
+        .select-event {
+            width: 100%;
+            height: 60px;
+            border: 0;
+            background: transparent;
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $latoFont;
+            border-radius: 8px;
+            border: 0;
+            border: 1.5px solid $hr-border-color;
+            padding-left: 20px;
+
+
+            &::placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-moz-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-webkit-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 18px;
+            }
+
+            &::-o-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-ms-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+        }
+
+        textarea {
+            width: 100%;
+            height: 120px;
+            border: 0;
+            background: transparent;
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 14px;
+            font-family: $latoFont;
+            border-radius: 8px;
+            border: 1.5px solid $hr-border-color;
+            padding-left: 20px;
+
+            &::placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-moz-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-webkit-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-o-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+
+            &::-ms-placeholder {
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 14px;
+            }
+        }
+
+        select {
+            color: $body-text-color;
+            border: 0;
+            border-bottom: 1px solid $black;
+            padding-bottom: 14px;
+
+        }
+
+        select:focus-visible {
+            outline-offset: 0px;
+            outline: none;
+        }
+
+    }
+
+    .submit-btn {
+        color: $white;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: $latoFont;
+        height: 60px;
+        line-height: 58px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-transform: capitalize;
+        border-radius: 60px;
+        border: 0;
+        background: $theme-color;
+        width: max-content;
+        @include transition(.4s);
+
+        &:hover {
+            color: $white;
+            background: $theme-color2;
+        }
+    }
+
+    @media #{$max-lg} {
+        .input-wrapper {
+            margin-bottom: 25px;
+        }
+    }
+
+    @media #{$max-xs} {
+        .submit-btn {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &.form-three {
+        .input-wrapper {
+            input {
+                color: $body-text-color;
+
+                &::placeholder {
+                    color: $body-text-color;
+                }
+            }
+        }
+
+        button {
+            border-radius: 10px;
+        }
+    }
+}
+
+.form-two {
+    .input-wrapper {
+        label {
+            margin-bottom: 0;
+        }
+
+        input,
+        textarea {
+            border: 0;
+            border-radius: 0;
+            border-bottom: 1.5px solid $black;
+            padding-left: 0;
+        }
+
+        select {
+            background: transparent;
+            border: 0;
+            height: 60px;
+            border-bottom: 1.5px solid $black;
+            border-radius: 0;
+            padding: 0;
+        }
+
+        .form-select:focus {
+            outline: none;
+            border: 0;
+            border-bottom: 1.5px solid $black;
+            box-shadow: none;
+        }
+    }
+}
+
+.subscribe-form {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    &.sub-one {
+        width: 378px;
+        margin: 0 auto;
+
+        @media #{$max-xs} {
+            width: 100%;
+
+            button {
+                background: $theme-color;
+            }
+        }
+    }
+
+    input {
+        width: 100%;
+        height: 70px;
+        border: 1px solid $black;
+        color: $body-text-color;
+        font-size: 18px;
+        font-family: $latoFont;
+        padding-left: 30px;
+        border-radius: 10px;
+        background: $white;
+        border: 0;
+
+        &::placeholder {
+            color: $body-text-color;
+            font-size: 16px;
+        }
+
+        &::-moz-placeholder {
+            color: $body-text-color;
+            font-size: 16px;
+        }
+
+        &::-webkit-placeholder {
+            color: $body-text-color;
+            font-size: 16px;
+        }
+
+        &::-o-placeholder {
+            color: $body-text-color;
+            font-size: 16px;
+        }
+
+        &::-ms-placeholder {
+            color: $body-text-color;
+            font-size: 16px;
+        }
+    }
+
+    button {
+        color: $white;
+        font-size: 18px;
+        font-family: $poppinsFont;
+        border: 0;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: capitalize;
+        display: inline-block;
+        background: $theme-color2;
+        position: absolute;
+        right: 11px;
+        top: 11px;
+        border-radius: 8px;
+        height: 50px;
+        width: max-content;
+        padding: 0px 15px;
+        @include transition(.4s);
+
+        &:hover {
+            background: $theme-color;
+        }
+    }
+
+    &.sub-form-two {
+        display: inline-block;
+        max-width: 480px;
+
+        input {
+            color: rgba(255, 255, 255, 0.7);
+            height: 70px;
+            line-height: 70px;
+            display: block;
+            border-radius: 10px;
+            border: 1px solid $white;
+            background: transparent;
+
+            &::placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            &::-webkit-placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            &::-moz-placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            &::-ms-placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            &::-o-placeholder {
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+
+        button {
+            color: $heding;
+            font-size: 18px;
+            background: $white;
+            min-height: 55px;
+            line-height: 55px;
+            padding-left: 35px;
+            padding-right: 35px;
+            width: auto;
+            border-radius: 8px;
+            font-family: $latoFont;
+            @include transition(.4s);
+
+            &:hover {
+                background: $theme-color;
+            }
+        }
+
+        @media #{$max-md} {
+            input {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            button {
+                right: 0;
+            }
+        }
+    }
+
+    &.sub-form-3 {
+        border-bottom: 1px solid $black;
+
+        input {
+            border: 0;
+            border-radius: 0;
+            height: 65px;
+            line-height: 65px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $latoFont;
+            background: transparent;
+            padding-left: 0;
+
+            &::placeholder {
+                color: $title;
+                font-size: 16px;
+            }
+
+            &::-moz-placeholder {
+                color: $title;
+                font-size: 16px;
+            }
+
+            &::-webkit-placeholder {
+                color: $title;
+                font-size: 16px;
+            }
+
+            &::-o-placeholder {
+                color: $title;
+                font-size: 16px;
+            }
+
+            &::-ms-placeholder {
+                color: $title;
+                font-size: 16px;
+            }
+        }
+
+        button {
+            color: $title;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: $latoFont;
+            background: transparent;
+            position: relative;
+            z-index: 1;
+            min-width: max-content;
+            min-height: 65px;
+            padding: 0;
+            text-transform: capitalize;
+            right: unset;
+            top: unset;
+            margin-left: 0;
+            @include transition(.4s);
+
+            &:hover {
+                color: $black;
+                background: transparent;
+            }
+
+        }
+
+        @media #{$max-xs} {
+            input {
+                border-bottom: 1px solid $black;
+            }
+
+            button {
+                margin-left: 0;
+            }
+        }
+
+    }
+
+
+    @media #{$max-xs} {
+        text-align: center;
+        width: 100%;
+
+        button {
+            width: 100%;
+            position: relative;
+            top: unset;
+            right: unset;
+            margin-top: 10px;
+
+            &.black-btn {
+                background: $heding;
+            }
+        }
+    }
+
+}
+
+.subscribe-agreement-checkbox {
+
+    label {
+        color: $heding;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: $latoFont;
+    }
+}
+
+
+
+.contact-map {
+
+    iframe {
+        height: 530px;
+        width: 100%;
+        border-radius: 30px;
+        display: block;
+    }
+
+    @media #{$max-laptop} {
+
+        iframe {
+            height: 500px;
+        }
+    }
+
+    @media #{$max-laptop} {
+
+        iframe {
+            height: 400px;
+        }
+    }
+}
+
+
+
+//signup-form-section
+.signup-form-section {
+    .contact-wrapper {
+        background: rgba(244, 244, 244, 0.5);
+        padding: 50px;
+        border-radius: 30px;
+
+        @media #{$max-xs} {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    .contact-form {
+        .input-wrapper span {
+            left: 21px;
+        }
+    }
+
+    button.signup-btn {
+        border: 0;
+        width: 100%;
+        height: 45px;
+        background: transparent;
+        color: $heding;
+        font-weight: 600;
+    }
+}
+
+.info-box2 {
+    background: $light-grey;
+    border-radius: 20px;
+    padding: 35px 35px 30px 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    @include transition(0.4s);
+
+    .icon {
+        color: $white;
+        width: 70px;
+        height: 70px;
+        background: $theme-color2;
+        border-radius: 50%;
+        font-size: 30px;
+        text-align: center;
+        line-height: 70px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        @include transition(0.4s)
+    }
+
+    .info-title {
+        font-size: 26px;
+        font-weight: 600;
+        font-family: $poppinsFont;
+        margin-bottom: 11px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    &:hover {
+
+        .icon {
+            background: $theme-color;
+        }
+    }
+
+    @media #{$max-lg} {
+
+        .icon {
+            margin-bottom: 30px;
+        }
+
+        .info-title {
+            font-size: 22px;
+        }
+    }
+
+    @media #{$max-xs} {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+        text-align: center;
+
+        .icon {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+//cta-section
+.cta-section {
+    .shape-ct1 {
+        position: absolute;
+        z-index: -1;
+        top: -104%;
+        left: 0;
+    }
+
+    .shape-ct2 {
+        position: absolute;
+        z-index: -1;
+        top: -104%;
+        right: 0;
+    }
+}
+
+//booking-form
+.booking-form {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    background: $theme-color2;
+    border-radius: 20px;
+    margin-top: -110px;
+    position: relative;
+    z-index: 5;
+
+    .input-wrapper {
+        margin-bottom: 40px;
+        // display: flex;
+
+        .content {
+            overflow: hidden;
+        }
+
+        .icon {
+            color: $title;
+            font-size: 28px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: $white;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            margin-right: 15px;
+            margin-top: 9px;
+            float: left;
+        }
+
+        label {
+            color: rgba(225, 225, 225, 0.5);
+            font-size: 20px;
+            font-family: $latoFont;
+            font-weight: 400;
+            display: block;
+        }
+
+        input {
+            color: $white;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: $latoFont;
+            border: 0;
+            background: transparent;
+
+            &::placeholder {
+                color: $white;
+                font-size: 20px;
+            }
+
+            &::-webkit-placeholder {
+                color: $white;
+                font-size: 20px;
+            }
+
+            &::-moz-placeholder {
+                color: $white;
+                font-size: 20px;
+            }
+
+            &::-ms-placeholder {
+                color: $white;
+                font-size: 20px;
+            }
+
+            &::-o-placeholder {
+                color: $white;
+                font-size: 20px;
+            }
+        }
+    }
+
+    @media #{$max-lg} {
+        width: 100%;
+        margin-top: 0;
+    }
+}
