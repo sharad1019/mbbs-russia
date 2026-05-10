@@ -192,9 +192,9 @@
 
 		<!-- header-area start -->
 		<header class="theme-main-menu theme-menu-one">
-			<div class="promotion-area theme-bg2 py-3 text-center d-none d-lg-block">
-				<a class="text-white fs-20 fw-medium" href="#"><b>Updates :</b> <span
-						class="opacity-75 fs-18 fw-normal"> Admissions Open for MBBS in Russia 2026 | Limited Seats Available - </span> <b>Apply Now</b> <i class="bi bi-chevron-right"></i></a>
+			<div class="promotion-area theme-bg2 py-1 text-center d-none d-lg-block">
+				<a class="text-white fs-16 fw-medium" href="#"><b>Updates :</b> <span
+						class="opacity-75 fs-16 fw-normal"> Admissions Open for MBBS in Russia 2026 | Limited Seats Available - </span> <b>Apply Now</b> <i class="bi bi-chevron-right"></i></a>
 			</div>
 			<div class="header-top">
 				<div class="container-fluid">
@@ -210,10 +210,10 @@
 								href="#"><span><i class="bi bi-envelope"></i></span> info@mbbsrussiaadmission.com</a></li>
 						<li>
 							<div class="header-social-links d-md-flex d-none">
-								<a href="#">FB</a>
-								<a href="#">LI</a>
-								<a href="#">TW</a>
-								<a href="#">IN</a>
+								<a href="#"><i class="bi bi-facebook"></i></a>
+								<a href="#"><i class="bi bi-instagram"></i></a>
+								<a href="#"><i class="bi bi-linkedin"></i></a>
+								<a href="#"><i class="bi bi-twitter"></i></a>
 							</div>
 						</li>
 					</ul>
@@ -224,7 +224,7 @@
 					<div class="row align-items-center justify-content-between">
 						<div class="col-md-auto col-6">
 							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
+								<a href="index.html"><img src="assets/img/logo/958561.png" width="200px" alt="Header-logo"></a>
 							</div>
 						</div>
 						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
@@ -369,20 +369,8 @@
 										<span class="badge">0</span>
 									</a>
 								</div>
-
-								<div class="call-btn d-xl-inline-flex align-items-center d-none">
-									<span class="icon me-3"><img src="assets/img/icon/icon-1.svg" alt="Phone"></span>
-									<a href="call:+86-085-550-1539">+86-085-550-1539</a>
-								</div>
-
 								<div class="quote-btn d-lg-inline-block d-none ms-xxl-4 ms-3">
 									<a href="contact.html" class="bs-btn">Appointment</a>
-								</div>
-								<div class="search-area d-none d-lg-inline-block ms-3 me-0">
-									<a class="search-input" href="#" data-bs-toggle="offcanvas"
-										data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-										<i class="bi bi-search"></i>
-									</a>
 								</div>
 								<div class="hamburger-menu ms-0 d-lg-none d-md-inline-flex">
 									<div class="bar-wrap">
