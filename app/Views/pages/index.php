@@ -2,33 +2,31 @@
 
 			<!-- theme-banner-one start -->
 			<section class="theme-banner-one position-relative z-1" data-background="assets/img/hero/hero-img-1.jpg">
-				<img class="position-absolute z-n1 top-0 mt-80 d-none d-xl-inline-block"
+				<img class="position-absolute z-n1 top-0 mt-80 d-none d-xl-inline-block opacity-25"
 					src="assets/img//page-title/page-title-shape-2.png" alt="media">
-				<img class="position-absolute z-n1 bottom-0 ml-270 pl-220 d-none d-xl-inline-block"
+				<img class="position-absolute z-n1 bottom-0 ml-270 pl-220 d-none d-xl-inline-block opacity-25"
 					src="assets/img//shape/shape-46.png" alt="media">
 				<div class="container-fluid">
 					<div class="row align-items-center">
 						<div class="col-xxl-6 offset-xxl-1 col-lg-7">
 							<div class="hero-content mb-105">
-								<h1 class="main-title">Immigration Help You Can Trust</h1>
-								<p class="hero-description pe-xxl-5">From visas to permanent residency, we’re your
-									dependable partner every step of the immigration process.</p>
+								<h1 class="main-title">STUDY MBBS <br> in <span>Russia</span></h1>
+								<p class="hero-description pe-xxl-5">Affordable medical education at top NMC & WHO recognized Russian universities with complete end-to-end support for Indian students. From university selection and admission documentation to visa processing, travel arrangements, hostel accommodation, and post-arrival assistance in Russia, our expert team guides you at every step to make your MBBS journey smooth, secure, and stress-free.</p>
 								<div
 									class="d-md-flex justify-content-lg-start justify-content-center align-items-center">
-									<a href="contact.html" class="bstyle me-md-3">Get Started</a>
+									<a href="/" class="bstyle me-md-3">Apply Now</a>
 									<a href="https://www.youtube.com/watch?v=6stlCkUDG_s"
-										class="bstyle-2 popup-links d-none d-xl-inline-flex">Watch now<span
-											class="btn-icon"><i class="bi bi-play-fill"></i></span></a>
+										class="bstyle-2 popup-links d-none d-xl-inline-flex">Get Free consultation</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-xxl-5 col-lg-5">
 							<div class="hero-img">
 								<div class="main-img">
-									<img class="img-fluid" src="assets/img/hero/hero-img-2.png" alt="hero">
+									<img class="img-fluid" src="assets/img/hero/hero-img-2.png" width="450px" alt="hero">
 								</div>
 								<img class="hero-shape-1 d-none d-xl-inline-block"
-									src="assets/img/hero/hero-shape-1.png" alt="shape">
+									src="assets/img/hero/hero-shape-1.png" alt="shape" width="450px">
 							</div>
 						</div>
 					</div>
@@ -37,51 +35,62 @@
 			<!-- theme-banner-one end -->
 
 			<!-- offer-news start -->
-			<div class="theme-bg2 offer-news pt-35 pb-35">
+			<div class="theme-bg2 offer-news">
 				<div class="marquee-wrapper">
 					<div class="marquee-slide">
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>2026 MBBS Admission Open For Russia!</span>
+							<a href="contact.html">Apply Now</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Get Free MBBS Counselling For Russian Universities</span>
+							<a href="contact.html">Enquire Now</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>NMC & WHO Approved Universities Available</span>
+							<a href="contact.html">View More</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Affordable MBBS Fees Starting From ₹2.5 Lakhs/Year</span>
+							<a href="contact.html">Check Fees</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 					</div>
+
 					<div class="marquee-slide">
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Indian Hostel & Food Facilities Available In Russia</span>
+							<a href="contact.html">Know More</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Complete Visa & Admission Assistance For Students</span>
+							<a href="contact.html">Get Support</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Top Medical Universities In Russia For Indian Students</span>
+							<a href="contact.html">Explore</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 						<div class="news-wrapper">
-							<span>Free Immigration Check Today!</span> <a href="contact.html">Visit
-								Now</a>
+							<span>Secure Your MBBS Seat In Russia Today</span>
+							<a href="contact.html">Apply Today</a>
 							<img src="assets/img/icon/icon-2.svg" alt="icon">
 						</div>
+
 					</div>
 				</div>
 			</div>

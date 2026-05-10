@@ -231,130 +231,19 @@
 							<div class="main-menu d-none d-lg-block">
 								<nav id="mobile-menu">
 									<ul class="menu-list">
-										<li>
-											<a href="#">
-												Home
-											</a>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Russia</a></li>
+										<li><a href="#">Other Countries </a>
 											<ul class="sub-menu">
-												<li>
-													<a href="index.html">Home Style 1</a>
-												</li>
-												<li>
-													<a href="index-2.html">Home Style 2</a>
-												</li>
-												<li>
-													<a href="index-3.html">Home Style 3</a>
-												</li>
-												<li>
-													<a href="index-4.html">Home Style 4</a>
-												</li>
-
-												<li>
-													<a href="index-5.html">Home Style 5</a>
-												</li>
+												<li><a href="#">Uzbekistan</a></li>
+												<li><a href="#">Ukraine</a></li>
+												<li><a href="#">Kazakhstan</a></li>
+												<li><a href="#">China</a></li>
 											</ul>
 										</li>
 										<li>
-											<a href="#">
-												Pages
-											</a>
-											<ul class="sub-menu">
-												<li>
-													<a href="about.html">About Us</a>
-												</li>
-												<li>
-													<a href="#">Blog <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="blog-grid.html">Blog Grid</a>
-														</li>
-														<li>
-															<a href="blog-classic.html">Blog Classic</a>
-														</li>
-														<li>
-															<a href="blog-details.html">Blog Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Services <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="services.html">Services</a>
-														</li>
-														<li>
-															<a href="services-details.html">Services Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Country <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="country-list.html">Country List</a>
-														</li>
-														<li>
-															<a href="country-details.html">Country Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Shop <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="shop.html">Shop</a>
-														</li>
-														<li>
-															<a href="shop-details.html">Shop Details</a>
-														</li>
-														<li>
-															<a href="cart.html">Cart</a>
-														</li>
-														<li>
-															<a href="checkout.html">Checkout</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Team <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="team.html">Team</a>
-														</li>
-														<li>
-															<a href="team-details.html">Team Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="error.html">Error - 404</a>
-												</li>
-												<li>
-													<a href="testimonial.html">Testimonial</a>
-												</li>
-												<li>
-													<a href="faq.html">Faq</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Courses</a>
-											<ul class="sub-menu">
-												<li>
-													<a href="course-v1.html">Course V1</a>
-												</li>
-												<li>
-													<a href="course-details.html">Course Details</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="contact.html">Contact</a>
+											<a href="#">Contact</a>
 										</li>
 
 									</ul>

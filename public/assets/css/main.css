@@ -44,7 +44,7 @@
 
 -----------------------------------------------------------------------------------*/
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   width: 5px;
@@ -67,12 +67,12 @@ body::-moz-scrollbar-track {
 }
 html::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb {
-  background-color: #C62828;
+  background-color: #042b7a;
   outline: none;
 }
 html::-moz-scrollbar-thumb,
 body::-moz-scrollbar-thumb {
-  background-color: #C62828;
+  background-color: #042b7a;
   outline: none;
 }
 html::-webkit-scrollbar-thumb:active,
@@ -96,7 +96,7 @@ body::-moz-scrollbar-thumb:active {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 18px;
   line-height: 34px;
   font-weight: 400;
@@ -220,7 +220,7 @@ p {
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 15px;
 }
@@ -324,7 +324,7 @@ label {
 }
 .popup-video:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 
 .custom-container-1600 {
@@ -418,7 +418,7 @@ label {
 #scrollToTopBtn {
   font-size: 18px;
   display: inline-block;
-  background: #C62828;
+  background: #042b7a;
   position: fixed;
   width: 35px;
   height: 35px;
@@ -489,7 +489,7 @@ label {
 }
 
 [data-overlay=dark]::before {
-  background-color: #C62828;
+  background-color: #042b7a;
 }
 
 /*-- Overlay Opacity --*/
@@ -548,7 +548,7 @@ label {
   border-radius: 30px;
   font-family: "Poppins", sans-serif;
   line-height: 1;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   padding: 15px 20px 15px 20px;
 }
@@ -560,7 +560,7 @@ label {
 .theme-main-menu .ht-email {
   color: #212529;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   padding-right: 10px;
   margin-right: 10px;
@@ -614,7 +614,7 @@ label {
   border-radius: 50px;
 }
 .theme-main-menu .hamburger-menu:hover {
-  background: #C62828;
+  background: #042b7a;
   color: #ffffff;
 }
 @media only screen and (max-width: 767.98px) {
@@ -655,7 +655,7 @@ label {
   color: #212529;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   padding-right: 8px;
   margin-right: 8px;
@@ -670,7 +670,7 @@ label {
   display: none;
 }
 .header-social-links a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 
 .main-menu {
@@ -710,7 +710,7 @@ label {
 }
 .main-menu ul li a {
   color: #212529;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -742,13 +742,13 @@ label {
   display: none;
 }
 .main-menu ul li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .main-menu ul li a i {
   font-size: 10px;
 }
 .main-menu ul li:hover > a {
-  color: #C62828;
+  color: #042b7a;
 }
 .main-menu ul li ul.sub-menu {
   border: 0;
@@ -793,7 +793,7 @@ label {
 .main-menu ul li ul.sub-menu li a {
   color: #212529;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   padding: 14px 25px;
   display: block;
@@ -853,7 +853,7 @@ label {
 }
 .search-area .search-input:hover {
   color: #212529;
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 767.98px) {
   .search-area .search-input {
@@ -966,20 +966,20 @@ label {
 }
 .theme-menu-one .search-area .search-input:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 .theme-menu-one .cart-menu .shopping-cart:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 .theme-menu-one .main-menu ul li a {
   color: #000;
 }
 .theme-menu-one .hamburger-menu {
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .theme-menu-one .hamburger-menu .bar-wrap .bar-1,
 .theme-menu-one .hamburger-menu .bar-wrap .bar-2,
@@ -1005,7 +1005,7 @@ label {
 .theme-menu-one .call-btn a {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
 }
 @media only screen and (max-width: 1800px) {
@@ -1107,7 +1107,7 @@ label {
 }
 .theme-menu-two .main-header-area {
   padding: 28px 30px 28px 30px;
-  background: #C62828;
+  background: #042b7a;
   border-radius: 0 0 60px 60px;
   max-width: 1520px;
   position: absolute;
@@ -1143,7 +1143,7 @@ label {
   color: #ffffff;
 }
 .theme-menu-two .main-menu ul li ul.sub-menu li a {
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 1600px) {
   .theme-menu-two .topbar,
@@ -1170,7 +1170,7 @@ label {
 }
 .theme-menu-three .search-area .search-input:hover {
   color: #000;
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .theme-menu-three .cart-menu .shopping-cart {
   color: #000;
@@ -1284,7 +1284,7 @@ label {
   color: #ffffff;
 }
 .theme-menu-three .main-menu ul li:hover > a {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .theme-menu-three .main-menu ul li {
@@ -1322,7 +1322,7 @@ label {
 .theme-menu-four .header-top .ht-email {
   color: #ffffff;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
 }
 .theme-menu-four .header-top .ht-promo span,
@@ -1346,12 +1346,12 @@ label {
   border-color: #000;
 }
 .theme-menu-four .cart-menu .shopping-cart span {
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-menu-four .cart-menu .shopping-cart:hover {
   color: #ffffff;
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .theme-menu-four .search-area .search-input {
   color: #000;
@@ -1360,17 +1360,17 @@ label {
 }
 .theme-menu-four .search-area .search-input:hover {
   color: #000;
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .theme-menu-four .bs-btn {
   color: #212529;
   padding: 20px 50px 20px 50px;
   border-radius: 40px;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-menu-four .bs-btn::before {
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-menu-four .bs-btn:hover {
   color: #ffffff;
@@ -1480,17 +1480,17 @@ label {
   visibility: visible;
 }
 .theme-menu-five .search-area .search-input:hover {
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .theme-menu-five .bs-btn {
   color: #ffffff;
   padding: 20px 50px 20px 50px;
   border-radius: 40px;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-menu-five .bs-btn::before {
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-menu-five .bs-btn:hover {
   color: #ffffff;
@@ -1531,7 +1531,7 @@ label {
   border-radius: 0 0 50px 50px;
 }
 .theme-menu-six .search-area .search-input:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .theme-menu-six .quote-btn {
   margin-right: 20px;
@@ -1804,7 +1804,7 @@ ul.breadcumb-menu li a {
   color: rgba(255, 255, 255, 0.4);
   font-size: 28px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   display: inline-block;
   padding-right: 10px;
@@ -2038,7 +2038,7 @@ a.meanmenu-reveal {
   width: 100%;
   max-width: 310px;
   background-color: #212529;
-  border-right: 3px solid #C62828;
+  border-right: 3px solid #042b7a;
   height: 100%;
   position: relative;
   left: -110%;
@@ -2063,7 +2063,7 @@ a.meanmenu-reveal {
   font-size: 16px;
   z-index: 1;
   color: #ffffff;
-  background-color: #C62828;
+  background-color: #042b7a;
   border-radius: 50%;
 }
 
@@ -2233,7 +2233,7 @@ a.meanmenu-reveal {
 }
 
 .theme-bg {
-  background: #C62828 !important;
+  background: #042b7a !important;
 }
 
 .theme-bg2 {
@@ -2252,7 +2252,7 @@ a.meanmenu-reveal {
 }
 
 .text-theme {
-  color: #C62828 !important;
+  color: #042b7a !important;
 }
 
 .text-theme2 {
@@ -2279,7 +2279,7 @@ a.meanmenu-reveal {
     - fonts
 -----------------------------------------*/
 .body-font {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Manrope", sans-serif !important;
 }
 
 .heding-font {
@@ -2336,7 +2336,7 @@ a.meanmenu-reveal {
 }
 
 .lato-font {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Manrope", sans-serif !important;
 }
 
 /* search-area */
@@ -2354,7 +2354,7 @@ a.meanmenu-reveal {
   z-index: 1;
 }
 .search-area .search-input:hover {
-  background: #C62828;
+  background: #042b7a;
   color: #ffffff;
 }
 @media only screen and (max-width: 767.98px) {
@@ -3031,12 +3031,12 @@ a.meanmenu-reveal {
   }
   50% {
     transform: scale(1);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.5;
   }
   100% {
     transform: scale(1.3);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.8;
   }
 }
@@ -3046,12 +3046,12 @@ a.meanmenu-reveal {
   }
   50% {
     transform: scale(1);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.5;
   }
   100% {
     transform: scale(1.3);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.8;
   }
 }
@@ -3061,12 +3061,12 @@ a.meanmenu-reveal {
   }
   50% {
     transform: scale(1);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.5;
   }
   100% {
     transform: scale(1.3);
-    background: #C62828;
+    background: #042b7a;
     opacity: 0.8;
   }
 }
@@ -6285,10 +6285,10 @@ theme-btn
   overflow: hidden;
   color: #ffffff;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   line-height: 1;
-  background-color: #C62828;
+  background-color: #042b7a;
   padding: 21px 49px 21px 49px;
   border-radius: 30px;
   position: relative;
@@ -6348,7 +6348,7 @@ theme-btn
 }
 .ht-btn.style-3 {
   border: 0;
-  background: #C62828;
+  background: #042b7a;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -6405,7 +6405,7 @@ ul.slick-dots li button {
 ul.slick-dots li.slick-active button {
   width: 12px;
   height: 12px;
-  background: #C62828;
+  background: #042b7a;
   transform: translateY(-1px);
 }
 
@@ -6463,8 +6463,8 @@ ul.slick-dots li.slick-active button {
 .arrow-style-two .prev-p1:hover,
 .arrow-style-two .slick-arrow:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 .arrow-style-one .slick-prev:hover img,
 .arrow-style-one .slick-next:hover img,
@@ -6571,7 +6571,7 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: 4px;
   display: inline-block;
   line-height: 1;
@@ -6580,7 +6580,7 @@ ul.slick-dots li.slick-active button {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.3);
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: 4px;
   display: inline-block;
   line-height: 1;
@@ -6623,8 +6623,8 @@ ul.slick-dots li.slick-active button {
 }
 .course-navigation .slick-arrow:hover {
   color: #ffffff;
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .course-navigation .slick-prev:hover {
   transform: rotate(-45deg);
@@ -6639,7 +6639,7 @@ ul.slick-dots li.slick-active button {
 .course-navigation .course-title {
   color: #212529;
   font-size: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -6678,7 +6678,7 @@ ul.slick-dots li.slick-active button {
   outline: 0;
 }
 .faq-que-list .accordion-item.active {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .faq-que-list .accordion-item .accordion-button {
   border: 0;
@@ -6686,9 +6686,9 @@ ul.slick-dots li.slick-active button {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   transition: unset;
-  color: #C62828;
+  color: #042b7a;
   font-size: 26px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   line-height: 1.875rem;
   box-shadow: none;
@@ -6752,8 +6752,8 @@ ul.slick-dots li.slick-active button {
   width: 30px;
   height: 30px;
   line-height: 29px;
-  border: 1px solid #C62828;
-  background: #C62828;
+  border: 1px solid #042b7a;
+  background: #042b7a;
   border-radius: 50%;
   right: 20px;
   top: 50%;
@@ -6816,7 +6816,7 @@ ul.slick-dots li.slick-active button {
 .faq-style-2 .accordion-item .accordion-button {
   font-size: 26px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   background: transparent;
   color: #212529;
   background: transparent;
@@ -6888,7 +6888,7 @@ ul.slick-dots li.slick-active button {
 }
 
 .faq-style-3 .accordion-item .accordion-button {
-  background: #C62828;
+  background: #042b7a;
   color: #ffffff;
 }
 .faq-style-3 .accordion-item .accordion-button::before {
@@ -6899,7 +6899,7 @@ ul.slick-dots li.slick-active button {
 .faq-style-3 .accordion-item .accordion-button .number {
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .faq-style-3 .accordion-item .accordion-button.collapsed {
   color: #000;
@@ -6911,7 +6911,7 @@ ul.slick-dots li.slick-active button {
   border-color: #1E3A8A;
 }
 .faq-style-3 .accordion-item .accordion-body {
-  background: #C62828;
+  background: #042b7a;
 }
 .faq-style-3 .accordion-item .accordion-body P {
   color: rgba(255, 255, 255, 0.7);
@@ -6937,7 +6937,7 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.72;
   margin-bottom: 0;
   flex: 1;
@@ -7024,7 +7024,7 @@ ul.slick-dots li.slick-active button {
   transition: all 0.4s ease 0s;
 }
 .feature-wrap-one:hover {
-  background: #C62828;
+  background: #042b7a;
 }
 .feature-wrap-one:hover .icon {
   background: #ffffff;
@@ -7168,7 +7168,7 @@ ul.slick-dots li.slick-active button {
   filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(359deg) brightness(79%) contrast(93%);
 }
 .feature-wrap-three:hover .feature-title {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 1600px) {
   .feature-wrap-three {
@@ -7240,11 +7240,11 @@ ul.slick-dots li.slick-active button {
   transition: all 0.4s ease 0s;
 }
 .feature-wrap-four:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
   transform: translateY(-10px);
 }
 .feature-wrap-four:hover .icon {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1600px) {
   .feature-wrap-four .feature-title {
@@ -7267,7 +7267,7 @@ ul.slick-dots li.slick-active button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: #C62828;
+  background: #042b7a;
 }
 .feature-wrap-five .content {
   flex: 1;
@@ -7288,7 +7288,7 @@ ul.slick-dots li.slick-active button {
 .widget-title {
   font-size: 26px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .service-widget {
@@ -7349,8 +7349,8 @@ ul.slick-dots li.slick-active button {
 }
 .social-links a:hover {
   color: #212529;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 
 .service-category-widget li:last-child a,
@@ -7363,7 +7363,7 @@ ul.slick-dots li.slick-active button {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   background: #ffffff;
   padding: 14px 20px 14px 20px;
   border-radius: 10px;
@@ -7375,7 +7375,7 @@ ul.slick-dots li.slick-active button {
 .service-category-widget li a:hover,
 .category-widget li a:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 
 .blog-sidebar .category-widget li a {
@@ -7384,8 +7384,8 @@ ul.slick-dots li.slick-active button {
 }
 .blog-sidebar .category-widget li a:hover {
   color: #ffffff;
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 
 .widget-file-download {
@@ -7442,7 +7442,7 @@ ul.slick-dots li.slick-active button {
   color: #1E3A8A;
 }
 .widget-file-download .file-download:hover .icon {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .widget-file-download {
@@ -7457,7 +7457,7 @@ ul.slick-dots li.slick-active button {
   border-radius: 0;
   color: #212529;
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: block;
   height: 60px;
   width: 100%;
@@ -7504,7 +7504,7 @@ ul.slick-dots li.slick-active button {
 .comment-form button {
   color: #ffffff;
   padding: 19px 50px 18px 50px;
-  background: #C62828;
+  background: #042b7a;
   text-transform: capitalize;
   border: 0;
 }
@@ -7533,7 +7533,7 @@ ul.slick-dots li.slick-active button {
   background: transparent;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -7555,8 +7555,8 @@ ul.slick-dots li.slick-active button {
 }
 .page-navigation .page-link:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 
 .recent-post {
@@ -7585,13 +7585,13 @@ ul.slick-dots li.slick-active button {
   color: #212529;
 }
 .recent-post h5 a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .recent-post span {
   color: rgba(0, 0, 0, 0.7);
   font-size: 12px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .recent-post span i {
   color: rgba(0, 0, 0, 0.7);
@@ -7656,7 +7656,7 @@ ul.slick-dots li.slick-active button {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-right: 10px;
 }
@@ -7698,11 +7698,11 @@ ul.slick-dots li.slick-active button {
 }
 .tagcloud a:hover {
   color: #ffffff;
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .tagcloud a:hover::before {
   width: 100%;
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .tagcloud a {
@@ -7828,7 +7828,7 @@ ul.slick-dots li.slick-active button {
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 }
 .cart-list-form .table-responsive::-webkit-scrollbar-thumb {
-  background-color: #C62828;
+  background-color: #042b7a;
 }
 .cart-list-form .table .product-info {
   padding-left: 30px;
@@ -7910,7 +7910,7 @@ ul.slick-dots li.slick-active button {
   }
 }
 .cart-list-form .table .remove-product {
-  color: #C62828;
+  color: #042b7a;
   font-size: 22px;
 }
 .cart-list-form .table tbody tr {
@@ -7976,7 +7976,7 @@ ul.slick-dots li.slick-active button {
   color: rgba(0, 0, 0, 0.7);
 }
 .cart-footer .coupon-form .coupon_btn:hover::before {
-  background: #C62828;
+  background: #042b7a;
 }
 .cart-footer .update-section p {
   color: rgba(0, 0, 0, 0.7);
@@ -8124,7 +8124,7 @@ ul.slick-dots li.slick-active button {
 .payment-list .credit-card-form h6 {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .payment-list .credit-card-form input {
   width: 100%;
@@ -8160,7 +8160,7 @@ ul.slick-dots li.slick-active button {
 .cart-total-title {
   font-size: 32px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 30px;
   text-decoration: underline;
 }
@@ -8185,7 +8185,7 @@ ul.slick-dots li.slick-active button {
 }
 .shopping-cart span {
   position: absolute;
-  background: #C62828;
+  background: #042b7a;
   border-radius: 50%;
   width: 17px;
   height: 17px;
@@ -8196,7 +8196,7 @@ ul.slick-dots li.slick-active button {
   left: auto;
 }
 .shopping-cart:hover {
-  background: #C62828;
+  background: #042b7a;
   color: #ffffff;
 }
 @media only screen and (max-width: 767.98px) {
@@ -8294,7 +8294,7 @@ ul.slick-dots li.slick-active button {
 }
 .price-range .filter {
   border: 0;
-  background: #C62828;
+  background: #042b7a;
   color: #fff;
   font-size: 16px;
   line-height: 1;
@@ -8324,7 +8324,7 @@ ul.slick-dots li.slick-active button {
 
 .ui-widget-content {
   border: 1px solid #ffffff;
-  background: #C62828;
+  background: #042b7a;
   color: #ffffff;
   border: 0;
   border-radius: 4px;
@@ -8406,7 +8406,7 @@ ul.slick-dots li.slick-active button {
   z-index: 1;
 }
 .product-wrapper .product-tag {
-  color: #C62828;
+  color: #042b7a;
   font-size: 20px;
   line-height: 1;
   font-weight: 500;
@@ -8449,7 +8449,7 @@ ul.slick-dots li.slick-active button {
   color: #000;
   font-size: 32px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 12px;
 }
 .product-wrapper .product-title:hover {
@@ -8563,12 +8563,12 @@ ul.slick-dots li.slick-active button {
 .prstyle-2 .product-title {
   font-size: 30px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .prstyle-2 .pr-price {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .prstyle-2 .add-to-cart {
   width: 50px;
@@ -8593,8 +8593,8 @@ ul.slick-dots li.slick-active button {
   bottom: 25px;
 }
 .prstyle-2:hover .product-img {
-  background-color: #C62828;
-  border-color: #C62828;
+  background-color: #042b7a;
+  border-color: #042b7a;
 }
 .prstyle-2:hover .product-icon {
   left: 20px;
@@ -8651,7 +8651,7 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .sort-item .sort-btn {
   line-height: 1;
@@ -8668,7 +8668,7 @@ ul.slick-dots li.slick-active button {
 }
 .sort-item .sort-btn:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 
 .product-item-slider .product-item {
@@ -8759,7 +8759,7 @@ ul.slick-dots li.slick-active button {
 }
 .product-details .price-list .new-price {
   font-size: 22px;
-  color: #C62828;
+  color: #042b7a;
   font-family: "Poppins", sans-serif;
 }
 .product-details .add-to-cart {
@@ -8767,9 +8767,9 @@ ul.slick-dots li.slick-active button {
   color: #000;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
-  background: #C62828;
+  background: #042b7a;
   padding: 14px 40px;
   border-radius: 4px;
   position: relative;
@@ -8882,7 +8882,7 @@ ul.slick-dots li.slick-active button {
   padding-left: 10px;
   position: absolute;
   top: 36px;
-  border: 1px solid #C62828;
+  border: 1px solid #042b7a;
   padding-left: 0;
   width: 30px;
   height: 30px;
@@ -8903,7 +8903,7 @@ ul.slick-dots li.slick-active button {
   transition: all 0.3s ease 0s;
 }
 .cart-menu-right .close-icon a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .cart-menu-right .close-icon a:hover i {
   transform: rotate(180deg);
@@ -8939,11 +8939,11 @@ ul.slick-dots li.slick-active button {
 .cart-style-1 .product__cart-details .product-title {
   color: #212529;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 10px;
 }
 .cart-style-1 .product__cart-details .product-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .cart-style-1 .product .cart-product-info {
   color: #212529;
@@ -8980,14 +8980,14 @@ ul.slick-dots li.slick-active button {
   margin-left: auto;
 }
 .cart-style-1 .cart-action .btn {
-  background: #C62828;
+  background: #042b7a;
   border-radius: 0;
   padding: 6px 20px;
   border: 0;
 }
 .cart-style-1 .cart-action .btn-outline-primary-2 {
   background: transparent;
-  border: 1px solid #C62828;
+  border: 1px solid #042b7a;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -ms-transition: all 0.3s ease 0s;
@@ -9002,7 +9002,7 @@ ul.slick-dots li.slick-active button {
 }
 .cart-style-1 .cart-action .btn-outline-primary-2:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 767.98px) {
   .cart-style-1 {
@@ -9101,8 +9101,8 @@ ul.slick-dots li.slick-active button {
   display: none;
 }
 .product-category-wrap .category-btn:hover {
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .product-category-wrap:hover .category-btn {
   display: inline-block;
@@ -9150,7 +9150,7 @@ ul.slick-dots li.slick-active button {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.831372549), rgba(0, 0, 0, 0.2509803922));
   z-index: -1;
 }
 .theme-banner-one .main-title {
@@ -9161,6 +9161,15 @@ ul.slick-dots li.slick-active button {
   font-weight: 600;
   margin-bottom: 30px;
 }
+.theme-banner-one .main-title span {
+  background: #fdb901;
+  padding: 0px 45px;
+  color: #042b7a;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
 .theme-banner-one p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 28px;
@@ -9170,14 +9179,14 @@ ul.slick-dots li.slick-active button {
 .theme-banner-one .bstyle,
 .theme-banner-one .bstyle-2 {
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 600;
-  border-radius: 35px;
-  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 15px;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
-  padding: 24px 50px 25px 50px;
+  padding: 15px 20px 15px 20px;
   position: relative;
   z-index: 1;
   -webkit-transition: all 0.4s ease 0s;
@@ -9207,7 +9216,6 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-one .bstyle-2 {
   color: #212529;
-  padding-right: 90px;
   background: #ffffff;
 }
 .theme-banner-one .bstyle-2 .btn-icon {
@@ -9215,7 +9223,7 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-one .bstyle-2:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-banner-one .bstyle-2:hover .btn-icon {
   color: #1E3A8A;
@@ -9239,8 +9247,8 @@ ul.slick-dots li.slick-active button {
     font-size: 65px;
   }
   .theme-banner-one p {
-    font-size: 22px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .theme-banner-one .hero-img {
     margin-left: 0;
@@ -9295,7 +9303,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
   line-height: 1;
@@ -9312,7 +9320,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   text-transform: uppercase;
   margin: 0 33px;
 }
@@ -9330,7 +9338,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   padding-left: 20px;
   padding-right: 33px;
@@ -9354,7 +9362,7 @@ ul.slick-dots li.slick-active button {
 .theme-banner-two .hero-description {
   color: rgba(0, 0, 0, 0.7);
   font-size: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 160.714%;
   margin-bottom: 59px;
   max-width: 97%;
@@ -9365,9 +9373,9 @@ ul.slick-dots li.slick-active button {
   font-size: 20px;
   font-weight: 600;
   border-radius: 35px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   padding: 24px 50px 25px 50px;
   position: relative;
@@ -9407,7 +9415,7 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-two .bstyle-2:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-banner-two .bstyle-2:hover .btn-icon {
   color: #1E3A8A;
@@ -9544,7 +9552,7 @@ ul.slick-dots li.slick-active button {
   height: 50px;
   background: #ffffff;
   border-radius: 50%;
-  color: #C62828;
+  color: #042b7a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9561,7 +9569,7 @@ ul.slick-dots li.slick-active button {
 .theme-banner-three .sub-title {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 162.5%;
   letter-spacing: unset;
@@ -9596,9 +9604,9 @@ ul.slick-dots li.slick-active button {
   font-size: 20px;
   font-weight: 600;
   border-radius: 35px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   padding: 24px 50px 25px 50px;
   position: relative;
@@ -9638,7 +9646,7 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-three .bstyle-2:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-banner-three .bstyle-2:hover .btn-icon {
   color: #1E3A8A;
@@ -9677,7 +9685,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 28px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .hero-social-links a {
@@ -9729,7 +9737,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   padding-left: 20px;
   padding-right: 33px;
@@ -9753,7 +9761,7 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-four p {
   color: rgba(33, 37, 41, 0.7);
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 28px;
   line-height: 1.6;
   margin-bottom: 77px;
@@ -9776,7 +9784,7 @@ ul.slick-dots li.slick-active button {
   font-size: 20px;
   font-weight: 600;
   border-radius: 35px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   background: #ffffff;
   display: inline-block;
@@ -9793,7 +9801,7 @@ ul.slick-dots li.slick-active button {
   margin-left: 33px;
 }
 .theme-banner-four .bstyle {
-  background: #C62828;
+  background: #042b7a;
   padding: 24px 51px 25px 51px;
 }
 .theme-banner-four .bstyle:hover {
@@ -9872,7 +9880,7 @@ ul.slick-dots li.slick-active button {
 .theme-banner-five .sub-title {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 162.5%;
   letter-spacing: unset;
@@ -9904,7 +9912,7 @@ ul.slick-dots li.slick-active button {
 .theme-banner-five p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 28px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.6;
   max-width: 80%;
   margin: 0 auto;
@@ -9916,9 +9924,9 @@ ul.slick-dots li.slick-active button {
   font-size: 20px;
   font-weight: 600;
   border-radius: 35px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   padding: 24px 50px 25px 50px;
   position: relative;
@@ -9958,7 +9966,7 @@ ul.slick-dots li.slick-active button {
 }
 .theme-banner-five .bstyle-2:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 .theme-banner-five .bstyle-2:hover .btn-icon {
   color: #1E3A8A;
@@ -10054,15 +10062,15 @@ ul.slick-dots li.slick-active button {
 
 /*title-one*/
 .title-one .upper-title {
-  color: #C62828;
+  color: #042b7a;
   font-size: 14px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   letter-spacing: 0.56px;
   text-transform: uppercase;
   margin-bottom: 21px;
-  border: 1.5px solid #C62828;
+  border: 1.5px solid #042b7a;
   border-radius: 50px;
   padding: 0 19px;
   display: inline-block;
@@ -10094,7 +10102,7 @@ ul.slick-dots li.slick-active button {
 .description-text {
   font-size: 22px;
   line-height: 38px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 1800px) {
   .description-text {
@@ -10166,7 +10174,7 @@ ul.slick-dots li.slick-active button {
   height: 100%;
   border-radius: 35px;
   display: inline-block;
-  border: 5px solid #C62828;
+  border: 5px solid #042b7a;
   z-index: -1;
   left: 25px;
   top: 25px;
@@ -10197,7 +10205,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   margin-bottom: 17px;
 }
@@ -10229,7 +10237,7 @@ ul.slick-dots li.slick-active button {
   height: 100%;
   border-radius: 35px;
   display: inline-block;
-  border: 5px solid #C62828;
+  border: 5px solid #042b7a;
   z-index: -1;
   left: 25px;
   top: 25px;
@@ -10240,7 +10248,7 @@ ul.slick-dots li.slick-active button {
   width: 186px;
   height: 189px;
   border-radius: 15px;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   z-index: -1;
   left: -50px;
@@ -10273,7 +10281,7 @@ ul.slick-dots li.slick-active button {
   align-items: center;
   justify-content: center;
   font-size: 22px;
-  background: #C62828;
+  background: #042b7a;
   margin-right: 20px;
 }
 .float-content-two .float-content {
@@ -10283,14 +10291,14 @@ ul.slick-dots li.slick-active button {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
 }
 .float-content-two .number {
   color: #212529;
   font-size: 50px;
   font-weight: 900;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   margin-bottom: 15px;
 }
@@ -10315,7 +10323,7 @@ ul.slick-dots li.slick-active button {
   height: 93%;
   border-radius: 30px;
   display: inline-block;
-  border: 2px solid #C62828;
+  border: 2px solid #042b7a;
   z-index: -1;
   right: 70px;
   top: 70px;
@@ -10326,7 +10334,7 @@ ul.slick-dots li.slick-active button {
   width: 186px;
   height: 189px;
   border-radius: 15px;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   z-index: -1;
   right: -50px;
@@ -10379,7 +10387,7 @@ ul.slick-dots li.slick-active button {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
 }
 .float-content-three .number {
@@ -10434,14 +10442,14 @@ ul.slick-dots li.slick-active button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: #C62828;
+  background: #042b7a;
   margin-right: 15px;
 }
 .float-content-four .counter-title {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
 }
 .float-content-four .number {
@@ -10522,7 +10530,7 @@ ul.slick-dots li.slick-active button {
   font-size: 60px;
   width: 140px;
   height: 140px;
-  background: #C62828;
+  background: #042b7a;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -10553,7 +10561,7 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 40px;
   line-height: 1.14;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -10582,7 +10590,7 @@ ul.slick-dots li.slick-active button {
 }
 .counter-wrap-one .counter-title {
   color: rgba(0, 0, 0, 0.7);
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -10677,11 +10685,11 @@ ul.slick-dots li.slick-active button {
   transition: all 0.4s ease 0s;
 }
 .counter-wrap-three:hover .icon {
-  background: #C62828;
+  background: #042b7a;
 }
 .counter-wrap-three:hover .number,
 .counter-wrap-three:hover .counter-title {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .counter-wrap-three .number {
@@ -10703,7 +10711,7 @@ ul.slick-dots li.slick-active button {
 .counter-wrap-four .icon {
   width: 45px;
   height: 45px;
-  background: #C62828;
+  background: #042b7a;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -10741,7 +10749,7 @@ ul.slick-dots li.slick-active button {
 .counter-wrap-five .counter-title {
   color: #212529;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 24px;
@@ -10776,7 +10784,7 @@ ul.slick-dots li.slick-active button {
   border-radius: 30px;
 }
 .author-quote .icon {
-  background: #C62828;
+  background: #042b7a;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -10792,13 +10800,13 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 34px;
   line-height: 1.6;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 57px;
 }
 .author-quote .name {
   color: #ffffff;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
 }
 .author-quote .name span {
@@ -10824,7 +10832,7 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   border-radius: 50px;
   background: #ffffff;
@@ -10853,12 +10861,12 @@ ul.slick-dots li.slick-active button {
   color: #212529;
   font-size: 40px;
   font-weight: 900;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .list-text .text-label {
   font-size: 26px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 1200px) {
   .list-text .number {
@@ -10878,7 +10886,7 @@ ul.slick-dots li.slick-active button {
   font-weight: 600;
 }
 .icon-box .icon {
-  color: #C62828;
+  color: #042b7a;
   font-size: 20px;
   display: inline-block;
   width: 50px;
@@ -10886,7 +10894,7 @@ ul.slick-dots li.slick-active button {
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
-  background: rgba(198, 40, 40, 0.1);
+  background: rgba(4, 43, 122, 0.1);
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -10895,7 +10903,7 @@ ul.slick-dots li.slick-active button {
 }
 .icon-box:hover .icon {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 
 .skill-wrapper-box {
@@ -10928,7 +10936,7 @@ ul.slick-dots li.slick-active button {
   font-size: 16px;
   font-weight: 400;
   color: #212529;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: unset;
 }
 .skill-wrapper .progress {
@@ -10941,7 +10949,7 @@ ul.slick-dots li.slick-active button {
 }
 .skill-wrapper .progress .progress-bar {
   height: 9px;
-  background: #C62828;
+  background: #042b7a;
   width: 82%;
   border-radius: 10px;
   overflow: visible;
@@ -11006,7 +11014,7 @@ ul.slick-dots li.slick-active button {
 }
 .progressbar-content .progress-title {
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   margin-top: 5px;
@@ -11033,7 +11041,7 @@ ul.slick-dots li.slick-active button {
   color: #ffffff;
   font-size: 65px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1;
   display: inline-flex;
   align-items: center;
@@ -11127,9 +11135,9 @@ ul.slick-dots li.slick-active button {
 
 .news-wrapper {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .news-wrapper a {
   font-weight: 700;
@@ -11142,7 +11150,7 @@ ul.slick-dots li.slick-active button {
   transition: all 0.4s ease 0s;
 }
 .news-wrapper a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .news-wrapper img {
   margin-right: 26px;
@@ -11449,7 +11457,7 @@ ul.worklist li:last-child {
   top: 0;
   width: 100%;
   height: 0px;
-  background-color: #C62828;
+  background-color: #042b7a;
   z-index: 1;
   border-radius: 30px;
   -webkit-transition: all 0.4s ease 0s;
@@ -11508,7 +11516,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .service-wrap-one .service-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .service-wrap-one .more-btn {
   display: inline-block;
@@ -11795,7 +11803,7 @@ ul.worklist li:last-child {
 }
 .service-wrap-two .service-title a:hover,
 .service-wrap-six .service-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .service-wrap-two .more-btn,
 .service-wrap-six .more-btn {
@@ -11829,11 +11837,11 @@ ul.worklist li:last-child {
 }
 .service-wrap-two:hover,
 .service-wrap-six:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .service-wrap-two:hover .icon,
 .service-wrap-six:hover .icon {
-  background: #C62828;
+  background: #042b7a;
 }
 .service-wrap-two:hover .inner-content,
 .service-wrap-six:hover .inner-content {
@@ -11904,7 +11912,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .service-wrap-three .service-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .service-wrap-three p {
   margin-bottom: 26px;
@@ -11925,8 +11933,8 @@ ul.worklist li:last-child {
   display: inline-block;
 }
 .service-wrap-three .more-btn:hover {
-  color: #C62828;
-  border-color: #C62828;
+  color: #042b7a;
+  border-color: #042b7a;
 }
 .service-wrap-three .more-btn:hover img {
   filter: brightness(0) saturate(100%) invert(18%) sepia(70%) saturate(2910%) hue-rotate(349deg) brightness(89%) contrast(97%);
@@ -11993,7 +12001,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .service-wrap-four .service-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .service-wrap-four .more-btn {
   display: inline-block;
@@ -12044,7 +12052,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .service-wrap-five .service-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .service-wrap-five p {
   font-size: 18px;
@@ -12059,7 +12067,7 @@ ul.worklist li:last-child {
 .service-wrap-five .more-btn {
   color: #ffffff;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   background: #1E3A8A;
   width: 50px;
@@ -12086,7 +12094,7 @@ ul.worklist li:last-child {
   z-index: 1;
 }
 .service-wrap-five:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .service-wrap-five:hover .more-btn {
   visibility: visible;
@@ -12134,7 +12142,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .service-wrap-six:hover {
-  background: #C62828;
+  background: #042b7a;
 }
 .service-wrap-six:hover .service-shape {
   filter: invert(1) brightness(10);
@@ -12183,7 +12191,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .slick-slide.slick-current.slick-active .service-wrap-six {
-  background: #C62828;
+  background: #042b7a;
 }
 .slick-slide.slick-current.slick-active .service-wrap-six .service-shape {
   filter: invert(1) brightness(10);
@@ -12230,7 +12238,7 @@ ul.worklist li:last-child {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  background: #C62828;
+  background: #042b7a;
   position: absolute;
   z-index: 2;
   left: 50%;
@@ -12271,7 +12279,7 @@ ul.worklist li:last-child {
 
 .contact-form-wrapper-three {
   padding: 50px 50px 50px 50px;
-  border: 1.5px solid #C62828;
+  border: 1.5px solid #042b7a;
   border-radius: 30px;
 }
 @media only screen and (max-width: 1200px) {
@@ -12318,7 +12326,7 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.4);
   font-size: 14px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   border-radius: 8px;
   border: 0;
   border: 1.5px solid #D6D9DD;
@@ -12356,7 +12364,7 @@ ul.worklist li:last-child {
   background: transparent;
   color: rgba(0, 0, 0, 0.4);
   font-size: 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   border-radius: 8px;
   border: 1.5px solid #D6D9DD;
   padding-left: 20px;
@@ -12395,7 +12403,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   height: 60px;
   line-height: 58px;
   padding-left: 50px;
@@ -12403,7 +12411,7 @@ ul.worklist li:last-child {
   text-transform: capitalize;
   border-radius: 60px;
   border: 0;
-  background: #C62828;
+  background: #042b7a;
   width: max-content;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -12476,7 +12484,7 @@ ul.worklist li:last-child {
     width: 100%;
   }
   .subscribe-form.sub-one button {
-    background: #C62828;
+    background: #042b7a;
   }
 }
 .subscribe-form input {
@@ -12485,7 +12493,7 @@ ul.worklist li:last-child {
   border: 1px solid #000;
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   padding-left: 30px;
   border-radius: 10px;
   background: #ffffff;
@@ -12535,7 +12543,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .subscribe-form button:hover {
-  background: #C62828;
+  background: #042b7a;
 }
 .subscribe-form.sub-form-two {
   display: inline-block;
@@ -12575,7 +12583,7 @@ ul.worklist li:last-child {
   padding-right: 35px;
   width: auto;
   border-radius: 8px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -12583,7 +12591,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .subscribe-form.sub-form-two button:hover {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 991.98px) {
   .subscribe-form.sub-form-two input {
@@ -12604,7 +12612,7 @@ ul.worklist li:last-child {
   line-height: 65px;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   background: transparent;
   padding-left: 0;
 }
@@ -12632,7 +12640,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   background: transparent;
   position: relative;
   z-index: 1;
@@ -12682,7 +12690,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .contact-map iframe {
@@ -12764,7 +12772,7 @@ ul.worklist li:last-child {
   margin-bottom: 0;
 }
 .info-box2:hover .icon {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .info-box2 .icon {
@@ -12834,7 +12842,7 @@ ul.worklist li:last-child {
 .booking-form .input-wrapper label {
   color: rgba(225, 225, 225, 0.5);
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   display: block;
 }
@@ -12842,7 +12850,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 20px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   border: 0;
   background: transparent;
 }
@@ -12878,13 +12886,13 @@ ul.worklist li:last-child {
   padding-right: 119px;
 }
 .feedback-wrap-one .feedback-rating a {
-  color: #C62828;
+  color: #042b7a;
   font-size: 24px;
   margin-right: 6px;
 }
 .feedback-wrap-one .feedback-text {
   font-size: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: #212529;
   line-height: 160%;
@@ -12902,7 +12910,7 @@ ul.worklist li:last-child {
 .feedback-wrap-one .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
 .feedback-wrap-one .flag-box {
@@ -12992,13 +13000,13 @@ ul.worklist li:last-child {
   padding-right: 84px;
 }
 .feedback-wrap-two .feedback-rating a {
-  color: #C62828;
+  color: #042b7a;
   font-size: 24px;
   margin-right: 6px;
 }
 .feedback-wrap-two .feedback-text {
   font-size: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: #212529;
   line-height: 160%;
@@ -13016,7 +13024,7 @@ ul.worklist li:last-child {
 .feedback-wrap-two .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
 @media only screen and (max-width: 1200px) {
@@ -13091,7 +13099,7 @@ ul.worklist li:last-child {
   height: 91%;
   border-radius: 30px;
   display: inline-block;
-  border: 2px solid #C62828;
+  border: 2px solid #042b7a;
   z-index: -1;
   left: 70px;
   top: 70px;
@@ -13102,7 +13110,7 @@ ul.worklist li:last-child {
   width: 186px;
   height: 189px;
   border-radius: 15px;
-  background: #C62828;
+  background: #042b7a;
   display: inline-block;
   z-index: -1;
   left: -50px;
@@ -13127,13 +13135,13 @@ ul.worklist li:last-child {
   padding-right: 139px;
 }
 .feedback-wrap-three .feedback-rating a {
-  color: #C62828;
+  color: #042b7a;
   font-size: 24px;
   margin-right: 6px;
 }
 .feedback-wrap-three .feedback-text {
   font-size: 30px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: #212529;
   line-height: 160%;
@@ -13151,7 +13159,7 @@ ul.worklist li:last-child {
 .feedback-wrap-three .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
 }
 .feedback-wrap-three .flag-box {
@@ -13291,7 +13299,7 @@ ul.worklist li:last-child {
 .feedback-wrap-four .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -13306,7 +13314,7 @@ ul.worklist li:last-child {
   margin-top: 23px;
 }
 .feedback-wrap-four .feedback-rating a {
-  color: #C62828;
+  color: #042b7a;
   font-size: 25px;
   margin-right: 7px;
 }
@@ -13375,7 +13383,7 @@ ul.worklist li:last-child {
   margin-bottom: 55px;
 }
 .feedback-wrap-five .rating a {
-  color: #C62828;
+  color: #042b7a;
   font-size: 20px;
   margin-right: 8px;
   display: inline-block;
@@ -13394,7 +13402,7 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: normal;
 }
 @media only screen and (max-width: 767.98px) {
@@ -13480,13 +13488,13 @@ ul.worklist li:last-child {
   color: #212529;
 }
 .team-wrap-one .name a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .team-wrap-one .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -13615,13 +13623,13 @@ ul.worklist li:last-child {
   color: #212529;
 }
 .team-wrap-two .name a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .team-wrap-two .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 40px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -13654,14 +13662,14 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .team-wrap-two .more-btn:hover {
-  color: #C62828;
-  border-color: #C62828;
+  color: #042b7a;
+  border-color: #042b7a;
 }
 .team-wrap-two .more-btn:hover img {
   filter: brightness(0) saturate(100%) invert(18%) sepia(70%) saturate(2910%) hue-rotate(349deg) brightness(89%) contrast(97%);
 }
 .team-wrap-two:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .team-wrap-two .team-social a:not(:last-child) {
@@ -13785,13 +13793,13 @@ ul.worklist li:last-child {
   color: #212529;
 }
 .team-wrap-three .name a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .team-wrap-three .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -13833,7 +13841,7 @@ ul.worklist li:last-child {
   bottom: 0px;
 }
 .team-wrap-three:hover .more-btn {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .team-wrap-three .team-social a:not(:last-child) {
@@ -13923,13 +13931,13 @@ ul.worklist li:last-child {
   color: #212529;
 }
 .team-wrap-four .name a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .team-wrap-four .designation {
   color: rgba(0, 0, 0, 0.7);
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -ms-transition: all 0.4s ease 0s;
@@ -13964,7 +13972,7 @@ ul.worklist li:last-child {
   right: 25px;
 }
 .team-wrap-four:hover .more-btn {
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .team-wrap-four .name {
@@ -13974,7 +13982,7 @@ ul.worklist li:last-child {
 }
 
 .hover-bg:hover .team-thumb {
-  background: #C62828;
+  background: #042b7a;
 }
 
 .team-social a {
@@ -13995,8 +14003,8 @@ ul.worklist li:last-child {
 }
 .team-social a:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 
 .biography-content-wrap .team-biography img {
@@ -14010,7 +14018,7 @@ ul.worklist li:last-child {
 .biography-content-wrap .name {
   font-size: 60px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .biography-content-wrap .name a {
   color: #212529;
@@ -14018,7 +14026,7 @@ ul.worklist li:last-child {
 .biography-content-wrap .designation {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 0;
 }
 .biography-content-wrap .description {
@@ -14064,7 +14072,7 @@ ul.worklist li:last-child {
   }
 }
 .biography-content .icon {
-  color: #C62828;
+  color: #042b7a;
   font-size: 25px;
   width: 60px;
   height: 60px;
@@ -14078,13 +14086,13 @@ ul.worklist li:last-child {
 .biography-content label {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 5px;
 }
 .biography-content .addres-line {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 0;
 }
 .biography-content .addres-line a {
@@ -14092,8 +14100,8 @@ ul.worklist li:last-child {
 }
 .biography-content .team-social a:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 
 .team-section .shape-t1 {
@@ -14129,7 +14137,7 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-right: 4px;
 }
@@ -14158,12 +14166,12 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .blog-one .blog-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .blog-one .blog-tag {
   color: #ffffff;
   font-size: 14px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   padding: 7px 15px;
   background: #000;
@@ -14181,7 +14189,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: 0.05px;
   transition: all 0.4s ease 0s;
   margin-top: 15px;
@@ -14190,13 +14198,13 @@ ul.worklist li:last-child {
   margin-left: 19px;
 }
 .blog-one .blog-btn:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .blog-one.version-2 .blog-tag {
   background: #1E3A8A;
 }
 .blog-one.version-2 .blog-title {
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .blog-one.version-2 .blog-title a {
   color: #212529;
@@ -14243,7 +14251,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   display: inline-block;
   padding: 0 15px;
@@ -14264,7 +14272,7 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.6);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-right: 4px;
   -webkit-transition: all 0.4s ease 0s;
@@ -14284,7 +14292,7 @@ ul.worklist li:last-child {
 }
 .blog-two .blog-meta a:hover,
 .blog-five .blog-meta a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .blog-two .divider,
 .blog-five .divider {
@@ -14300,7 +14308,7 @@ ul.worklist li:last-child {
   font-size: 26px;
   line-height: 1.3;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: -0.52px;
   margin-bottom: 20px;
 }
@@ -14315,7 +14323,7 @@ ul.worklist li:last-child {
 }
 .blog-two .blog-title a:hover,
 .blog-five .blog-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .blog-two p,
 .blog-five p {
@@ -14334,7 +14342,7 @@ ul.worklist li:last-child {
 }
 .blog-two:hover,
 .blog-five:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 @media only screen and (max-width: 1600px) {
   .blog-two .blog-title,
@@ -14368,7 +14376,7 @@ ul.worklist li:last-child {
   z-index: 2;
   width: 60px;
   height: 60px;
-  background: #C62828;
+  background: #042b7a;
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
@@ -14406,7 +14414,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   display: inline-block;
   padding: 0 19px;
@@ -14445,7 +14453,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   padding: 0px 3px;
   -webkit-transition: all 0.4s ease 0s;
@@ -14461,7 +14469,7 @@ ul.worklist li:last-child {
   color: rgba(255, 255, 255, 0.7);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .blog-three .blog-meta .divider {
   display: inline-block;
@@ -14474,7 +14482,7 @@ ul.worklist li:last-child {
   font-size: 32px;
   line-height: 1.25;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   letter-spacing: -0.64px;
   margin-bottom: 25px;
 }
@@ -14554,7 +14562,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 14px;
   font-weight: 700;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   display: inline-block;
   padding: 0 12px;
@@ -14579,7 +14587,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .blog-four .blog-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .blog-four .blog-meta {
   margin-top: 15px;
@@ -14593,7 +14601,7 @@ ul.worklist li:last-child {
   color: #000;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   padding: 0px 3px;
   position: relative;
@@ -14623,7 +14631,7 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.7);
   font-size: 16px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .blog-four .blog-meta .divider {
   display: inline-block;
@@ -14664,8 +14672,8 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .blog-five:hover {
-  border-color: #C62828;
-  background: #C62828;
+  border-color: #042b7a;
+  background: #042b7a;
 }
 .blog-five:hover .blog-title a {
   color: #ffffff;
@@ -14701,7 +14709,7 @@ ul.worklist li:last-child {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: #C62828;
+  background: #042b7a;
   position: absolute;
 }
 .classic-style .popup-video img {
@@ -14729,7 +14737,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 35px;
   display: inline-block;
   padding: 0 14px;
@@ -14747,12 +14755,12 @@ ul.worklist li:last-child {
   color: rgba(0, 0, 0, 0.6);
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-right: 4px;
 }
 .classic-style .blog-meta a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .classic-style .blog-meta a.author-name {
   color: #212529;
@@ -14791,7 +14799,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .classic-style .blog-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .classic-style .blog-content {
   padding: 30px;
@@ -14806,7 +14814,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   text-transform: uppercase;
   display: inline-flex;
   display: none;
@@ -14894,7 +14902,7 @@ ul.worklist li:last-child {
   display: inline-block;
   font-size: 22px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   position: relative;
 }
 .blockquote .blockquote-footer::before {
@@ -14929,7 +14937,7 @@ ul.worklist li:last-child {
 .blog-details-wrapper .classic-style .blog-title {
   font-size: 60px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.1;
 }
 @media only screen and (max-width: 1600px) {
@@ -14961,7 +14969,7 @@ ul.worklist li:last-child {
   color: #212529;
   font-size: 42px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 @media only screen and (max-width: 1200px) {
   .comment-reply-title,
@@ -14981,7 +14989,7 @@ ul.worklist li:last-child {
 .comment-box .date {
   color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin-bottom: 0;
 }
 .comment-box .name {
@@ -15019,7 +15027,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   padding: 10px 22px;
   line-height: 1;
   position: absolute;
@@ -15039,7 +15047,7 @@ ul.worklist li:last-child {
 }
 .comment-box .comment-reply-link:hover {
   color: #ffffff;
-  background: #C62828;
+  background: #042b7a;
 }
 @media only screen and (max-width: 1600px) {
   .comment-box {
@@ -15069,13 +15077,13 @@ ul.worklist li:last-child {
   background: #ffffff;
 }
 .media-content .tagcloud a:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .media-content .social-links span {
   color: #ffffff;
   font-size: 22px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-right: 10px;
 }
@@ -15084,8 +15092,8 @@ ul.worklist li:last-child {
   border: 1.5px solid #ffffff;
 }
 .media-content .social-links a:hover {
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 
 .course-style-one,
@@ -15187,7 +15195,7 @@ ul.worklist li:last-child {
 }
 .course-style-one:hover,
 .course-style-five:hover {
-  background: #C62828;
+  background: #042b7a;
 }
 .course-style-one:hover .front-img,
 .course-style-five:hover .front-img {
@@ -15289,7 +15297,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .course-style-two .course-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .course-style-two p {
   font-size: 18px;
@@ -15304,7 +15312,7 @@ ul.worklist li:last-child {
 .course-style-two .more-btn {
   color: #ffffff;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   background: #1E3A8A;
   width: 50px;
@@ -15331,7 +15339,7 @@ ul.worklist li:last-child {
   z-index: 1;
 }
 .course-style-two:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .course-style-two:hover .more-btn {
   visibility: visible;
@@ -15391,7 +15399,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .course-style-three .course-title a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .course-style-three p {
   font-size: 18px;
@@ -15406,7 +15414,7 @@ ul.worklist li:last-child {
 .course-style-three .more-btn {
   color: #ffffff;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 600;
   background: #1E3A8A;
   width: 60px;
@@ -15528,14 +15536,14 @@ ul.worklist li:last-child {
   margin-bottom: 30px;
 }
 .course-style-four:hover {
-  border-color: #C62828;
+  border-color: #042b7a;
 }
 .course-style-four:hover .course-title a {
-  color: #C62828;
+  color: #042b7a;
 }
 .course-style-four:hover .more-btn {
-  color: #C62828;
-  border-bottom-color: #C62828;
+  color: #042b7a;
+  border-bottom-color: #042b7a;
 }
 .course-style-four:hover .more-btn img {
   filter: brightness(0) saturate(100%) invert(18%) sepia(70%) saturate(2910%) hue-rotate(349deg) brightness(89%) contrast(97%);
@@ -15579,16 +15587,16 @@ ul.worklist li:last-child {
 .copyright-text {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   color: #ffffff;
 }
 .copyright-text a {
   color: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 700;
 }
 .copyright-text a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 991.98px) {
   .copyright-text {
@@ -15619,7 +15627,7 @@ ul.worklist li:last-child {
   font-size: 18px;
   line-height: 177.778%;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   display: inline-block;
   margin-bottom: 15px;
   -webkit-transition: all 0.4s ease 0s;
@@ -15629,7 +15637,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .footer-widget ul li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 991.98px) {
   .footer-widget .widget-title {
@@ -15643,7 +15651,7 @@ ul.worklist li:last-child {
 .ht-widget-contact .info-box-icon {
   font-size: 24px;
   margin-right: 15px;
-  color: #C62828;
+  color: #042b7a;
   line-height: 1;
   margin-top: 10px;
 }
@@ -15651,7 +15659,7 @@ ul.worklist li:last-child {
   font-size: 16px;
 }
 .ht-widget-contact .ht-content:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .ht-widget-contact .info-box-label {
   display: block;
@@ -15680,7 +15688,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
   margin: 0 2px;
   display: inline-block;
   -webkit-transition: all 0.4s ease 0s;
@@ -15690,7 +15698,7 @@ ul.worklist li:last-child {
   transition: all 0.4s ease 0s;
 }
 .footer-menu li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 @media only screen and (max-width: 1200px) {
   .footer-menu li a {
@@ -15735,7 +15743,7 @@ ul.worklist li:last-child {
   color: #ffffff;
   font-size: 26px;
   font-weight: 600;
-  font-family: "Lato", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 .footer-one p {
   color: rgba(255, 255, 255, 0.7);
@@ -15758,7 +15766,7 @@ ul.worklist li:last-child {
 .widget-bg-shape::before {
   content: "";
   position: absolute;
-  background: #C62828;
+  background: #042b7a;
   width: 740px;
   height: 400px;
   border-radius: 370px 370px 0 0;
@@ -15805,7 +15813,7 @@ ul.worklist li:last-child {
   color: #212529;
 }
 .footer-two .footer-widget ul li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .footer-two .social-links a {
   border-color: #000;
@@ -15813,8 +15821,8 @@ ul.worklist li:last-child {
 }
 .footer-two .social-links a:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 .footer-two .footer-menu li a {
   color: #212529;
@@ -15830,7 +15838,7 @@ ul.worklist li:last-child {
   font-weight: 700;
 }
 .footer-two .copyright-text a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 
 .footer-three .shape-1,
@@ -15869,7 +15877,7 @@ ul.worklist li:last-child {
   color: rgba(255, 255, 255, 0.7);
 }
 .footer-three .footer-widget ul li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .footer-three .social-links a {
   border-color: #ffffff;
@@ -15877,14 +15885,14 @@ ul.worklist li:last-child {
 }
 .footer-three .social-links a:hover {
   color: #ffffff;
-  background: #C62828;
-  border-color: #C62828;
+  background: #042b7a;
+  border-color: #042b7a;
 }
 .footer-three .footer-menu li a {
   color: #ffffff;
 }
 .footer-three .footer-menu li a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 .footer-three .copyright-text {
   color: #ffffff;
@@ -15894,7 +15902,7 @@ ul.worklist li:last-child {
   font-weight: 700;
 }
 .footer-three .copyright-text a:hover {
-  color: #C62828;
+  color: #042b7a;
 }
 
 /*# sourceMappingURL=main.css.map */
