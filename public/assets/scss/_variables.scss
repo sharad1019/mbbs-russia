@@ -1,48 +1,23 @@
-// Font Family
 
-$poppinsFont: "Poppins", sans-serif;
-$latoFont: "Manrope", sans-serif;
+:root {
+    
+    --body: #fff;
+    --black: #000;
+    --white: #fff;
+    --theme: #E32682;
+    --header: #000D44;
+    --text: #788094;
+    --border: #CAD2D2;
+    --bg: #000D44;
+    --box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.13);
+}
 
-
-// Colors ---------------
-$white: #ffffff;
-$black: #000;
-$light: #E3F2FD;
-$grey: #E4F0F0;
-$grey2: #D6D9DD;
-$light-grey: #F5F5F5;
-$theme-color: #042b7a;
-$theme-color2: #1E3A8A;
-$theme-color3: #FFBA05;
-$title: #212529;
-$body-text-color: rgba(0, 0, 0, 0.7);
-$hr-border-color: #D6D9DD;
-$yellow-color: #FFE149;
-
-
-// Heading Color
-$heding: #212529;
-
-
-
-// Responsive Variables
-$xxl: "only screen and (min-width: 1601px) and (max-width: 1900px)";
-$xl: "only screen and (min-width: 1601px) and (max-width: 1800px)";
-$laptop: "only screen and (min-width: 1200px) and (max-width: 1600px)";
-$lg: "only screen and (min-width: 992px) and (max-width: 1200px)";
-$md: "only screen and (min-width: 768px) and (max-width: 991px)";
-$xs: "(max-width: 767px)";
-$sm: "only screen and (min-width: 576px) and (max-width: 767px)";
-
-// Responsive Variables for max-width
-$max-xxl: "only screen and (max-width: 1900px)";
-$max-xl: "only screen and (max-width: 1800px)";
-$max-laptop: "only screen and (max-width: 1600px)";
-$max-lg: "only screen and (max-width: 1200px)";
-$max-md: "only screen and (max-width: 991.98px)";
-$max-xs: "only screen and (max-width: 767.98px)";
-$max-sm: "only screen and (min-width: 576px) and (max-width: 767.98px)";
-$max-xs-s: "only screen and (max-width: 575.98px)";
-
-//Landscape-responsive
-$xs-landscape: "only screen and (min-width: 540px) and (max-width: 767px) and (orientation: landscape)";
+// Theme Color - Defualt Colors
+$black: var(--black);
+$white: var(--white);
+$theme-color: var(--theme);
+$text-color: var(--text);
+$header-color: var(--header);
+$border-color: var(--border);
+$bg-color: var(--bg);
+$shadow: var(--box-shadow);

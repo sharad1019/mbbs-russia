@@ -1,325 +1,206 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+    <!--<< Header Area >>-->
+    <head>
+       <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="themeservices">
+       
+        <title>DKaleido Affairs | Corporate Travel, Events & Education Solutions</title>
+        <meta name="description" content="DKaleido Affairs delivers corporate travel management, event planning, educational programs, conferences, luxury tours, brand activations, and business experiences through DKaleido, Route2India, and TravXevent.">
+        <meta name="keywords" content="corporate travel management, event management company, corporate event planner, educational programs, business travel solutions, luxury travel experiences, conference management, event production, destination management company, Route2India, TravXevent, DKaleido Affairs">
+        <meta name="robots" content="index, follow">
 
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="DKaleido Affairs | Travel, Events & Education">
+        <meta property="og:description" content="Creating unforgettable travel, event, and educational experiences through innovation, professionalism, and seamless execution.">
+        <meta property="og:image" content="<?= base_url('assets/img/home-1/about-image-3.jpg') ?>">
+        <meta property="og:url" content="<?= base_url() ?>">
+        <meta property="og:site_name" content="DKaleido Affairs">
 
-    <title><?= esc($meta_title) ?></title>
-	<meta name="keywords" content="<?= esc($meta_keyword) ?>">
-    <meta name="description" content="<?= esc($meta_desc) ?>">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="DKaleido Affairs | Travel, Events & Education">
+        <meta name="twitter:description" content="Corporate travel, premium events, educational programs, and unforgettable experiences delivered worldwide.">
+        <meta name="twitter:image" content="<?= base_url('assets/img/home-1/about-image-3.jpg') ?>">
 
-	<meta property="og:site_name" content="<?= esc($meta_title) ?>">
-    <meta property="og:url" content="<?= current_url() ?>">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="<?= esc($meta_title) ?>">
-    <meta property="og:description" content="<?= esc($meta_desc) ?>">
-    <meta name="og:image" content="<?= base_url('images/assets/ogg.png') ?>">
-
-	<!-- For IE -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- For Resposive Device -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- For Window Tab Color -->
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#913BFF">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#913BFF">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#913BFF">
-
-	<!-- <link rel="manifest" href="site.webmanifest" /> -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/img/favicon.png') ?>" />
-	<!-- Place favicon.ico in the root directory -->
-
-	<!-- CSS here -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="assets/fonts/bootstrap-icons.css" />
-	<link rel="stylesheet" href="assets/css/animate.min.css" />
-	<link rel="stylesheet" href="assets/css/slick.css" />
-	<link rel="stylesheet" href="assets/css/magnific-popup.css" />
-	<link rel="stylesheet" href="assets/css/aos.css" />
-	<link rel="stylesheet" href="assets/css/spacing.css" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
-
-<body>
-	<div class="main-page-wrapper">
-		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
-
-		<!-- Add your site or application content here -->
+        <link rel="canonical" href="<?= base_url() ?>">
 
 
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="M" class="letters-loading">
-						M
-					</span>
-					<span data-text-preloader="B" class="letters-loading">
-						B
-					</span>
-					<span data-text-preloader="B" class="letters-loading">
-						B
-					</span>
-					<span data-text-preloader="S" class="letters-loading">
-						S
-					</span>
-					<span data-text-preloader="-" class="letters-loading">
-						-
-					</span>
-					<span data-text-preloader="R" class="letters-loading">
-						R
-					</span>
-					<span data-text-preloader="U" class="letters-loading">
-						U
-					</span>
-					<span data-text-preloader="S" class="letters-loading">
-						S
-					</span>
-					<span data-text-preloader="S" class="letters-loading">
-						S
-					</span>
-					<span data-text-preloader="I" class="letters-loading">
-						I
-					</span>
-					<span data-text-preloader="A" class="letters-loading">
-						A
-					</span>
-				</div>
-			</div>
-		</div>
-		<!-- preloader end  -->
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/home-1/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/home-1/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/home-1/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/home-1/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/home-1/android-chrome-512x512.png">
+        <link rel="shortcut icon" href="/assets/img/home-1/favicon.ico" type="image/x-icon">
 
 
-		<!-- offcanvas start  -->
-		<div class="offcanvas offcanvas-top theme-bg2" tabindex="-1" id="offcanvasTop">
-			<div class="offcanvas-header">
-				<a data-bs-dismiss="offcanvas" aria-label="Close">
-					<i class="bi bi-x-lg"></i>
-				</a>
-			</div>
-			<div class="offcanvas-body">
-				<!-- Fullscreen search -->
-				<div class="search-wrap">
-					<form method="get">
-						<input type="search" class="main-search-input" placeholder="Search Your Keyword...">
-					</form>
-				</div>
-				<!-- end fullscreen search -->
-			</div>
-		</div>
-		<!-- offcanvas end  -->
+        <link rel="shortcut icon" href="assets/img/favicon.svg">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+                            
+    </head>
+    <body>
 
-		<!-- shopping-cart-bar start -->
-		<div class="cart-menu-right cart-style-1 white-bg">
-			<div class="close-icon float-right">
-				<a href="javascript:void(0);"><i class="bi bi-x"></i></a>
-			</div>
-			<div class="dropdown-cart-products">
-				<div class="product">
-					<div class="product__cart-details">
-						<h5 class="product-title">
-							<a href="shop.html">Best color ful Lamp for ceiling</a>
-						</h5>
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="spinner-wrap">
+                <div class="preloader-logo">
+                    <img src="assets/img/preloader.svg" alt="" class="img-fluid">
+                </div>
+                <div class="spinner"></div>
+            </div>
+        </div>
 
-						<span class="cart-product-info">
-							<span class="cart-product-qty">1</span>
-							x $84.00
-						</span>
-					</div>
+        <!-- Back To Top Start -->
+        <button id="back-top" class="back-to-top">
+            <i class="fa-regular fa-arrow-up"></i>
+        </button>
 
-					<figure class="product__image-container">
-						<a href="shop.html" class="product-img">
-							<img src="assets/img/product/cart/product-01.jpg" alt="product">
-						</a>
-					</figure>
-					<a href="#" class="remove-btn" title="Product remove"><i class="fal fa-times"></i></a>
-				</div>
-				<div class="product">
-					<div class="product__cart-details">
-						<h5 class="product-title">
-							<a href="shop.html">Love color Table Lamp for room</a>
-						</h5>
+        <!-- MouseCursor Start -->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"></div>
 
-						<span class="cart-product-info">
-							<span class="cart-product-qty">1</span>
-							x $84.00
-						</span>
-					</div>
+            <!-- Offcanvas Area Start -->
+            <div class="fix-area">
+                <div class="offcanvas__info">
+                    <div class="offcanvas__wrapper">
+                        <div class="offcanvas__content">
+                            <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                                <div class="offcanvas__logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo/logo.png" alt="logo-img">
+                                    </a>
+                                </div>
+                                <div class="offcanvas__close">
+                                    <button>
+                                    <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <p class="text d-none d-xl-block">
+                                Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
+                            </p>
+                            <div class="mobile-menu fix mb-3"></div>
+                            <div class="offcanvas__contact">
+                                <h4>Contact Info</h4>
+                                <ul>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon">
+                                            <i class="fal fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="fal fa-envelope"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="fal fa-clock"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <div class="offcanvas__contact-icon mr-15">
+                                            <i class="far fa-phone"></i>
+                                        </div>
+                                        <div class="offcanvas__contact-text">
+                                            <a href="tel:+11002345909">+11002345909</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="contact.html" class="theme-btn mt-4">
+                                    Get A Ticket
+                                    <i class="fa-solid fa-arrow-up-right"></i>
+                                </a>
+                                <div class="social-icon d-flex align-items-center">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offcanvas__overlay"></div>
 
-					<figure class="product__image-container">
-						<a href="shop.html" class="product-img">
-							<img src="assets/img/product/cart/product-02.jpg" alt="product">
-						</a>
-					</figure>
-					<a href="#" class="remove-btn" title="Product remove"><i class="fal fa-times"></i></a>
-				</div>
-				<div class="product">
-					<div class="product__cart-details">
-						<h5 class="product-title">
-							<a href="shop.html">Best color ful Lamp for ceiling</a>
-						</h5>
+            <!-- Header Section Start -->
+            <header class="header-section">
+                <div id="header-sticky" class="header-1">
+                    <div class="container">
+                        <div class="mega-menu-wrapper">
+                            <div class="header-main">
+                                <div class="header-left">
+                                    <a href="/" class="logo">
+                                    <img src="assets/img/logo/logo.png" width alt="logo-img">
+                                </a>
+                                    <div class="mean__menu-wrapper">
+                                        <div class="main-menu">
+                                            <nav id="mobile-menu">
+                                                <ul>
+                                                    <li><a href="/">Home </a></li>
+                                                    <li><a href="#">Dkaleido</a></li>
+                                                    <li><a href="#">Route2India</a></li>
+                                                    <li><a href="#">TravXevent</a></li>
+                                                    <li><a href="#">Blogs</a></li>
+                                                    <li><a href="#">CSR</a></li>
+                                                    <li><a href="#">Contact</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="header-right d-flex justify-content-end align-items-center">
+                                   
+                                    <a href="contact.html" class="theme-btn">
+                                            Let's Connect
+                                            <i class="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    <div class="header__hamburger d-xl-none my-auto">
+                                        <div class="sidebar__toggle">
+                                            <i class="fa-regular fa-bars"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Search Start -->
+            <div class="search-popup">
+                <div class="search-popup__overlay search-toggler"></div>
+                <div class="search-popup__content">
+                    <form role="search" method="get" class="search-popup__form" action="#">
+                        <input type="text" id="search" name="search" placeholder="Search Here...">
+                        <button type="submit" aria-label="search submit" class="search-btn">
+                            <span><i class="fa-regular fa-magnifying-glass"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        
 
-						<span class="cart-product-info">
-							<span class="cart-product-qty">1</span>
-							x $84.00
-						</span>
-					</div>
 
-					<figure class="product__image-container">
-						<a href="shop.html" class="product-img">
-							<img src="assets/img/product/cart/product-03.jpg" alt="product">
-						</a>
-					</figure>
-					<a href="#" class="remove-btn" title="Product remove"><i class="fal fa-times"></i></a>
-				</div>
-			</div>
-
-			<div class="cart-total mb-15">
-				<span>Total</span>
-				<span class="cart-total-price">$160.00</span>
-			</div>
-
-			<div class="cart-action">
-				<a href="cart.html" class="btn btn-primary">View Cart</a>
-				<a href="checkout.html" class="btn btn-outline-primary-2"><span>Checkout</span><i
-						class="fal fa-long-arrow-right"></i></a>
-			</div>
-		</div>
-		<!-- shopping-cart-bar end -->
-
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-one">
-			<div class="promotion-area theme-bg2 py-1 text-center d-none d-lg-block">
-				<a class="text-white fs-16 fw-medium" href="#"><b>Updates :</b> <span
-						class="opacity-75 fs-16 fw-normal"> Admissions Open for MBBS in Russia 2026 | Limited Seats Available - </span> <b>Apply Now</b> <i class="bi bi-chevron-right"></i></a>
-			</div>
-			<div class="header-top">
-				<div class="container-fluid">
-					<ul
-						class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
-						<li class="d-none d-md-inline-block"><a class="ht-promo d-none d-md-inline-block"
-								href="price.html"><span>Welcome to</span>
-								mbbsrussiaadmission.com</a></li>
-						<li class="d-none d-xl-inline-block"><a class="ht-phone d-none d-xl-inline-block"
-								href="tel:+91 93115 26985"><span><i class="bi bi-telephone"></i></span> +91 93115 26985</a>
-						</li>
-						<li class="d-none d-lg-inline-block"><a class="ht-email d-none d-lg-inline-block"
-								href="#"><span><i class="bi bi-envelope"></i></span> info@mbbsrussiaadmission.com</a></li>
-						<li>
-							<div class="header-social-links d-md-flex d-none">
-								<a href="#"><i class="bi bi-facebook"></i></a>
-								<a href="#"><i class="bi bi-instagram"></i></a>
-								<a href="#"><i class="bi bi-linkedin"></i></a>
-								<a href="#"><i class="bi bi-twitter"></i></a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="main-header-area">
-				<div class="container-fluid">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-md-auto col-6">
-							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/958561.png" width="200px" alt="Header-logo"></a>
-							</div>
-						</div>
-						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
-							<div class="main-menu d-none d-lg-block">
-								<nav id="mobile-menu">
-									<ul class="menu-list">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">About</a></li>
-										<li><a href="#">Russia</a></li>
-										<li><a href="#">Other Countries </a>
-											<ul class="sub-menu">
-												<li><a href="#">Uzbekistan</a></li>
-												<li><a href="#">Ukraine</a></li>
-												<li><a href="#">Kazakhstan</a></li>
-												<li><a href="#">China</a></li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Contact</a>
-										</li>
-
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="col-md-auto col-6">
-							<div class="right-nav d-flex align-items-center justify-content-end">
-								<div class="cart-menu d-none">
-									<a class="shopping-cart mr-20" href="#">
-										<i class="bi bi-bag"></i>
-										<span class="badge">0</span>
-									</a>
-								</div>
-								<div class="quote-btn d-lg-inline-block d-none ms-xxl-4 ms-3">
-									<a href="contact.html" class="bs-btn">Appointment</a>
-								</div>
-								<div class="hamburger-menu ms-0 d-lg-none d-md-inline-flex">
-									<div class="bar-wrap">
-										<div class="bar-1"></div>
-										<div class="bar-2"></div>
-										<div class="bar-3"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /.theme-main-menu -->
-		</header>
-		<!-- header-area end -->
-
-		<!-- slide-bar start -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-3.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">About Us</h4>
-						<p class="mb-30">
-							But I must explain to you how all this mistaken idea of denouncing pleasure and
-							praising pain was born and will give you a complete account of the system and
-							expound the actual teachings of the great explore
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Contact Info</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							23/A, Miranda City Likaoli Prikano, Dope
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+0989 7876 9865 9
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@example.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="login.html">Login</a>
-				</div>
-
-			</div>
-		</div>
-		<!-- side-bar end -->
+            

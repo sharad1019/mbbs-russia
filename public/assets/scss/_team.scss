@@ -1,717 +1,635 @@
-//team
+.team-wraper {
+    margin-top: 60px;
 
-.team-wrap-one {
-    background: $light-grey;
+    .team-left-content {
+        background: #F5F7FA;
+        border-radius: 30px 30px 150px 30px;
+        @include flex;
+        gap: 30px;
+        padding: 30px;
+
+        @include breakpoint (max-md){
+            border-radius: 30px;
+        }
+
+        @include breakpoint (max-sm){
+            flex-wrap: wrap;
+        }
+
+        .team-image {
+            position: relative;
+            z-index: 99;
+            overflow: hidden;
+            
+            img {
+                @include imgw;
+                border-radius: 20px;
+                position: relative;
+                display: block;
+                object-fit: cover;
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+
+                &:first-child {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1;
+                    -webkit-transform: translateX(50%) scaleX(2);
+                    transform: translate(50%) scaleX(2);
+                    opacity: 0;
+                    -webkit-filter: blur(10px);
+                    filter: blur(10px)
+                }
+            }
+
+            &::before {
+                @include before;
+                border: 1px solid $theme-color;
+                border-radius: 20px;
+                top: 13px;
+                left: 7px;
+                z-index: 1;
+                width: 250px;
+                height: 272px;
+                z-index: 11;
+            }
+        }
+
+        .team-content {
+            h3 {
+                font-size: 24px;
+
+                a {
+                    &:hover {
+                        color: $theme-color;
+                    }
+                }
+            }
+
+            p {
+                color: $theme-color;
+                margin-top: 5px;
+            }
+
+            .line {
+                width: 75px;
+                height: 1px;
+                background-color: $theme-color;
+                margin-top: 13px;
+                margin-bottom: 15px;
+            }
+
+            .call-number {
+                color: #788094;
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+
+            .social-icon {
+                gap: 7px;
+                margin-top: 20px;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #7546FF;
+                    color: $white;
+
+                    &:hover {
+                        background-color: $header-color;
+                    }
+
+                    &.color-2 {
+                        background-color: $theme-color;
+
+                        &:hover {
+                            background-color: $header-color;
+                        }
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            .team-image {
+                img {
+                    &:first-child {
+                        -webkit-transform: translateX(0) scaleX(1);
+                        transform: translate(0) scaleX(1);
+                        opacity: 1;
+                        -webkit-filter: blur(0);
+                        filter: blur(0)
+                    }
+
+                    &:nth-child(2){
+                        -webkit-transform: translateX(-50%) scaleX(2);
+                        transform: translateX(-50%) scaleX(2);
+                        opacity: 0;
+                        -webkit-filter: blur(10px);
+                        filter: blur(10px);
+                    }
+                }
+            }
+        }
+    }
+
+    .team-right-items {
+        .team-thumb-box {
+            position: relative;
+            height: 358px;
+            overflow: hidden;
+            border-radius: 30px;
+
+            img {
+                @include imgw;
+                border-radius: 30px;
+                object-fit: cover;
+                position: relative;
+                display: block;
+                object-fit: cover;
+                -webkit-transition: all 500ms ease;
+                transition: all 500ms ease;
+
+                &:first-child {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1;
+                    -webkit-transform: translateX(50%) scaleX(2);
+                    transform: translate(50%) scaleX(2);
+                    opacity: 0;
+                    -webkit-filter: blur(10px);
+                    filter: blur(10px)
+                }
+            }
+
+            .team-icon {
+                gap: 10px;
+                position: absolute;
+                top: 40%;
+                right: 0;
+                transform: translateY(-50%);
+                right: 20px;
+                z-index: 9;
+
+                li {
+                    transform: scaleX(0);
+                    transition: 0.4s ease-in-out;
+                    cursor: pointer;
+                
+                    a {
+                        background-color: $theme-color;
+                        width: 37px;
+                        height: 37px;
+                        line-height: 37px;
+                        display: inline-block;
+                        color: $white;
+                        text-align: center;
+                        @include transition;
+                        border-radius: 50%;
+
+                        &:hover {
+                            background-color: $header-color;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+                right: 30px;
+                line-height: 1;
+                background-color: $white;
+                padding: 15px 39px;
+                border-radius: 25px;
+                z-index: 99;
+                text-align: center;
+
+                @include breakpoint (max-xxl){
+                    padding: 15px 30px;
+                    left: 20px;
+                    right: 20px;
+                }
+
+                h3 {
+                    font-size: 22px;
+
+                    a {
+                        &:hover {
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+                .team-icon {
+                    li {
+                        transform: scaleX(1);
+                    }
+                }
+
+                 img {
+                &:first-child {
+                    -webkit-transform: translateX(0) scaleX(1);
+                    transform: translate(0) scaleX(1);
+                    opacity: 1;
+                    -webkit-filter: blur(0);
+                    filter: blur(0)
+                }
+
+                &:nth-child(2){
+                    -webkit-transform: translateX(-50%) scaleX(2);
+                    transform: translateX(-50%) scaleX(2);
+                    opacity: 0;
+                    -webkit-filter: blur(10px);
+                    filter: blur(10px);
+                }
+            }
+            }
+        }
+    }
+}
+
+.team-box-items-3 {
     text-align: center;
-    border-radius: 30px;
-    padding-bottom: 32px;
-    margin-bottom: 40px;
-    @include transition(.4s);
 
-    .team-thumb {
-        padding-bottom: 6px;
-        margin-bottom: 22px;
-        border-radius: 30px 30px 0 0;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        @include transition(.4s);
-
-        img {
-            border-radius: 30px 30px 0 0;
-            @include transition(.4s);
-        }
-    }
-
-    .team-social {
-        border-radius: 15px 15px 0px 0px;
-        background: $white;
-        padding: 25px;
-        width: max-content;
-        opacity: 0;
-        visibility: hidden;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        z-index: 1;
-        @include transition(.4s);
-
-        a:not(:last-child) {
-            margin-right: 15px;
-        }
-    }
-
-    .name {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 1.1;
-        font-family: $poppinsFont;
-        margin-bottom: 12px;
-        @include transition(.4s);
-
-        a {
-            color: $heding;
-
-            &:hover {
-                color: $theme-color;
-            }
-        }
-    }
-
-    .designation {
-        color: $body-text-color;
-        font-size: 22px;
-        font-weight: 400;
-        font-family: $latoFont;
-        @include transition(.4s);
-    }
-
-    .more-btn {
-        color: $white;
-        background: $theme-color2;
-        width: 50px;
-        height: 50px;
+    .thumb {
         border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        visibility: hidden;
-        transform: scale(0);
-        display: none;
-        @include transition(.4s);
-    }
-
-    .hover-content {
-        padding-left: 40px;
-        padding-right: 40px;
-        justify-content: center;
-        @include transition(.4s);
-    }
-
-    &:hover {
-
-        .team-thumb {
-            border-radius: 30px 30px 210px 210px;
-
-            img {
-                border-radius: 30px 30px 210px 210px;
-            }
-        }
-
-        .team-social {
-            opacity: 1;
-            visibility: visible;
-            bottom: 0px;
-        }
-
-        .hover-content {
-            justify-content: space-between;
-        }
-
-        .content {
-            text-align: start;
-        }
-
-        .more-btn {
-            opacity: 1;
-            visibility: visible;
-            transform: scale(1);
-            display: inline-flex;
-        }
-    }
-
-    @media #{$max-lg} {
-
-        .team-social {
-            a:not(:last-child) {
-                margin-right: 3px;
-            }
-        }
-    }
-
-    @media #{$max-lg} {
-
-        .name {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .hover-content {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        .team-social {
-            padding: 15px;
-        }
-    }
-}
-
-.team-wrap-two {
-    border-radius: 20px;
-    border: 1.5px solid $hr-border-color;
-    margin-bottom: 40px;
-    @include transition(.4s);
-
-    .team-thumb {
-        border-radius: 20px 0 0 20px;
-        overflow: hidden;
         position: relative;
-        z-index: 1;
-        @include transition(.4s);
+        overflow: hidden;
+
+        .social-icon {
+            @include flex;
+            gap: 14px;
+            justify-content: center;
+            position: absolute;
+            bottom: 40px;
+            transform: scale(0.8);
+            left: 0;
+            right: 0;
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+
+            a {
+                color: $white;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+
+        &::before {
+            @include before;
+            background: linear-gradient(180deg, rgba(70, 42, 153, 0) 0%, rgba(101, 60, 220, 0.658022) 65.8%, rgba(109, 65, 237, 0.824115) 82.41%, #7546FF 100%);
+            z-index: 11;
+            opacity: 0;
+            visibility: hidden;
+            @include transition;
+        }
 
         img {
-            border-radius: 20px 0 0 20px;
-            @include transition(.4s);
-        }
-    }
-
-    .team-social {
-        margin-bottom: 30px;
-
-        a:not(:last-child) {
-            margin-right: 15px;
-        }
-    }
-
-    .name {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 1.1;
-        font-family: $poppinsFont;
-        margin-bottom: 9px;
-        @include transition(.4s);
-
-        a {
-            color: $heding;
-
-            &:hover {
-                color: $theme-color;
+            @include imgw;
+            border-radius: 50%;
+             position: relative;
+            display: block;
+            object-fit: cover;
+            -webkit-transition: all 500ms ease;
+            transition: all 500ms ease;
+            &:first-child {
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                -webkit-transform: translateX(50%) scaleX(2);
+                transform: translate(50%) scaleX(2);
+                opacity: 0;
+                -webkit-filter: blur(10px);
+                filter: blur(10px)
             }
         }
-    }
-
-    .designation {
-        color: $body-text-color;
-        font-size: 22px;
-        font-weight: 400;
-        font-family: $latoFont;
-        margin-bottom: 40px;
-        @include transition(.4s);
     }
 
     .content {
-        padding-left: 30px;
-    }
-
-    .more-btn {
-        color: $title;
-        font-size: 18px;
-        font-weight: 600;
-        font-family: $poppinsFont;
-        border-bottom: 1.5px solid $title;
-        display: inline-block;
-        @include transition(.4s);
-
-        img {
-            margin-left: 10px;
-            @include transition(.4s);
-        }
-
-        &:hover {
-            color: $theme-color;
-            border-color: $theme-color;
-
-            img {
-                filter:
-                    brightness(0) saturate(100%) invert(18%) sepia(70%) saturate(2910%) hue-rotate(349deg) brightness(89%) contrast(97%);
-            }
-        }
-    }
-
-    &:hover {
-        border-color: $theme-color;
-    }
-
-
-    @media #{$max-lg} {
-        .team-social {
-            a:not(:last-child) {
-                margin-right: 3px;
-            }
-        }
-
-        .name {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-
-        .designation {
-            margin-bottom: 15px;
-        }
-
-        .team-social {
-            margin-bottom: 15px;
-        }
-
-        .content {
-
-            padding-left: 15px;
-        }
-
-        .more-btn {
-            font-size: 16px;
-
-            img {
-                margin-left: 0;
-            }
-        }
-    }
-
-    @media #{$max-xs} {
-        .designation {
-            font-size: 20px;
-        }
-    }
-}
-
-.shape-t2a {
-    filter: invert(1) brightness(0);
-    margin-left: -90px;
-}
-
-
-.team-wrap-three {
-    padding-bottom: 32px;
-    margin-bottom: 40px;
-    @include transition(.4s);
-
-    .team-thumb {
-        border-radius: 30px;
-        background: $light-grey;
-        margin-bottom: 26px;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        @include transition(.4s);
-
-        img {
-            border-radius: 30px;
-            @include transition(.4s);
-        }
-    }
-
-    .front-shape {
-        position: absolute;
-        z-index: 2;
-        left: 0;
-        top: 5px;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        visibility: hidden;
-        opacity: 0;
-        @include transition(.4s);
-    }
-
-
-    .team-social {
-        border-radius: 15px 15px 0px 0px;
-        background: $theme-color2;
-        padding: 15px 25px;
-        width: max-content;
-        opacity: 0;
-        visibility: hidden;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        z-index: 3;
-        @include transition(.4s);
-
-        a {
-            background: $white;
-        }
-
-        a:not(:last-child) {
-            margin-right: 15px;
-        }
-    }
-
-    .name {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 1.1;
-        font-family: $poppinsFont;
-        margin-bottom: 12px;
-        @include transition(.4s);
-
-        a {
-            color: $heding;
-
-            &:hover {
-                color: $theme-color;
-            }
-        }
-    }
-
-    .designation {
-        color: $body-text-color;
-        font-size: 22px;
-        font-weight: 400;
-        font-family: $latoFont;
-        @include transition(.4s);
-    }
-
-    .more-btn {
-        color: $white;
-        background: $theme-color2;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 20px;
-        right: 10px;
-        @include transition(.4s);
-    }
-
-    .content {
-        position: relative;
-        z-index: 1;
-    }
-
-    &:hover {
-
-        .team-thumb {
-            background: transparent;
-        }
-
-        .front-shape {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        .team-social {
-            opacity: 1;
-            visibility: visible;
-            bottom: 0px;
-        }
-
-        .more-btn {
-            background: $theme-color;
-        }
-    }
-
-    @media #{$max-lg} {
-
-        .team-social {
-            a:not(:last-child) {
-                margin-right: 3px;
-            }
-        }
-    }
-
-    @media #{$max-lg} {
-
-        .name {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .hover-content {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        .team-social {
-            padding: 15px;
-        }
-    }
-}
-
-
-.team-wrap-four {
-    padding-bottom: 32px;
-    margin-bottom: 40px;
-    @include transition(.4s);
-
-    .team-thumb {
-        border-radius: 30px;
-        background: $light-grey;
-        margin-bottom: 26px;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        @include transition(.4s);
-
-        img {
-            border-radius: 30px;
-            @include transition(.4s);
-        }
-    }
-
-
-    .team-social {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        opacity: 0;
-        visibility: hidden;
-        position: absolute;
-        top: 25px;
-        right: -50px;
-        margin: 0 auto;
-        z-index: 1;
-        @include transition(.4s);
-
-        a {
-            background: $white;
-        }
-
-        a:not(:last-child) {
-            margin-right: 15px;
-        }
-    }
-
-    .name {
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 1.1;
-        font-family: $poppinsFont;
-        margin-bottom: 12px;
-        @include transition(.4s);
-
-        a {
-            color: $heding;
-
-            &:hover {
-                color: $theme-color;
-            }
-        }
-    }
-
-    .designation {
-        color: $body-text-color;
-        font-size: 22px;
-        font-weight: 400;
-        font-family: $latoFont;
-        @include transition(.4s);
-    }
-
-    .more-btn {
-        color: $white;
-        background: $theme-color2;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 20px;
-        right: 10px;
-        @include transition(.4s);
-    }
-
-    .content {
-        position: relative;
-        z-index: 1;
-    }
-
-    &:hover {
-
-        .team-social {
-            opacity: 1;
-            visibility: visible;
-            right: 25px;
-        }
-
-        .more-btn {
-            background: $theme-color;
-        }
-    }
-
-    @media #{$max-lg} {}
-
-    @media #{$max-lg} {
-
-        .name {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-    }
-}
-
-.hover-bg {
-    &:hover {
-        .team-thumb {
-            background: $theme-color;
-        }
-    }
-}
-
-.team-social {
-    a {
-        color: $heding;
-        font-size: 20px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: 1.5px solid $hr-border-color;
-        text-align: center;
-        line-height: 48px;
-        display: inline-block;
-
-        @include transition(0.4s);
-
-        &:hover {
-            color: $white;
-            background: $theme-color;
-            border-color: $theme-color;
-        }
-    }
-}
-
-.biography-content-wrap {
-
-    .team-biography {
-        img {
-            border-radius: 15px
-        }
-
-        @media #{$max-md} {
-
-            img {
-                width: 100%;
-            }
-        }
-    }
-
-    .name {
-        font-size: 60px;
-        font-weight: 600;
-        font-family: $latoFont;
-
-        a {
-            color: $heding;
-        }
-    }
-
-    .designation {
-        font-size: 20px;
-        font-weight: 500;
-        font-family: $latoFont;
-        margin-bottom: 0;
-    }
-
-    .description {
-        margin-bottom: 40px;
-    }
-
-    .team-social {
-        .social-title {
-            font-size: 20px;
-            text-transform: uppercase;
-            letter-spacing: 3.8px;
-            display: inline-block;
-            margin-right: 35px;
-        }
-
-        a {
-            border: 1.5px solid $hr-border-color;
-            margin-right: 10px;
-
-            &:hover {
-                border-color: $black;
-                background: transparent;
-            }
-        }
-    }
-
-
-    @media #{$max-lg} {
-
-        .name {
-            font-size: 32px;
-        }
+        margin-top: 20px;
 
         h3 {
             font-size: 24px;
-        }
+            font-weight: 600;
 
+             a {
+                background-position: 0 95%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                display: inline;
 
-        .addres-line {
-            font-size: 18px;
-            padding-bottom: 10px;
+                &:hover {
+                    color: $theme-color;
+                    background-size: 100% 2px;
+                    background-image: linear-gradient(180deg, $theme-color 0%, $theme-color 100%);
+                }
+            }
         }
+    }
+
+    &:hover {
+        .thumb {
+            &::before {
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .social-icon {
+                opacity: 1;
+                visibility: visible;
+                transform: scale(1);
+            }
+
+            img {
+                &:first-child {
+                    -webkit-transform: translateX(0) scaleX(1);
+                    transform: translate(0) scaleX(1);
+                    opacity: 1;
+                    -webkit-filter: blur(0);
+                    filter: blur(0)
+                }
+
+                &:nth-child(2){
+                    -webkit-transform: translateX(-50%) scaleX(2);
+                    transform: translateX(-50%) scaleX(2);
+                    opacity: 0;
+                    -webkit-filter: blur(10px);
+                    filter: blur(10px);
+                }
+            } 
+        }
+    }
+
+    &.style-2 {
+        margin-top: 30px;
     }
 }
 
-.biography-content {
-    padding: 50px 0 30px 0;
-    border-radius: 30px;
-    position: relative;
-    z-index: 1;
+.team-details-wrapper {
+    background: #F5F8FD;
+    border-radius: 50px;
+    padding: 60px;
 
-    @media #{$max-lg} {
-        padding: 25px 15px;
+    @include breakpoint (max-xl){
+        padding: 35px;
     }
 
-    .icon {
-        color: $theme-color;
-        font-size: 25px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background: $light;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 15px;
+    @include breakpoint (max-lg){
+        padding: 32px;
     }
 
-    label {
-        font-size: 20px;
-        font-weight: 400;
-        font-family: $latoFont;
-        margin-bottom: 5px;
+    @include breakpoint (max-md){
+        padding: 28px;
     }
 
-    .addres-line {
-        font-size: 20px;
-        font-weight: 700;
-        font-family: $latoFont;
-        margin-bottom: 0;
+    .team-details-image {
+        border-radius: 20px;
+        width: 500px;
 
-        a {
-            color: $black;
+         @include breakpoint (max-xxl){
+            width: initial;
+        }
+
+        img {
+            @include imgw;
+            border-radius: 20px;
         }
     }
 
-    .team-social {
-        a {
-            &:hover {
-                color: $white;
-                background: $theme-color;
-                border-color: $theme-color;
+    .team-details-content {
+        margin-left: 65px;
+
+        @include breakpoint (max-xxl){
+            margin-left: 0;
+        }
+
+        .details-head {
+            @include flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            @include breakpoint (max-xl){
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            .content {
+                h3 {
+                    font-size: 36px;
+                    font-weight: 600;
+
+                    @include breakpoint (max-xl){
+                        font-size: 29px;
+                    }
+
+                    @include breakpoint (max-md){
+                        font-size: 27px;
+                    }
+
+                    @include breakpoint (max-sm){
+                        font-size: 25px;
+                    }
+                }
+
+                span {
+                    color: $theme-color;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+            }
+
+            .social-icon {
+                @include flex;
+                gap: 6px;
+
+                a {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #D8DDE1;
+                    color: $header-color;
+
+                    &:hover {
+                        background-color: $theme-color;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        .details-contact-info {
+            border: 1px solid #D8DDE1;
+            border-radius: 30px;
+            padding: 27px 30px;
+            margin-top: 20px;
+            position: relative;
+            margin-bottom: 30px;
+
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 51%;
+                transform: translateX(-50%);
+                content: "";
+                width: 1px;
+                height: 100%;
+                background: #D8DDE1;
+
+                @include breakpoint (max-xxl){
+                    display: none;
+                }
+            }
+
+            &::after {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                transform: translateY(-50%);
+                content: "";
+                width: 100%;
+                height: 1px;
+                background: #D8DDE1;
+
+                @include breakpoint (max-xxl){
+                    display: none;
+                }
+            }
+
+            ul {
+                li {
+                    @include flex;
+                    gap: 20px;
+
+                    &:not(:last-child){
+                        margin-bottom: 60px;
+
+                        @include breakpoint (max-xxl){
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    .icon {
+                        max-width: 50px;
+                        width: 100%;
+                        height: 50px;
+                        background-color: $white;
+                        border-radius: 50%;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+
+                    .content {
+                        span {
+                            font-weight: 500;
+                        }
+                        h4 {
+                            font-size: 18px;
+                            font-weight: 500;
+
+                            a {
+                                color: $header-color;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }
 
-//shape
-.team-section {
-    .shape-t1 {
-        position: absolute;
-        z-index: 1;
-        left: 0;
-        top: 90px;
+ .personal-skills-items {
+    margin-top: 60px;
+
+    h3 {
+        font-size: 36px;
+        font-weight: 600;
+
+         @include breakpoint (max-xl){
+            font-size: 29px;
+        }
+
+        @include breakpoint (max-md){
+            font-size: 27px;
+        }
+
+        @include breakpoint (max-sm){
+            font-size: 25px;
+        }
+    }
+
+    .skill-feature-items {
+        margin-top: 20px;
+
+        .skill-feature {
+            &:not(:last-child){
+                margin-bottom: 20px;
+            }
+
+            .box-title {
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            .progress-value {
+                margin-bottom: 10px;
+                //margin-top: -0.5em;
+                color: $header-color;
+                text-transform: capitalize;
+            }
+            .progress {
+                position: relative;
+                height: 10px;
+                background-color: #F5F8FD;
+                border-radius: 10px;
+                overflow: visible;
+                margin-top: 15px;
+            }
+        
+            .progress-bar {
+                background-color: $theme-color;
+                height: 10px;
+                margin: 0;
+                border-radius: inherit;
+                overflow: visible;
+                position: relative;
+                margin-top: 0;
+                 border-radius: 10px;
+            }
+            .progress-value {
+                position: absolute;
+                top: -38px;
+                right: -8px;
+                font-size: 18px;
+                font-weight: 600;
+                color: $theme-color;
+            }
+        }
     }
 }

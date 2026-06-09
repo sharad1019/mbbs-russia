@@ -1,0 +1,203 @@
+.cta-wrapper {
+    @include flex;
+    justify-content: space-between;
+
+    @include breakpoint (max-xl){
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 36px;
+        font-weight: 600;
+        color: $white;
+
+        @include breakpoint (max-xl){
+            font-size: 30px;
+        }
+
+        @include breakpoint (max-md){
+            font-size: 28px;
+        }
+
+        @include breakpoint (max-sm){
+            font-size: 26px;
+        }
+    }
+
+    form {
+        position: relative;
+        max-width: 550px;
+        width: 100%;
+
+        input {
+            width: 100%;
+            outline: none;
+            border: none;
+            background-color: $white;
+            color: $text-color;
+            line-height: 1;
+            padding: 18px 24px;
+            border-radius: 40px;
+            
+            
+            &::placeholder {
+                color: $text-color;
+            }
+        }
+
+        .theme-btn {
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            bottom: 4px;
+           
+        }
+    }
+
+    .theme-btn {
+            padding: 16px 22px;
+    }
+
+}
+
+.cta-section {
+    padding: 80px 0;
+}
+
+.cta-countdown-wrapper {
+    @include flex;
+    justify-content: space-between;
+
+    @include breakpoint (max-lg){
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cooming-soon-items {
+        .coming-soon-time {
+            @include flex;
+            gap: 10px;
+            position: relative;
+            justify-content: center;
+
+            .timer-content {
+                text-align: center;
+                width: 80px;
+                height: 80px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: $theme-color;
+                color: $white;
+                border-radius: 10px;
+                position: relative;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 1;
+                    color: $white;
+
+                    span {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $white;
+                        text-transform: uppercase;
+
+                        @include breakpoint (max-xl) {
+                            font-size: 16px;
+                        }
+
+                        @include breakpoint (max-sm) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.cta-video-section-2 {
+    position: relative;
+    z-index: 9;
+
+    &::before {
+        @include before;
+        background: linear-gradient(97.54deg, rgba(25, 0, 177, 0.81) 14.32%, rgba(227, 38, 130, 0.405) 153.15%);
+        z-index: -1;
+    }
+
+    .video-btn {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.25);
+        color: $theme-color;
+        text-align: center;
+        border-radius: 100%;
+        font-size: 20px;
+        z-index: 9;
+        position: absolute;
+        top: 120px;
+        right: 315px;
+
+        @include breakpoint (max-xl){
+            position: relative;
+            top: initial;
+            right: initial;
+        }
+
+        &::before {
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            content: '';
+            right: 0;
+            bottom: 0;
+            background-color: $white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            border-radius: 50%;
+            z-index: -1;
+            @include transition;
+        }
+
+        &:hover {
+            &::before {
+                background-color: $theme-color;
+            }
+
+            i {
+                color: $white;
+            }
+        }
+    }
+}
+
+.cta-video-content-2 {
+    margin-top: 208px;
+
+     @include breakpoint (max-xl){
+        margin-top: 40px;
+    }
+
+    .cta-text {
+        color: $white;
+        margin-top: 20px;
+    }
+
+    .theme-btn {
+        margin-top: 40px;
+    }
+}
+

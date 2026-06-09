@@ -1,76 +1,106 @@
-/*-----------------------------------------------------------------------------------
+/*
+Theme Name: Evenza 
+Author: themeservices
+Author URI: https://themeforest.net/user/themeservices/portfolio
+Description: "Evenza – Event Conference HTML Template
+Service Html Template 
+Version: 1.0.0
+*/
 
-    Template Name: Visim -Immigration & Visa Consulting HTML5 Template
-    Author: Creativgigs
-    Version: 1.0
+/*CSS Table Of Content Ends Here*/
 
------------------------------------------------------------------------------------
+/*
+--------------------------------------------------------------
+[Table of Contents]
+--------------------------------------------------------------
+01. Variables & Mixins
+02. Typography
+03. Buttons
+04. About 
+05. Animation 
+06. Brand 
+07. Contact
+08. Cta
+09. Event
+10. Faq
+11. Feature
+12. Footer
+13. Header
+14. Helping
+15. Hero
+16. Marquee
+17. Meanmenu
+18. News
+19. Preloader
+20. Pricing
+21. Section
+22. Service
+23. Team
+24. Project
+25. Testimonial
 
-    CSS INDEX
-    ===================
+--------------------------------------------------------------
+*/
 
-    01. Theme default CSS
-	02. variables
-    03. mixins
-    04. common
-    05. overlay
-    06. header
-    07. breadcrumb 
-    08. mobile-menu
-    09. typography
-    10. search
-    11. custom-animation
-    12. wow-animation
-    13. btn
-    14. slider-nav
-    15. faq
-    16. feature
-    17. widget
-    18. cart
-    19. shop
-    20. theme-banner§
-    21. section-title
-    22. element
-    23. service
-    24. portfolio
-    25. contact
-    26. feedback
-    27. team
-    28. blog
-    29. course
-    30. course
-    31. footer
+//>> Basic Start <<//
 
------------------------------------------------------------------------------------*/
+//>> Mixins <<//
+@import "_mixins";
+//>> Variables <<//	
+@import "_variables";
+//>> Buttons <<//
+@import "_buttons";
+//>> Typography <<//
+@import "_typography";
+//>> Basic End <<//	
 
-@import "variables";
-@import "mixins";
-@import "common";
-@import "overlay";
-@import "header";
-@import "breadcrumb";
-@import "meanmenu";
-@import "mobile-menu";
-@import "typography";
-@import "search";
-@import "customize-bootstrap";
-@import "custom-animation";
-@import "wow-animation";
-@import "btn";
-@import "slider-nav";
-@import "faq";
-@import "feature";
-@import "widget";
-@import "cart";
-@import "shop";
-@import "theme-banner";
-@import "section-title";
-@import "element";
-@import "service";
-@import "portfolio";
-@import "contact";
-@import "feedback";
-@import "team";
-@import "blog";
-@import "course";
-@import "footer";
+
+//>> Template Section Style Start <<//
+
+//>> About <<//
+@import "_about";
+//>> Animation <<//
+@import "_animation";
+//>> Brand <<//
+@import "_brand";
+//>> Contact <<//
+@import "_contact";
+//>> Cta <<//
+@import "_cta";
+//>> Shop <<//
+@import "_event";
+//>> Faq <<//
+@import "_faq";
+//>> Feature <<//
+@import "_feature";
+//>> Footer <<//
+@import "_footer";
+//>> Header <<//
+@import "_header";
+//>> Helping <<//
+@import "_helping";
+//>> Hero <<//
+@import "_hero";
+//>> MeanMenu <<//
+@import "_meanmenu";
+//>> News <<//
+@import "_news";
+//>> Preloader <<//
+@import "_preloader";
+//>> _Pricing <<//
+@import "_pricing";
+//>> Section <<//
+@import "_section";
+//>> Service <<//
+@import "_service";
+//>> Speaker <<//
+@import "_team";
+//>> Project <<//
+@import "_project";
+//>> Testimonial <<//
+@import "_testimonial";
+
+
+
+//>> Template Section Style End <<//
+

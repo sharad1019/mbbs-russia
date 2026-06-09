@@ -1,117 +1,182 @@
-        <!--footer-area start-->
-		<footer class="footer-one pt-120 pt-lg-80" data-background="assets/img/footer/footer-1.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-xxl-6 col-lg-6 d-flex justify-content-center order-lg-2">
-						<div class="footer-widget ht-about-widget text-center widget-bg-shape mb-50">
-							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="logo"></a>
-							</div>
-							<p class="mt-20 mb-30 px-xxl-5 mx-xxl-5">Begin Your Global Adventure With Trusted Visa
-								Specialists
-							</p>
-							<h4 class="widget-title">Newsletter</h4>
-							<div class="subscribe-form sub-one mb-10">
-								<input type="text" placeholder="Enter your email">
-								<button type="submit"><i class="bi bi-send-fill"></i></button>
-							</div>
-						</div>
-					</div>
-					<div class="col-xxl-3 col-lg-3 col-md-6 order-lg-1">
-						<div class="footer-widget mb-50">
-							<h4 class="widget-title">Quick Links</h4>
-							<ul>
-								<li>
-									<a href="about.html">About us</a>
-								</li>
-								<li>
-									<a href="course.html">Special Courses</a>
-								</li>
-								<li>
-									<a href="team.html">Meet our Team</a>
-								</li>
-								<li>
-									<a href="about.html">How it Works</a>
-								</li>
-								<li>
-									<a href="contact.html">Contact us</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-xxl-3 col-lg-3 col-md-6 order-last">
-						<div class="footer-widget mb-50 ps-xxl-5">
-							<h4 class="widget-title">Our Address</h4>
-							<ul>
-								<li>
-									<a href="about.html">4517 Washington Ave. Manche,
-										Kentucky 39495, Mexico.</a>
-								</li>
-								<li>
-									<a href="mailto:supportgolf765@gmail.com">supportgolf765@gmail.com</a>
-								</li>
-								<li>
-									<a href="#">+(480) 5255-0103</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="copyright-wrap pb-md-0 pb-5">
-					<div class="row align-items-center">
-						<div class="col-md-7">
-							<div class="copyright-text text-lg-start text-center pt-40 pb-lg-5 pb-4">
-								© Copyright 2025 <a href="https://themeforest.net/user/creativegigs/portfolio">Visim</a>
-								All Rights Reserved.
-							</div>
-						</div>
-						<div class="col-md-5 text-xl-end text-center">
-							<ul class="footer-menu">
-								<li><a href="#">Privacy &</a></li>
-								<li><a href="#">Cookie policy</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--footer-area end-->
+
+                <!-- Footer Section Start -->
+                <footer class="footer-section bg-cover fix" style="background-image: url('assets/img/home-1/footer-bg.jpg');">
+                    <div class="container">
+                        <div class="footer-wrappper">
+                            <div class="row g-4">
+                                <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-8 wow fadeInUp" data-wow-delay=".2s">
+                                    <div class="footer-widget-items">
+                                        <div class="widget-head">
+                                            <a href="index.html" class="footer-logo">
+                                                <img src="assets/img/logo/white-logo.svg" alt="img">
+                                            </a>
+                                        </div>
+                                        <div class="footer-content">
+                                            <p>
+                                                We have very good strength in innovative technology and tools with over 35 years of experience. We makes long-term investments goal in global companies in different 
+                                            </p>
+                                            <div class="social-icon">
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                            </div>
+                                        </div>
+                                     </div>
+                                </div>
+                                <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="footer-widget-items">
+                                        <div class="widget-head">
+                                            <h3>Quick Links</h3>
+                                            <div class="line"></div>
+                                        </div>
+                                        <ul class="list-area">
+                                            <li>
+                                                <a href="index.html">
+                                                    <i class="fa-regular fa-bookmark"></i> Home
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="event.html">
+                                                    <i class="fa-regular fa-bookmark"></i> Our Events
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="team.html">
+                                                    <i class="fa-regular fa-bookmark"></i> Speakers
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">
+                                                    <i class="fa-regular fa-bookmark"></i> Get Ticket
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">
+                                                    <i class="fa-regular fa-bookmark"></i> Contact Us
+                                                </a>
+                                            </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                                    <div class="footer-widget-items">
+                                        <div class="widget-head">
+                                            <h3>Information</h3>
+                                            <div class="line"></div>
+                                        </div>
+                                        <ul class="icon-area">
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="assets/img/home-1/footer-icon-01.svg" alt="img">
+                                                </div>
+                                                <div class="content">
+                                                    <p>Make a Quote</p>
+                                                    <a href="mailto:evenza@gmail.com">evenza@gmail.com</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img src="assets/img/home-1/footer-icon-02.svg" alt="img">
+                                                </div>
+                                                <div class="content">
+                                                    <p>Call Us 7/24</p>
+                                                    <a href="tel:+1085051736">+108-505-1736</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                                    <div class="footer-widget-items">
+                                        <div class="widget-head">
+                                            <h3>Up Coming Events</h3>
+                                            <div class="line"></div>
+                                        </div>
+                                        <ul class="recent-post">
+                                            <li>
+                                                <div class="thumb">
+                                                    <img src="assets/img/home-1/footer-post-01.jpg" alt="img">
+                                                </div>
+                                                <div class="content">
+                                                    <p> <i class="fa-solid fa-calendar"></i> 12 January, 2026</p>
+                                                    <h4><a href="news-details.html">Top 5 Most Famous Technology Trend In 2024</a></h4>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="thumb">
+                                                    <img src="assets/img/home-1/footer-post-02.jpg" alt="img">
+                                                </div>
+                                                <div class="content">
+                                                    <p> <i class="fa-solid fa-calendar"></i> 09 May, 2026</p>
+                                                    <h4><a href="news-details.html">How Can You Growing Your Agriculture Products</a></h4>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <div class="footer-bottom-wrapper">
+                                <p class="wow fadeInUp" data-wow-delay=".2s">© All Copyright 2026 by Evenza</p>       
+                                <ul class="footer-menu wow fadeInUp" data-wow-delay=".4s">
+                                    <li>
+                                        <a href="contact.html">
+                                            Terms & Condition
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">
+                                        Privacy Policy
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
 
 
-		<!--scrollToTopBtn start-->
-		<a id="scrollToTopBtn" class="progress-wrap">
-			<i class="bi bi-arrow-up"></i>
-		</a>
-		<!--scrollToTopBtn end-->
+            </div>
+        </div>
 
-	</div>
-	<!--main-page-wrapper end-->
-
-
-	<!-- JS here -->
-
-	<script src="assets/js/modernizr-3.5.0.min.js"></script>
-	<script src="assets/js/jquery-3.7.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.meanmenu.js"></script>
-	<script src="assets/js/slick.min.js"></script>
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/aos.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/js/jquery.waypoints.min.js"></script>
-	<script src="assets/js/jquery.easypiechart.min.js"></script>
-	<script src="assets/js/jquery-ui.js"></script>
-
-	<!--Custom JS here -->
-	<script src="assets/js/main.js"></script>
-
-
-</body>
-
+        
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Gsap Min Js >>-->
+        <script src="assets/js/gsap.min.js"></script>
+        <!--<< ScrollTrigger Min Js >>-->
+        <script src="assets/js/ScrollTrigger.min.js"></script>
+        <!--<< ScrollSmoother Min Js >>-->
+        <script src="assets/js/ScrollSmoother.min.js"></script>
+        <!--<< ScrollToPlugin Min Js >>-->
+        <script src="assets/js/ScrollToPlugin.min.js"></script>
+        <!--<< SplitText Min Js >>-->
+        <script src="assets/js/SplitText.min.js"></script>
+        <!--<< TextPlugin Min Js >>-->
+        <script src="assets/js/TextPlugin.js"></script>
+        <!--<< nice-selec Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

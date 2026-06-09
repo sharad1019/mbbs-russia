@@ -1,996 +1,1028 @@
-<main>
+ <div id="smooth-wrapper">
+            <div id="smooth-content">
 
-			<!-- theme-banner-one start -->
-			<section class="theme-banner-one position-relative z-1" data-background="assets/img/hero/hero-img-1.jpg">
-				<img class="position-absolute z-n1 top-0 mt-80 d-none d-xl-inline-block opacity-25"
-					src="assets/img//page-title/page-title-shape-2.png" alt="media">
-				<img class="position-absolute z-n1 bottom-0 ml-270 pl-220 d-none d-xl-inline-block opacity-25"
-					src="assets/img//shape/shape-46.png" alt="media">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-xxl-6 offset-xxl-1 col-lg-7">
-							<div class="hero-content mb-105">
-								<h1 class="main-title">STUDY MBBS <br> in <span>Russia</span></h1>
-								<p class="hero-description pe-xxl-5">Affordable medical education at top NMC & WHO recognized Russian universities with complete end-to-end support for Indian students. From university selection and admission documentation to visa processing, travel arrangements, hostel accommodation, and post-arrival assistance in Russia, our expert team guides you at every step to make your MBBS journey smooth, secure, and stress-free.</p>
-								<div
-									class="d-md-flex justify-content-lg-start justify-content-center align-items-center">
-									<a href="/" class="bstyle me-md-3">Apply Now</a>
-									<a href="https://www.youtube.com/watch?v=6stlCkUDG_s"
-										class="bstyle-2 popup-links d-none d-xl-inline-flex">Get Free consultation</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xxl-5 col-lg-5">
-							<div class="hero-img">
-								<div class="main-img">
-									<img class="img-fluid" src="assets/img/hero/hero-img-2.png" width="450px" alt="hero">
-								</div>
-								<img class="hero-shape-1 d-none d-xl-inline-block"
-									src="assets/img/hero/hero-shape-1.png" alt="shape" width="450px">
-							</div>
-						</div>
-					</div>
-				</div><!-- .container -->
-			</section>
-			<!-- theme-banner-one end -->
+                <!-- Hero Section Start -->
+                <section class="hero-section-1 hero-1 fix bg-cover" style="background-image: url('assets/img/home-1/956875445.webp');">
+                    <div class="hero-light">
+                        <img src="assets/img/home-1/hero-light.png" alt="">
+                    </div>
+                    <div class="hero-light2">
+                        <img src="assets/img/home-1/hero-light2.png" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-md-7">
+                                <div class="hero-content">
+                                    <h2 class="wow fadeInUp">WORLD OF TRAVEL & EVENTS</h2>
+                                    <h1 class="wow fadeInUp" data-wow-delay=".3s">CREATE UNFORGETTABLE EXPERIENCES</h1>
+                                    <div class="dk-brand-bottom-stats">
+                                        <div class="dk-stat-box">
+                                            <h4>15+</h4>
+                                            <p>Years Experience</p>
+                                        </div>
+                                        <div class="dk-stat-box">
+                                            <h4>100+</h4>
+                                            <p>Destinations</p>
+                                        </div>
+                                        <div class="dk-stat-box">
+                                            <h4>500+</h4>
+                                            <p>Successful Events</p>
+                                        </div>
+                                        <div class="dk-stat-box">
+                                            <h4>10K+</h4>
+                                            <p>Happy Clients</p>
+                                        </div>
+                                    </div>
+                                    <div class="year-area wow fadeInUp" data-wow-delay=".5s">
+                                        <div class="year-content">
+                                            <h4>PLAN YOUR EVENT</h4>
+                                            <h5>From international tours to premium corporate events and educational experiences, we bring creativity, comfort, and seamless planning together.</h5>
+                                        </div>
+                                    </div>
+                                    <div class="hero-bottom wow fadeInUp" data-wow-delay=".7s">
+                                        <a href="contact.html" class="theme-btn">
+                                            Get A Ticket
+                                            <i class="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ">
+                                <div class="dk-brand-showcase-wrap">
+                                    <div class="dk-brand-header">
+                                        <span class="dk-brand-mini-title">OUR BRANDS</span>
+                                        <h2>Three Brands. One Vision.<br>Endless Experiences.</h2>
+                                        <p>Delivering excellence through travel, events, and educational experiences with creativity, innovation, and professionalism.</p>
+                                    </div>
 
-			<!-- offer-news start -->
-			<div class="theme-bg2 offer-news">
-				<div class="marquee-wrapper">
-					<div class="marquee-slide">
+                                    <div class="dk-brand-card-container">
+                                        <div class="dk-brand-timeline"></div>
+                                        <div class="dk-brand-card dk-brand-card-purple">
+                                            <div class="dk-brand-number">01</div>
+                                            <div class="dk-brand-icon">✦</div>
+                                            <div class="dk-brand-content">
+                                                <h3>DKALEIDO</h3>
+                                                <span>Creative Education & Innovation</span>
+                                                <p>Empowering learners and creators through modern educational programs, workshops, and creative solutions.</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="dk-brand-card dk-brand-card-orange">
+                                            <div class="dk-brand-number">02</div>
+                                            <div class="dk-brand-icon">✦</div>
+                                            <div class="dk-brand-content">
+                                                <h3>ROUTE2INDIA</h3>
+                                                <span>Explore the Heart of India</span>
+                                                <p>Discover customized India tours, cultural journeys, and unforgettable heritage experiences.</p>
+                                            </div>
+                                        </div>
+    
+                                        <div class="dk-brand-card dk-brand-card-blue">
+                                            <div class="dk-brand-number">03</div>
+                                            <div class="dk-brand-icon">✦</div>
+                                            <div class="dk-brand-content">
+                                                <h3>TRAVXEVENT</h3>
+                                                <span>Travel • Events • Experiences</span>
+                                                <p>Creating premium travel and event experiences with seamless execution and luxury planning.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
 
-						<div class="news-wrapper">
-							<span>2026 MBBS Admission Open For Russia!</span>
-							<a href="contact.html">Apply Now</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>Get Free MBBS Counselling For Russian Universities</span>
-							<a href="contact.html">Enquire Now</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- About Section Start -->
+                <section class="about-section section-padding fix">
+                    <div class="container">
+                        <div class="about-wrapper">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="about-image-items">
+                                        <div class="row g-4">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
+                                                <div class="about-image1">
+                                                    <img src="assets/img/home-1/about-image1.jpg" alt="">
+                                                </div>
+                                                <div class="about-counters">
+                                                    <img src="assets/img/home-1/icon.png" alt="">
+                                                    <h2><span class="count">15</span>+</h2>
+                                                    <p>Years of<br> Industry Experience</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".5s">
+                                                <div class="about-image-2">
+                                                   <img src="assets/img/home-1/about-image-2.jpg" alt="">
+                                                </div>
+                                                <div class="about-image-3">
+                                                   <img src="assets/img/home-1/about-image-3.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="about-content">
+                                        <div class="section-title mb-0">
+                                            <h6 class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                                WHY CHOOSE OUR PLATFORM
+                                                <span class="line-2"></span>
+                                            </h6>
+                                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Complete Solutions for Corporate Travel, Education & Events</h2>
+                                        </div>
+                                        <p class="about-text wow fadeInUp" data-wow-delay=".3s">
+                                            From corporate travel management and educational programs to premium event planning, we create professional experiences that connect people, brands, and opportunities worldwide.   
+                                        </p>
+                                        <div class="icon-items-area wow fadeInUp" data-wow-delay=".5s">
+                                            <div class="icon-items">
+                                                <div class="icon">
+                                                    <img src="assets/img/home-1/about-icon-01.svg" alt="img">
+                                                </div>
+                                                <h4>10,000+ Professional Attendees</h4>
+                                            </div>
+                                            <div class="icon-items">
+                                                <div class="icon">
+                                                    <img src="assets/img/home-1/about-icon-02.svg" alt="img">
+                                                </div>
+                                                <h4>Connect with Industry Experts</h4>
+                                            </div>
+                                        </div>
+                                        <p class="about-text-2 wow fadeInUp" data-wow-delay=".7s">Whether it's managing a corporate event, planning an educational summit, or delivering luxury travel experiences, our team ensures creativity, professionalism, and flawless execution in every project.</p>
+                                        <div class="about-bottom-area wow fadeInUp" data-wow-delay=".9s">
+                                            <a href="contact.html" class="theme-btn">
+                                                Contact
+                                                <i class="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                            <div class="client-phn-area">
+                                                <div class="client-image">
+                                                    <div class="phone-icon">
+                                                        <i class="fa-solid fa-phone"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="client-content">
+                                                    <p>Call Us:</p>
+                                                    <a href="tel:+91 98717 12337">+91 98717 12337</a>
+                                                </div>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>NMC & WHO Approved Universities Available</span>
-							<a href="contact.html">View More</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Service Section Start -->
+                <section class="service-section section-padding fix bg-cover" style="background-image: url('assets/img/home-1/service-bg.jpg');">
+                    <div class="container">
+                        <div class="section-title text-center mb-0">
+                            <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                <span class="line-1"></span>
+                                MBBS IN RUSSIA
+                                <span class="line-2"></span>
+                            </h6>
+                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Top Russian Medical Universities for MBBS Admission</h2>
+                            <p class="mt-3 wow fadeInUp" data-wow-delay=".3s">
+                                Start your medical journey with globally recognized Russian universities offering affordable MBBS programs, modern infrastructure, international exposure, and excellent career opportunities for Indian students.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="row">
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="service-box-items">
+                                        <div class="service-thumb">
+                                            <img src="assets/img/home-1/belgorod-state-university.jpg" alt="img">
+                                            <img src="assets/img/home-1/belgorod-state-university.jpg" alt="img">
+                                        </div>
+                                        <div class="service-content">
+                                            <h3><a href="#">Belgorod State University</a></h3>
+                                            <ul>
+                                                <li>NMC & WHO Approved</li>
+                                                <li>Affordable MBBS Fees</li>
+                                                <li>English Medium Available</li>
+                                                <li>Modern Campus & Hostel Facilities</li>
+                                            </ul>
+                                            <div class="service-bottom-area">
+                                                 <a href="#" class="events-btn">
+                                                    <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    <span class="text">View Details</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="service-box-items">
+                                        <div class="service-thumb">
+                                            <img src="assets/img/home-1/crimea-state-medical-university.jpg" alt="img">
+                                            <img src="assets/img/home-1/crimea-state-medical-university.jpg" alt="img">
+                                        </div>
+                                        <div class="service-content">
+                                            <h3><a href="#">Crimea State Medical University</a></h3>
+                                            <ul>
+                                                <li>Globally Recognized Degree</li>
+                                                <li>Indian Student Friendly Campus</li>
+                                                <li>Advanced Medical Training</li>
+                                                <li>Safe & Comfortable Environment</li>
+                                            </ul>
+                                            <div class="service-bottom-area">
+                                                 <a href="#" class="events-btn">
+                                                    <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    <span class="text">View Details</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="service-box-items">
+                                        <div class="service-thumb">
+                                            <img src="assets/img/home-1/orenburg-state-medical-university.jpg" alt="img">
+                                            <img src="assets/img/home-1/orenburg-state-medical-university.jpg" alt="img">
+                                        </div>
+                                        <div class="service-content">
+                                            <h3><a href="#">Orenburg State Medical University</a></h3>
+                                            <ul>
+                                                <li>High Quality Medical Education</li>
+                                                <li>Experienced Faculty Members</li>
+                                                <li>FMGE/NExT Preparation Support</li>
+                                                <li>Affordable Living Expenses</li>
+                                            </ul>
+                                            <div class="service-bottom-area">
+                                                 <a href="#" class="events-btn">
+                                                    <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    <span class="text">View Details</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="service-box-items">
+                                        <div class="service-thumb">
+                                            <img src="assets/img/home-1/orel-state-university.jpg" alt="img">
+                                            <img src="assets/img/home-1/orel-state-university.jpg" alt="img">
+                                        </div>
+                                        <div class="service-content">
+                                            <h3><a href="#">Orel State University</a></h3>
+                                            <ul>
+                                                <li>International MBBS Curriculum</li>
+                                                <li>Practical Clinical Exposure</li>
+                                                <li>Hostel & Indian Food Available</li>
+                                                <li>Complete Admission Assistance</li>
+                                            </ul>
+                                            <div class="service-bottom-area">
+                                                 <a href="#" class="events-btn">
+                                                    <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                                                    <span class="text">View Details</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>Affordable MBBS Fees Starting From ₹2.5 Lakhs/Year</span>
-							<a href="contact.html">Check Fees</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Team Section Start -->
+                <section class="team-section section-padding fix">
+                    <div class="container">
+                        <div class="section-title-area">
+                            <div class="section-title">
+                                <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                our speakers <span class="line-2"></span> </h6>
+                                <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Our Amazing & learned <br> event Speakers</h2>
+                            </div>
+                            <a href="contact.html" class="theme-btn wow fadeInUp" data-wow-delay=".3s">
+                                registration Now
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+                        <div class="team-wraper">
+                            <div class="row g-4">
+                                <div class="col-xl-6 col-lg-8 wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="team-left-content">
+                                        <div class="team-image">
+                                            <img src="assets/img/home-1/team-01.jpg" alt="img">
+                                            <img src="assets/img/home-1/team-01.jpg" alt="img">
+                                        </div>
+                                        <div class="team-content">
+                                            <h3><a href="team-details.html">Ralph Edwards</a></h3>
+                                            <p>Maxiis Manager</p>
+                                            <div class="line"></div>
+                                            <a href="tel:+44(0)3075487536" class="call-number">+44 (0)  307 548 7536</a>
+                                            <div class="social-icon d-flex">
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#" class="color-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="team-right-items">
+                                        <div class="row g-4">
+                                            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                                <div class="team-thumb-box">
+                                                    <img src="assets/img/home-1/team-02.jpg" alt="img">
+                                                    <img src="assets/img/home-1/team-02.jpg" alt="img">
+                                                    <ul class="team-icon d-grid justify-content-center align-items-center">
+                                                        <li>
+                                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fab fa-pinterest-p"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content">
+                                                        <h3><a href="team-details.html">Annette Black</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                                <div class="team-thumb-box">
+                                                    <img src="assets/img/home-1/team-03.jpg" alt="img">
+                                                    <img src="assets/img/home-1/team-03.jpg" alt="img">
+                                                    <ul class="team-icon d-grid justify-content-center align-items-center">
+                                                        <li>
+                                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i class="fab fa-pinterest-p"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="content">
+                                                        <h3><a href="team-details.html">Kristin Watson</a></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-					</div>
+                <!-- Experience Section Start -->
+                <section class="experience-section section-padding fix bg-cover" style="background-image: url('assets/img/home-1/experience-bg.jpg');">
+                    <div class="shape-bg">
+                        <img src="assets/img/home-1/experience-bg-shape.png" alt="img">
+                    </div>
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-xl-6 col-lg-8">
+                                <div class="experience-content">
+                                    <div class="section-title mb-0">
+                                        <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                       Get Experience <span class="line-2"></span> </h6>
+                                        <h2 class="text-white tx-title sec_title  tz-itm-title tz-itm-anim">the Greatest Experience in Your Business Goals</h2>
+                                    </div>
+                                    <p class="experience-text wow fadeInUp" data-wow-delay=".3s">
+                                        Integer ac felis ac augue ullamcorper tempus id non dui. Nam feugia finibus scelerisque. Proin semper arcu no scelerisque feugiat at a dor. 
+                                    </p>
+                                    <a href="contact.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">
+                                        registration Now 
+                                        <i class="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-					<div class="marquee-slide">
+                <!-- Feature Section Start -->
+                <section class="feature-section section-padding fix">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                <span class="line-1"></span>
+                                Our benefits
+                                <span class="line-2"></span>
+                            </h6>
+                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">What You Will Get</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="feature-box-items">
+                                    <div class="box-shape">
+                                        <img src="assets/img/home-1/feature-bg-shape.png" alt="img">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/img/home-1/feature-icon-01.svg" alt="img">
+                                    </div>
+                                    <div class="content">
+                                        <h4>
+                                            Confirm Speakers
+                                        </h4>
+                                        <p>
+                                            Integer ac felis ac augue tempu id non dui. Nam feugiat finibus scelerisque. Proin semper
+                                        </p>
+                                        <a href="about.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                                <div class="feature-box-items">
+                                    <div class="box-shape">
+                                        <img src="assets/img/home-1/feature-bg-shape.png" alt="img">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/img/home-1/feature-icon-02.svg" alt="img">
+                                    </div>
+                                    <div class="content">
+                                        <h4>
+                                            Best Digital Ideas
+                                        </h4>
+                                        <p>
+                                            Integer ac felis ac augue tempu id non dui. Nam feugiat finibus scelerisque. Proin semper
+                                        </p>
+                                        <a href="about.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                                <div class="feature-box-items">
+                                    <div class="box-shape">
+                                        <img src="assets/img/home-1/feature-bg-shape.png" alt="img">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/img/home-1/feature-icon-03.svg" alt="img">
+                                    </div>
+                                    <div class="content">
+                                        <h4>
+                                            Networking People
+                                        </h4>
+                                        <p>
+                                            Integer ac felis ac augue tempu id non dui. Nam feugiat finibus scelerisque. Proin semper
+                                        </p>
+                                        <a href="about.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                                <div class="feature-box-items">
+                                    <div class="box-shape">
+                                        <img src="assets/img/home-1/feature-bg-shape.png" alt="img">
+                                    </div>
+                                    <div class="icon">
+                                        <img src="assets/img/home-1/feature-icon-04.svg" alt="img">
+                                    </div>
+                                    <div class="content">
+                                        <h4>
+                                            Inspiring Keynotes
+                                        </h4>
+                                        <p>
+                                            Integer ac felis ac augue tempu id non dui. Nam feugiat finibus scelerisque. Proin semper
+                                        </p>
+                                        <a href="about.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>Indian Hostel & Food Facilities Available In Russia</span>
-							<a href="contact.html">Know More</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Reasons Feature Section Start -->
+                <section class="reasons-feature-section fix section-bg">
+                    <div class="shape-1">
+                        <img src="assets/img/home-1/reasons-shape-01.png" alt="img">
+                    </div>
+                    <div class="reasons-wrapper">
+                        <div class="row g-4 align-items-center">
+                            <div class="col-xl-6">
+                                <div class="reasons-left-video-thumb fix">
+                                    <img data-speed=".8" src="assets/img/home-1/reasons-bg-shape.jpg" alt="img">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="reasons-right-content">
+                                    <div class="reasons-bg-shape">
+                                        <img src="assets/img/home-1/reasons-bg-shape.png" alt="img">
+                                    </div>
+                                    <div class="section-title mb-0">
+                                        <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                            ABOUT TRAVXEVENT
+                                            <span class="line-2"></span>
+                                        </h6>
+                                        <h2 class="text-white tx-title sec_title  tz-itm-title tz-itm-anim">Corporate MICE, Business Tours & Professional Event Management</h2>
+                                    </div>
+                                    <p class="reasons-text wow fadeInUp" data-wow-delay=".3s">
+                                        TravXevent is a professional MICE and corporate event management company specializing in conferences, business tours, corporate retreats, networking events, and educational programs with seamless planning and premium execution.
+                                    </p>
+                                    <div class="list-items wow fadeInUp" data-wow-delay=".5s">
+                                        <ul class="wow fadeInUp">
+                                            <li>
+                                                <img src="assets/img/home-1/check-icon.svg" alt="img">
+                                                Corporate Tours & Team Retreats
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/home-1/check-icon.svg" alt="img">
+                                                Conferences & Business Meetings
+                                            </li>
+                                        </ul>
+                                        <ul class="wow fadeInUp">
+                                            <li>
+                                                <img src="assets/img/home-1/check-icon.svg" alt="img">
+                                                MICE Event Management
+                                            </li>
+                                            <li>
+                                                <img src="assets/img/home-1/check-icon.svg" alt="img">
+                                                Educational & International Programs
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="counter-items-area wow fadeInUp" data-wow-delay=".7s">
+                                        <div class="counter-items">
+                                            <div class="icon">
+                                                <img src="assets/img/home-1/reasons-icon-01.png" alt="img">
+                                                <h2><span class="count">300</span>+</h2>
+                                            </div>
+                                            <h5>Corporate Events Managed</h5>
+                                        </div>
+                                        <div class="counter-items">
+                                            <div class="icon">
+                                                <img src="assets/img/home-1/reasons-icon-02.png" alt="img">
+                                                <h2><span class="count">50</span>+</h2>
+                                            </div>
+                                            <h5>Business Destinations Covered</h5>
+                                        </div>
+                                        <div class="counter-items">
+                                            <div class="icon">
+                                                <img src="assets/img/home-1/reasons-icon-03.png" alt="img">
+                                                <h2><span class="count">10</span>K+</h2>
+                                            </div>
+                                            <h5>Professionals & Participants Served</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>Complete Visa & Admission Assistance For Students</span>
-							<a href="contact.html">Get Support</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Pricing Section Start -->
+                <section class="pricing-section section-padding fix">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                            <span class="line-1"></span>
+                                Pricing Plans
+                                <span class="line-2"></span>
+                            </h6>
+                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Get Your Event Ticket</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="pricing-box-items">
+                                    <span>Standard</span>
+                                    <div class="pricing-header">
+                                        <h3>Single Access</h3>
+                                        <p>All prices exclude 15% VAT</p>
+                                        <h2>$49 <sub>/ Per Person</sub></h2>
+                                    </div>
+                                    <h4>WHAT’S INCLUDED</h4>
+                                    <ul class="pricing-list">
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i>Standard Feature
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Dashboard Access
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Unlimited pages for sitemap
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> 100% Satisfaction Guarantee
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> Lifetime free support
+                                        </li>
+                                    </ul>
+                                    <a href="contact.html" class="theme-btn">
+                                        Purchase now
+                                        <i class="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="pricing-box-items active">
+                                    <span>Premium</span>
+                                    <div class="pricing-header">
+                                        <h3>For VIP Access</h3>
+                                        <p>All prices exclude 15% VAT</p>
+                                        <h2>$69 <sub>/ Per Person</sub></h2>
+                                    </div>
+                                    <h4>WHAT’S INCLUDED</h4>
+                                    <ul class="pricing-list">
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i>Standard Feature
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Dashboard Access
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Unlimited pages for sitemap
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> 100% Satisfaction Guarantee
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> Lifetime free support
+                                        </li>
+                                    </ul>
+                                    <a href="contact.html" class="theme-btn">
+                                        Purchase now
+                                        <i class="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="pricing-box-items">
+                                    <span>Platinum</span>
+                                    <div class="pricing-header">
+                                        <h3>Standard Access</h3>
+                                        <p>All prices exclude 15% VAT</p>
+                                        <h2>$99 <sub>/ Per Person</sub></h2>
+                                    </div>
+                                    <h4>WHAT’S INCLUDED</h4>
+                                    <ul class="pricing-list">
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i>Standard Feature
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Dashboard Access
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-circle-check"></i> Unlimited pages for sitemap
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> 100% Satisfaction Guarantee
+                                        </li>
+                                        <li class="style-2">
+                                            <i class="fa-solid fa-circle-check color-2"></i> Lifetime free support
+                                        </li>
+                                    </ul>
+                                    <a href="contact.html" class="theme-btn">
+                                        Purchase now
+                                        <i class="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-						<div class="news-wrapper">
-							<span>Top Medical Universities In Russia For Indian Students</span>
-							<a href="contact.html">Explore</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Gallery Section Start -->
+                <div class="gallery-section fix">
+                    <div class="row g-0">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-01.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-01.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-02.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-02.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-03.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-03.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-04.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-04.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-05.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-05.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-06.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-06.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-07.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-07.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div class="gallery-card-item-inner">
+                                <div class="gallery-image style-height">
+                                    <a href="assets/img/home-1/gallery-08.jpg" class="img-popup">
+                                        <img src="assets/img/home-1/gallery-08.jpg" alt="img">
+                                        <div class="icon">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-						<div class="news-wrapper">
-							<span>Secure Your MBBS Seat In Russia Today</span>
-							<a href="contact.html">Apply Today</a>
-							<img src="assets/img/icon/icon-2.svg" alt="icon">
-						</div>
+                <!-- Brand Section Start -->
+                <section class="brand-section section-padding fix">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                <span class="line-1"></span>
+                                Our Platinum Sponsors
+                                <span class="line-2"></span>
+                            </h6>
+                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Our Official Sponsors</h2>
+                        </div>
+                        <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-2 row-cols-2 g-0 wow fadeInUp" data-wow-delay=".3s">
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-01.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-01.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-02.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-02.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-03.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-03.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-04.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-04.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-05.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-05.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-06.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-06.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-07.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-07.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-08.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-08.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-09.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-09.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="brand-box">
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-10.png" alt="img">
+                                    </span>
+                                    <span class="brand-img-1">
+                                        <img src="assets/img/home-1/brand-10.png" alt="img">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-					</div>
-				</div>
-			</div>
-			<!-- offer-news end -->
+                <!-- Cta Countdown Section Start -->
+                <section class="cta-countdown-section section-padding fix bg-cover" style="background-image: url('assets/img/home-1/cta-countdown-bg.jpg');">
+                    <div class="container">
+                        <div class="cta-countdown-wrapper">
+                            <div class="content">
+                                <div class="section-title mb-0">
+                                    <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                                        Countdown
+                                        <span class="line-2"></span>
+                                    </h6>
+                                    <h2 class="text-white tx-title sec_title  tz-itm-title tz-itm-anim">Countdown Until The <br> Event. Register Now</h2>
+                                </div>
+                            </div>
+                            <div class="cooming-soon-items wow fadeInUp" data-wow-delay=".3s">
+                                <div class="coming-soon-time" data-event-time="2026-12-31T23:59:59">
+                                    <div class="timer-content">
+                                        <h2 id="day">00</h2>
+                                        <span>Days</span>
+                                    </div>
+                                    <div class="timer-content">
+                                        <h2 id="hour">00</h2>
+                                        <span>HRS</span>
+                                    </div>
+                                    <div class="timer-content">
+                                        <h2 id="min">00</h2>
+                                        <span>Mins</span>
+                                    </div>
+                                    <div class="timer-content">
+                                        <h2 id="sec">00</h2>
+                                        <span>Secs</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-			<!-- service-section start -->
-			<section class="service-section position-relative z-1 pt-135  pt-lg-110">
-				<img class="position-absolute start-0 top-0 mt-100 z-n1 d-none d-xl-inline-block"
-					src="assets/img/shape/shape-1.png" alt="shape">
-				<div class="container">
-					<div class="row align-items-end">
-						<div class="col-lg-8">
-							<div class="title-one text-lg-start text-center mb-70 mb-md-30">
-								<h2 class="title">Easy visa support from start to finish</h2>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="text-lg-end text-center mb-70">
-								<a class="ht-btn" href="services.html">See All Services</a>
-							</div>
-						</div>
-					</div>
-					<div class="row align-items-center justify-content-center">
-						<div class="col-lg-4 col-md-6">
-							<div class="service-wrap-one wow fadeInUp">
-								<div class="service-thumb">
-									<img class="front-img" src="assets/img/media/media-1.jpg" alt="media">
-									<img class="back-img" src="assets/img/media/media-1w.jpg" alt="media">
-								</div>
-								<h3 class="service-title"><a href="services-details.html">Student Visa</a>
-								</h3>
-								<p>Secure your student visa for studying abroad with our trusted services.</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="service-wrap-one wow fadeInUp" data-wow-delay="0.2s">
-								<div class="service-thumb" data-background="assets/img/bg/bg-1.jpg">
-									<img class="front-img" src="assets/img/media/media-2.jpg" alt="media">
-									<img class="back-img" src="assets/img/media/media-2w.jpg" alt="media">
-								</div>
-								<h3 class="service-title"><a href="services-details.html">Business Visa</a>
-								</h3>
-								<p>Fast-track your business visa to expand your global business opportunities.</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="service-wrap-one wow fadeInUp" data-wow-delay="0.3s">
-								<div class="service-thumb" data-background="assets/img/bg/bg-1.jpg">
-									<img class="front-img" src="assets/img/media/media-3.jpg" alt="media">
-									<img class="back-img" src="assets/img/media/media-3w.jpg" alt="media">
-								</div>
-								<h3 class="service-title"><a href="services-details.html">Tourist Visa</a>
-								</h3>
-								<p>Secure your tourist visa with easy and reliable guidance for smooth travel.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- service-section end -->
+                <!-- News Section Start -->
+                <section class="news-section section-padding fix">
+                    <div class="container">
+                        <div class="section-title text-center">
+                            <h6 class="sub-title sub-title tz-sub-tilte tz-sub-anim tx-subTitle">
+                            <span class="line-1"></span>
+                                Crafting unforgettable events
+                                <span class="line-2"></span>
+                            </h6>
+                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">Innovative event solutions</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="news-box-items">
+                                    <div class="news-thumb">
+                                        <img src="assets/img/home-1/news-01.jpg" alt="img">
+                                        <img src="assets/img/home-1/news-01.jpg" alt="img">
+                                        <div class="post-date">
+                                            <h4>10</h4>
+                                            <p>July</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-content">
+                                        <p>Client Engagement</p>
+                                        <h3><a href="news-details.html">Trends shaping the future of event management services</a></h3>
+                                        <a href="news-details.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="news-box-items">
+                                    <div class="news-thumb">
+                                        <img src="assets/img/home-1/news-02.jpg" alt="img">
+                                        <img src="assets/img/home-1/news-02.jpg" alt="img">
+                                        <div class="post-date">
+                                            <h4>08</h4>
+                                            <p>July</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-content">
+                                        <p>Venue Selection</p>
+                                        <h3><a href="news-details.html">Guest management strategies for large events</a></h3>
+                                        <a href="news-details.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                <div class="news-box-items">
+                                    <div class="news-thumb">
+                                        <img src="assets/img/home-1/news-01.jpg" alt="img">
+                                        <img src="assets/img/home-1/news-01.jpg" alt="img">
+                                        <div class="post-date">
+                                            <h4>04</h4>
+                                            <p>July</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-content">
+                                        <p>Client Engagement</p>
+                                        <h3><a href="news-details.html">Trends shaping the future of event management services</a></h3>
+                                        <a href="news-details.html" class="link-btn">Read More <i class="fa-solid fa-arrow-up-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-			<!-- offer-country-section end -->
-			<section class="offer-country-section position-relative z-1 pt-90 pb-110 pb-lg-30">
-				<img class="position-absolute end-0 top-0 mt-n1 z-n1 d-none d-xl-inline-block"
-					src="assets/img/shape/shape-2.png" alt="shape">
-				<div class="contianer">
-					<div class="row justify-content-center">
-						<div class="col-lg-6">
-							<div class="title-one text-center mb-70 mb-md-30 wow fadeInUp">
-								<h2 class="title">Countries We Help Immigrate</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="country-list py-5">
-					<div class="country-wrapper">
-						<div class="item">
-							<img src="assets/img/media/austria.jpg" alt="flag">
-							<span>Austria</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/new.jpg" alt="flag">
-							<span>New Zealand</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/china.jpg" alt="flag">
-							<span>China</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/afg.jpg" alt="flag">
-							<span>Afghanistan</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bra.svg" alt="flag">
-							<span>Brazil</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/aus.jpg" alt="flag">
-							<span>Australia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/colum.jpg" alt="flag">
-							<span>Colombia</span>
-						</div>
-					</div>
-					<div class="country-wrapper">
-						<div class="item">
-							<img src="assets/img/media/austria.jpg" alt="flag">
-							<span>Austria</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/new.jpg" alt="flag">
-							<span>New Zealand</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/china.jpg" alt="flag">
-							<span>China</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/afg.jpg" alt="flag">
-							<span>Afghanistan</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bra.svg" alt="flag">
-							<span>Brazil</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/aus.jpg" alt="flag">
-							<span>Australia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/colum.jpg" alt="flag">
-							<span>Colombia</span>
-						</div>
-					</div>
-				</div>
-				<div class="country-list country-list-two py-5">
-					<div class="country-wrapper">
-						<div class="item">
-							<img src="assets/img/media/malaysia.jpg" alt="flag">
-							<span>Malaysia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/thailand.jpg" alt="flag">
-							<span>Thailand</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/cambodia.svg" alt="flag">
-							<span>Cambodia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/blezium.jpg" alt="flag">
-							<span>Belgium</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bra.svg" alt="flag">
-							<span>Brazil</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bulgaria.jpg" alt="flag">
-							<span>Bulgaria</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/canada.jpg" alt="flag">
-							<span>Canada</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/german.jpg" alt="flag">
-							<span>Germany</span>
-						</div>
-					</div>
-					<div class="country-wrapper">
-						<div class="item">
-							<img src="assets/img/media/malaysia.jpg" alt="flag">
-							<span>Malaysia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/thailand.jpg" alt="flag">
-							<span>Thailand</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/cambodia.svg" alt="flag">
-							<span>Cambodia</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/blezium.jpg" alt="flag">
-							<span>Belgium</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bra.svg" alt="flag">
-							<span>Brazil</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/bulgaria.jpg" alt="flag">
-							<span>Bulgaria</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/canada.jpg" alt="flag">
-							<span>Canada</span>
-						</div>
-						<div class="item">
-							<img src="assets/img/media/german.jpg" alt="flag">
-							<span>Germany</span>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- offer-country-section end -->
-
-			<!-- about-section start -->
-			<section class="light-bg about-section position-relative z-1 pt-130 pb-90 pt-lg-60 pb-lg-20">
-				<img class="position-absolute z-n1 start-0 top-0 ml-20 jump d-none d-lg-inline-block"
-					src="assets/img/shape/shape-4.png" alt="shape">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="img-wrapper-one position-relative mb-40">
-								<div class="main-img">
-									<img class="img-fluid radius-35" src="assets/img/media/media-4.jpg" alt="About">
-								</div>
-
-								<div class="float-content-one d-none d-md-inline-flex">
-									<img class="shape-1" src="assets/img/shape/shape-3.png" alt="shape">
-									<h3 class="number"><span class="counter">24</span>k+</h3>
-									<p class="counter-title">Successful Projects</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 ps-xxl-4">
-							<div class="title-one mb-40">
-								<h2 class="title">Turn your Dream into reality</h2>
-								<p class="description-text">Take the leap from dreaming to doing, and let us help
-									you turn your vision into a successful with our support.</p>
-							</div>
-							<div class="white-bg radius-30 pt-45 px-xxl-5 px-3 mb-40">
-								<div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 mb-45">
-									<div class="col">
-										<div class="counter-wrap-one">
-											<h3 class="number"><span class="counter">420</span>+</h3>
-											<p class="counter-title">Total Consultation Members</p>
-										</div>
-									</div>
-									<div class="col">
-										<div class="counter-wrap-one">
-											<h3 class="number"><span class="counter">25</span>+</h3>
-											<p class="counter-title">Years of Experience</p>
-										</div>
-									</div>
-								</div>
-								<div class="user-content-wrap-one d-xxl-inline-flex d-none wow fadeInUp mb-15"
-									data-wow-delay="0.3s">
-									<ul class="feedback-user-list">
-										<li><img src="assets/img/media/media-5.jpg" alt="author"></li>
-										<li><img src="assets/img/media/media-6.jpg" alt="author"></li>
-										<li><img src="assets/img/media/media-7.jpg" alt="author"></li>
-										<li><img src="assets/img/media/media-8.jpg" alt="author"></li>
-										<li class="number"><i class="bi bi-plus"></i></li>
-									</ul>
-									<div class="user-content ml-20">
-										<h3 class="number"><span class="counter">1.3</span>m+</h3>
-										<p class="counter-title">Trusted customers</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- about-section end -->
-
-			<!-- what-we-do-section start -->
-			<section class="what-we-do-section position-relative z-1 pt-130 pt-lg-60 pb-30 pb-lg-20">
-				<img class="position-absolute z-n1 end-0 top-0 jump d-none d-lg-inline-block"
-					src="assets/img/shape/shape-5.png" alt="shape">
-				<div class="container">
-					<div class="row align-items-end">
-						<div class="col-lg-8">
-							<div class="title-one text-lg-start text-center mb-70 mb-md-30">
-								<h2 class="title">Offering You Premium Best Features</h2>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="text-lg-end text-center mb-70">
-								<a class="ht-btn" href="services.html">Explore more</a>
-							</div>
-						</div>
-					</div>
-					<div class="row align-items-center">
-						<div class="col-lg-7 gxs-0 row row-cols-lg-2 row-cols-md-2 row-cols-1 radius-30 mb-40">
-							<div class="col">
-								<div class="feature-wrap-one fw-one">
-									<div class="icon">
-										<img src="assets/img/icon/icon-4.svg" alt="icon">
-									</div>
-									<div class="feature-content">
-										<h3 class="feature-title">Visa Support</h3>
-										<p>End-to-end support for smooth and stress-free visa processing.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="feature-wrap-one fw-two">
-									<div class="icon">
-										<img src="assets/img/icon/icon-4.svg" alt="icon">
-									</div>
-									<div class="feature-content">
-										<h3 class="feature-title">Expert Team</h3>
-										<p>A team of visa professionals guiding you through every step.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="feature-wrap-one fw-three">
-									<div class="icon">
-										<img src="assets/img/icon/icon-4.svg" alt="icon">
-									</div>
-									<div class="feature-content">
-										<h3 class="feature-title">Immigration</h3>
-										<p>Legal process of settling in another country permanently.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="feature-wrap-one fw-four">
-									<div class="icon">
-										<img src="assets/img/icon/icon-4.svg" alt="icon">
-									</div>
-									<div class="feature-content">
-										<h3 class="feature-title">98% Success</h3>
-										<p>Trusted by thousands with a 98% success track record</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="main-img text-lg-end text-center mb-40">
-								<img class="img-fluid" src="assets/img/media/media-9.jpg" alt="media">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- what-we-do-section end -->
-
-			<!-- working-process-section start -->
-			<section
-				class="working-process-section position-relative z-1 pt-70 pt-lg-60 pb-180 pb-lg-120 pb-md-100 pb-xs-60">
-				<img src="assets/img/shape/shape-7.png" alt="shape" class="shape-w1 d-none d-xl-inline-block">
-				<img src="assets/img/shape/shape-4.png" alt="shape" class="shape-w2 d-none d-xl-inline-block">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-8">
-							<div class="title-one text-center mb-130 mb-md-90">
-								<h2 class="title">Simple steps to easily
-									get your visa</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-xl-9 col-lg-10">
-							<div class="process-wrapper text-center">
-								<img class="main-img img-fluid d-none d-lg-inline-block"
-									src="assets/img/media/media-10.jpg" alt="media">
-								<img class="bg-round-shape img-fluid d-none d-md-inline-block"
-									src="assets/img/shape/shape-6.png" alt="shape">
-								<ul class="worklist">
-									<li>
-										<div class="tooltip-box tb-1">
-											<div class="icon">
-												<img src="assets/img/icon/icon-8.png" alt="shape">
-											</div>
-											<div class="tooltip-content">
-												Selecet a Service
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="tooltip-box tb-2">
-											<div class="icon">
-												<img src="assets/img/icon/icon-7.png" alt="shape">
-											</div>
-											<div class="tooltip-content">
-												Collect Your<br> Visa
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="tooltip-box tb-3">
-											<div class="icon">
-												<img src="assets/img/icon/icon-10.png" alt="shape">
-											</div>
-											<div class="tooltip-content">
-												Meeting Booking
-											</div>
-										</div>
-									</li>
-									<li>
-										<div class="tooltip-box tb-4">
-											<div class="icon">
-												<img src="assets/img/icon/icon-9.png" alt="shape">
-											</div>
-											<div class="tooltip-content">
-												Records & Payment
-											</div>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- working-process-section end -->
-
-			<!-- courses-section start -->
-			<section class="light-bg courses-section position-relative z-1 pt-130 pt-lg-60 pb-90 pb-lg-20">
-				<div class="container">
-					<div class="row align-items-end">
-						<div class="col-lg-8">
-							<div class="title-one text-lg-start text-center mb-70 mb-xs-30">
-								<h2 class="title">Expert-Led Training &
-									Certification</h2>
-							</div>
-						</div>
-						<div class="col-lg-4 text-lg-end text-center">
-							<div class="right-btn mb-70">
-								<a class="ht-btn" href="course.html">See All Courses</a>
-							</div>
-						</div>
-					</div>
-					<div class="row align-items-center">
-						<div class="col-lg-6">
-							<div class="course-style-one d-md-flex wow fadeInUp">
-								<div class="course-thumb">
-									<img class="front-img" src="assets/img/course/img-1.jpg" alt="course">
-									<img class="back-img" src="assets/img/course/img-21.png" alt="course">
-								</div>
-								<div class="content">
-									<h3 class="course-title"><a href="course-details.html">PTE Coaching</a></h3>
-									<p>Personalized PTE guidance tailored to your learning needs.</p>
-									<a class="more-btn" href="course-details.html">View More Details <img
-											src="assets/img/icon/arrow-1.svg" alt="arrow"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="course-style-one d-md-flex wow fadeInUp" data-wow-delay=".2s">
-								<div class="course-thumb">
-									<img class="front-img" src="assets/img/course/img-2.jpg" alt="course">
-									<img class="back-img" src="assets/img/course/img-23.png" alt="course">
-								</div>
-								<div class="content">
-									<h3 class="course-title"><a href="course-details.html">IELTS Coaching</a></h3>
-									<p>Achieve your IELTS goals with step-by-step training and feedback.</p>
-									<a class="more-btn" href="course-details.html">View More Details <img
-											src="assets/img/icon/arrow-1.svg" alt="arrow"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="course-style-one d-md-flex wow fadeInUp" data-wow-delay=".3s">
-								<div class="course-thumb">
-									<img class="front-img" src="assets/img/course/img-3.jpg" alt="course">
-									<img class="back-img" src="assets/img/course/img-22.png" alt="course">
-								</div>
-								<div class="content">
-									<h3 class="course-title"><a href="course-details.html">TOEFL Coaching</a></h3>
-									<p>Master the TOEFL test with expert-led instruction and tips.</p>
-									<a class="more-btn" href="course-details.html">View More Details <img
-											src="assets/img/icon/arrow-1.svg" alt="arrow"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="course-style-one d-md-flex wow fadeInUp" data-wow-delay=".4s">
-								<div class="course-thumb">
-									<img class="front-img" src="assets/img/course/img-4.jpg" alt="course">
-									<img class="back-img" src="assets/img/course/img-24.png" alt="course">
-								</div>
-								<div class="content">
-									<h3 class="course-title"><a href="course-details.html">OET Coaching</a></h3>
-									<p>Fast-track OET prep designed for busy medical professionals.</p>
-									<a class="more-btn" href="course-details.html">View More Details <img
-											src="assets/img/icon/arrow-1.svg" alt="arrow"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- courses-section end -->
-
-			<!-- team-section start -->
-			<section class="team-section position-relative z-1 pt-130 pt-lg-60 pb-60">
-				<img class="shape-t1 jump d-none d-lg-inline-block" src="assets/img/shape/shape-8.png" alt="shape">
-				<div class="container">
-					<div class="row align-items-center justify-content-center">
-						<div class="col-lg-8">
-							<div class="title-one text-center mb-70 mb-md-30">
-								<h2 class="title wow fadeInUp">Here our Immigration
-									support team</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row align-items-center justify-content-center">
-						<div class="col-lg-4 col-md-6">
-							<div class="team-wrap-one wow fadeInUp" data-wow-delay=".1s">
-								<div class="team-thumb">
-									<img class="w-100" src="assets/img/team/team-1.jpg" alt="team">
-									<div class="team-social">
-										<a href="#" tabindex="-1"><i class="bi bi-twitter"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-instagram"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-facebook"></i></a>
-									</div>
-								</div>
-
-								<div class="hover-content d-flex align-items-center">
-									<div class="content">
-										<h5 class="name"><a href="team-details.html">Ronald Richards</a></h5>
-										<h4 class="designation">Legal Advisor</h4>
-									</div>
-									<a class="more-btn" href="team-details.html"><i class="bi bi-chevron-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="team-wrap-one wow fadeInUp" data-wow-delay=".2s">
-								<div class="team-thumb">
-									<img class="w-100" src="assets/img/team/team-2.jpg" alt="team">
-									<div class="team-social">
-										<a href="#" tabindex="-1"><i class="bi bi-twitter"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-instagram"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-facebook"></i></a>
-									</div>
-								</div>
-
-								<div class="hover-content d-flex align-items-center">
-									<div class="content">
-										<h5 class="name"><a href="team-details.html">Courtney Henry</a></h5>
-										<h4 class="designation">Legal Advisor</h4>
-									</div>
-									<a class="more-btn" href="team-details.html"><i class="bi bi-chevron-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="team-wrap-one wow fadeInUp" data-wow-delay=".3s">
-								<div class="team-thumb">
-									<img class="w-100" src="assets/img/team/team-3.jpg" alt="team">
-									<div class="team-social">
-										<a href="#" tabindex="-1"><i class="bi bi-twitter"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-instagram"></i></a>
-										<a href="#" tabindex="-1"><i class="bi bi-facebook"></i></a>
-									</div>
-								</div>
-
-								<div class="hover-content d-flex align-items-center">
-									<div class="content">
-										<h5 class="name"><a href="team-details.html">Esther Howard</a></h5>
-										<h4 class="designation">General Manager</h4>
-									</div>
-									<a class="more-btn" href="team-details.html"><i class="bi bi-chevron-right"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 text-center mt-5">
-							<a class="ht-btn" href="team.html">See All Experts</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- team-section end -->
-
-			<!-- feedback-section start -->
-			<div class="feedback-section position-relative z-1 pt-70 pt-lg-60 pb-140 pb-lg-60">
-				<div class="container">
-					<div class="feedback-background-one">
-						<div class="row align-items-center justify-content-xl-between">
-							<div class="col-lg-5 feedback-slider-thumb">
-								<div class="author-avatar ht-carousel thumb-slider" data-asnavfor=".main-slider"
-									data-slide-show="1" data-arrows="false" data-dots="false" data-focuson-select="true"
-									data-autoplay="false" data-lg-slide-show="1" data-md-slide-show="1"
-									data-sm-slide-show="1" data-xs-slide-show="1" data-fade="true">
-									<div class="item">
-										<img class="author" src="assets/img/media/media-11.jpg" alt="author">
-									</div>
-									<div class="item">
-										<img class="author" src="assets/img/media/media-11.jpg" alt="author">
-									</div>
-									<div class="item">
-										<img class="author" src="assets/img/media/media-11.jpg" alt="author">
-									</div>
-
-								</div>
-							</div>
-							<div class="col-lg-7">
-								<div id="feedback-nav-one" class="author-content-sliders ht-carousel main-slider"
-									data-asnavfor=".thumb-slider" data-autoplay="true" data-autoplay-speed="4000">
-									<div class="feedback-wrap-one">
-										<div class="feedback-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-										</div>
-										<p class="feedback-text">"Visim made my entire visa process effortless with
-											their expert guidance and friendly support throughout."</p>
-										<div class="d-md-flex align-items-center justify-content-between">
-											<div class="author-info">
-												<h4 class="name">Asiah Hasan</h4>
-												<p class="designation">California, USA</p>
-											</div>
-											<div class="flag-box">
-												<div class="rating-number">
-													<i class="bi bi-star-fill"></i>
-													<h5 class="number">4.8</h5>
-												</div>
-												<img class="author-country" src="assets/img/media/uk.jpg" alt="author">
-											</div>
-										</div>
-									</div>
-									<div class="feedback-wrap-one">
-										<div class="feedback-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-										</div>
-										<p class="feedback-text">"Visim made my entire visa process effortless with
-											their expert guidance and friendly support throughout."</p>
-										<div class="d-md-flex align-items-center justify-content-between">
-											<div class="author-info">
-												<h4 class="name">Asiah Hasan</h4>
-												<p class="designation">California, USA</p>
-											</div>
-											<div class="flag-box">
-												<div class="rating-number">
-													<i class="bi bi-star-fill"></i>
-													<h5 class="number">4.8</h5>
-												</div>
-												<img class="author-country" src="assets/img/media/uk.jpg" alt="author">
-											</div>
-										</div>
-									</div>
-									<div class="feedback-wrap-one">
-										<div class="feedback-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-										</div>
-										<p class="feedback-text">"Visim made my entire visa process effortless with
-											their expert guidance and friendly support throughout."</p>
-										<div class="d-md-flex align-items-center justify-content-between">
-											<div class="author-info">
-												<h4 class="name">Asiah Hasan</h4>
-												<p class="designation">California, USA</p>
-											</div>
-											<div class="flag-box">
-												<div class="rating-number">
-													<i class="bi bi-star-fill"></i>
-													<h5 class="number">4.8</h5>
-												</div>
-												<img class="author-country" src="assets/img/media/uk.jpg" alt="author">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12">
-							<div class="arrow-wrapper position-relative z-1 mt-70">
-								<div
-									class="arrow-style-one position-relative z-2 white-bg d-inline-block px-4 ml-160 ml-xs-10">
-									<button data-slick-prev="#feedback-nav-one" class="slick-prev slick-arrow mr-15">
-										<i class="bi bi-chevron-left"></i>
-									</button>
-									<button data-slick-next="#feedback-nav-one" class="slick-next slick-arrow">
-										<i class="bi bi-chevron-right"></i>
-									</button>
-								</div>
-								<div class="arrow-back-border border position-absolute w-100 top-0 mt-30 z-n1"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- feedback-section end -->
-
-
-			<!-- contact-section start -->
-			<section class="light-bg contact-section">
-				<div class="contact-background-one pt-130 pb-90 pt-lg-60 pb-lg-20"
-					data-background="assets/img/shape/shape-9.png">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-5 mb-40">
-								<div class="contact-img-box text-lg-start text-center">
-									<div class="title-one">
-										<h2 class="title">Let’s Contact with Us.</h2>
-									</div>
-									<img class="shape-c1" src="assets/img/shape/shape-10.png" alt="shape">
-								</div>
-							</div>
-							<div class="col-lg-7 mb-40 ps-xxl-5">
-								<div class="contact-form-wrapper ms-xl-10">
-									<form class="contact-form row" action="#">
-										<div class="col-lg-6">
-											<div class="input-wrapper">
-												<label>Name*</label>
-												<input type="text" placeholder="Name">
-											</div>
-										</div>
-										<div class="col-lg-6">
-											<div class="input-wrapper">
-												<label>Phone*</label>
-												<input type="email" placeholder="Email">
-											</div>
-										</div>
-										<div class="col-lg-6">
-											<div class="input-wrapper">
-												<label>Email*</label>
-												<input type="email" placeholder="Email">
-											</div>
-										</div>
-										<div class="col-lg-6">
-											<div class="input-wrapper">
-												<label>Service</label>
-												<input type="email" placeholder="Email">
-											</div>
-										</div>
-										<div class="col-12">
-											<div class="input-wrapper message">
-												<label>Message</label>
-												<textarea name="message" placeholder="Your Message"></textarea>
-											</div>
-										</div>
-										<button type="submit" class="submit-btn">Send Message</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- contact-section end -->
-
-
-			<!-- offer-news start -->
-			<div class="theme-bg offer-news pt-35 pb-35">
-				<div class="marquee-wrapper">
-					<div class="marquee-slide">
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-1.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-2.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-3.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-4.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-5.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-6.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-					</div>
-					<div class="marquee-slide">
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-1.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-2.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-3.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-4.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-5.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-						<div class="brand-wrap-one">
-							<a href="contact.html"><img src="assets/img/brand/brand-6.svg" alt="brand"></a>
-							<img class="icon" src="assets/img/icon/icon-11.svg" alt="icon">
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- offer-news end -->
-
-
-			<!-- blog-section start -->
-			<section class="blog-section pt-130 pt-lg-60 pb-90 pb-lg-15">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="title-one mb-30">
-								<h2 class="title">Today's News &
-									Updates</h2>
-								<p class="description-text mb-50 pe-xxl-5 me-xxl-3">Catch up on today’s latest news,
-									important updates,
-									and
-									announcements —
-									everything
-									you need to stay informed, all in one place.</p>
-								<a class="ht-btn" href="about.html">See All Blogs</a>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="blog-one mb-40 wow fadeInUp" data-wow-delay=".1s">
-								<div class="blog-thumb">
-									<img src="assets/img/blog/blog-1.jpg" alt="blog">
-								</div>
-								<div class="blog-content">
-									<a href="blog-details.html" class="blog-tag">Golf Club</a>
-									<h3 class="blog-title"><a href="blog-details.html">Covid-19 and How It Reshaped
-											Qatar Immigration Policiess</a>
-									</h3>
-									<div class="blog-meta">
-										<img class="author" src="assets/img/blog/author-3.jpg" alt="author">
-										<a class="author-name" href="blog-details.html">Mahmud ul amin</a>
-										<a href="blog-details.html">6 days ago</a>
-									</div>
-									<a class="blog-btn" href="blog-details.html">Read More</a>
-								</div>
-
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="blog-one mb-40 wow fadeInUp" data-wow-delay=".2s">
-								<div class="blog-thumb">
-									<img src="assets/img/blog/blog-2.jpg" alt="blog">
-								</div>
-								<div class="blog-content">
-									<a href="blog-details.html" class="blog-tag">Golf Club</a>
-									<h3 class="blog-title"><a href="blog-details.html">Best Golf Tools for
-											Passionate
-											and Serious Golfers</a>
-									</h3>
-									<div class="blog-meta">
-										<img class="author" src="assets/img/blog/author-1.jpg" alt="author">
-										<a class="author-name" href="blog-details.html">Mahmud ul amin</a>
-										<a href="blog-details.html">6 days ago</a>
-									</div>
-									<a class="blog-btn" href="blog-details.html">Read More</a>
-								</div>
-
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="blog-one mb-40 wow fadeInUp" data-wow-delay=".3s">
-								<div class="blog-thumb">
-									<img src="assets/img/blog/blog-3.jpg" alt="blog">
-								</div>
-								<div class="blog-content">
-									<a href="blog-details.html" class="blog-tag">Golf Club</a>
-									<h3 class="blog-title"><a href="blog-details.html">Best Golf Tools for
-											Passionate
-											and Serious Golfers</a>
-									</h3>
-									<div class="blog-meta">
-										<img class="author" src="assets/img/blog/author-2.jpg" alt="author">
-										<a class="author-name" href="blog-details.html">Mahmud ul amin</a>
-										<a href="blog-details.html">6 days ago</a>
-									</div>
-									<a class="blog-btn" href="blog-details.html">Read More</a>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</section>
-			<!-- blog-section end -->
-
-
-
-		</main>
+                <!-- Cta Section Start -->
+                <section class="cta-section bg-cover" style="background-image: url('assets/img/home-1/cta-bg.jpg');">
+                    <div class="container">
+                        <div class="cta-wrapper">
+                            <h2 class="title tx-title sec_title  tz-itm-title tz-itm-anim">Subscribe to our newsletter <br> for daily updates</h2>
+                            <form action="#" class="wow fadeInUp" data-wow-delay=".3s">
+                                <input type="text" placeholder="Email Address">
+                                <button class="theme-btn" type="submit">
+                                    Subscribe Now
+                                    <i class="fa-solid fa-arrow-up-right"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                

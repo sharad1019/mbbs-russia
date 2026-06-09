@@ -1,222 +1,187 @@
-//font-weight
-.fw-exbold {
-    font-weight: 800 !important;
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+$heading-font: 'Bricolage Grotesque', sans-serif;
+$body-font: 'DM Sans', sans-serif;
+
+//font-family: "Font Awesome 6 Free";
+$fa: "Font Awesome 6 Pro";
+
+body {
+    font-family: $body-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: $text-color;
+    background-color: $white;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
 }
 
-.fw-bold {
-    font-weight: 700 !important;
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
 
-.fw-semi {
-    font-weight: 600 !important;
+button {
+    border: none;
+    background-color: transparent;
+	padding: 0;
 }
 
-.fw-medium {
-    font-weight: 500 !important;
+input:focus{
+	color: $white;
+	outline: none;
 }
 
-.fw-normal {
-    font-weight: 400 !important;
+input{
+	color: $white;
 }
 
-.fw-light {
-    font-weight: 300 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font;
+    margin: 0px;
+	padding: 0;
+    color: $header-color;
+	@include transition;
 }
 
-.fw-thin {
-    font-weight: 100 !important;
+h1 {
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 105%;
+
+	@include breakpoint(max-xl4){
+		font-size: 78px;
+	}
+
+	@include breakpoint(max-xxxl){
+		font-size: 70px;
+	}
+
+	@include breakpoint(max-xxl){
+		font-size: 60px;
+		line-height: 110%;
+	}
+
+	@include breakpoint(max-xl){
+		font-size: 55px;
+	}
+
+	@include breakpoint(max-lg){
+		font-size: 60px;
+	}
+
+	@include breakpoint(max-md){
+		font-size: 55px;
+	}
+
+	@include breakpoint(max-sm){
+		font-size: 43px;
+	}
+
+	@include breakpoint(max-xxs){
+		font-size: 36px;
+	}
 }
 
-//font-size
+h2 {
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 112%;
 
-.text-xl {
-    font-size: 30px;
-    font-weight: 500;
-    font-family: $poppinsFont;
-    line-height: 1.8;
+	@include breakpoint(max-xxl){
+		font-size: 45px;
+	}
 
-    @media #{$max-laptop} {
-        font-size: 20px;
-    }
+	@include breakpoint(max-xl){
+		font-size: 42px;
+	}
+
+	@include breakpoint(max-lg){
+		font-size: 40px;
+	}
+
+	@include breakpoint(max-md){
+		font-size: 38px;
+	}
+
+	@include breakpoint(max-sm){
+		font-size: 32px;
+	}
 }
 
-.text-lg {
-    font-size: 22px !important;
-    line-height: 45px;
+h3 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 133%;
 
-    @media #{$max-lg} {
-        font-size: 20px !important;
-        line-height: 34px;
-    }
+	@include breakpoint(max-xl4){
+		font-size: 26px;
+	}
 
-    @media #{$max-md} {
-        font-size: 18px !important;
-        line-height: 34px;
-    }
+	@include breakpoint(max-xxxl){
+		font-size: 23px;
+	}
+
+	@include breakpoint(max-xxl){
+		font-size: 22px;
+	}
+
+	@include breakpoint(max-xl){
+		font-size: 20px;
+	}
 }
 
-.fs-20 {
-    font-size: 20px !important;
+h4 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 150%;
+
+	@include breakpoint(max-xl){
+		font-size: 20px;
+	}
 }
 
-.fs-18 {
-    font-size: 18px !important;
+h5 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 167%;
 }
 
-.fs-16 {
-    font-size: 16px !important;
+h6 {
+	font-size: 14px;
+	font-weight: 600;
 }
 
-.fs-14 {
-    font-size: 14px !important;
+a {
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+    color: $header-color;
+	@include transition;
 }
 
-.fs-12 {
-    font-size: 12px !important;
+p {
+    margin: 0px;
+	@include transition;
 }
 
-/*--
-    - Background color
------------------------------------------*/
-
-.grey-bg {
-    background: $grey;
+span {
+	margin: 0px;
+	// @include transition;
 }
 
-.light-bg {
-    background: $light;
-}
-
-.light-grey-bg {
-    background: $light-grey;
-}
-
-.white-bg {
-    background: $white;
-}
-
-.black-bg {
-    background: $heding !important;
-}
-
-.heding-bg {
-    background: $heding !important;
-}
-
-.theme-bg {
-    background: $theme-color !important;
-}
-
-.theme-bg2 {
-    background: $theme-color2 !important;
-}
-
-
-/*--
-    - color
------------------------------------------*/
-.text-white {
-    color: $white;
-}
-
-.text-black {
-    color: $black;
-}
-
-.text-theme {
-    color: $theme-color !important;
-}
-
-.text-theme2 {
-    color: $theme-color2 !important;
-}
-
-.text-body {
-    color: $body-text-color !important;
-}
-
-.text-body2 {
-    color: $body-text-color !important;
-}
-
-.text-heding {
-    color: $heding !important;
-}
-
-.text-heding2 {
-    color: $heding !important;
-}
-
-/*--
-    - fonts
------------------------------------------*/
-
-.body-font {
-    font-family: $latoFont !important;
-}
-
-.heding-font {
-    font-family: $poppinsFont !important;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.capitalize {
-    text-transform: capitalize;
-}
-
-.lowercase {
-    text-transform: lowercase;
-}
-
-//background-none
-.bg-none {
-    background: none !important;
-}
-
-//before-none
-.before-none {
-    &::before {
-        display: none !important;
-    }
-}
-
-//after-none
-.after-none {
-    &::before {
-        display: none !important;
-    }
-}
-
-.radius-35 {
-    border-radius: 35px;
-}
-
-.radius-30 {
-    border-radius: 30px;
-}
-
-.radius-25 {
-    border-radius: 25px;
-}
-
-.radius-20 {
-    border-radius: 20px;
-}
-
-.radius-15 {
-    border-radius: 15px;
-}
-
-
-/*---font family----*/
-
-.poppins-font {
-    font-family: $poppinsFont !important;
-}
-
-.lato-font {
-    font-family: $latoFont !important;
-}

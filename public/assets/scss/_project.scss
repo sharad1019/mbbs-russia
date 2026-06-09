@@ -1,0 +1,102 @@
+.gallery-card-item-inner {
+    .gallery-image {
+        position: relative;
+
+        img {
+            @include imgw;
+        }
+
+        &::before {
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            transform: scale(0.7);
+            content: "";
+            position: absolute;
+            background: linear-gradient(99.96deg, rgba(108, 32, 123, 0.87) 0.93%, rgba(227, 38, 130, 0.87) 100%);
+            z-index: 1;
+            transition: 0.5s;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .icon {
+            position: absolute;
+            font-size: 38px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 99;
+            color: $white;
+            opacity: 0;
+            @include transition;
+        }
+    }
+
+    &:hover {
+        .gallery-image {
+
+            &::before {
+                transform: scale(1);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .icon {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.gallery-thumb-2 {
+    position: relative;
+     border-radius: 30px;
+
+    img {
+        @include imgw;
+         border-radius: 30px;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transform: scale(0.7);
+        content: "";
+        position: absolute;
+        background: linear-gradient(99.96deg, rgba(108, 32, 123, 0.87) 0.93%, rgba(227, 38, 130, 0.87) 100%);
+        z-index: 1;
+        transition: 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 30px;
+    }
+
+    .icon {
+        position: absolute;
+        font-size: 38px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 99;
+        color: $white;
+        opacity: 0;
+        @include transition;
+    }
+
+    &:hover {
+        
+        &::before {
+            transform: scale(1);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .icon {
+            opacity: 1;
+        }
+    }
+}

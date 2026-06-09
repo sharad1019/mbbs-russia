@@ -1,0 +1,161 @@
+.pricing-box-items {
+    margin-top: 30px;
+    border: 1px solid rgba(216, 221, 225, 1);
+    background-color: $white;
+    padding: 60px 30px 30px 30px;
+    border-radius: 30px;
+    position: relative;
+
+    span {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-weight: 600;
+        color: $header-color;
+    }
+
+    .pricing-header {
+        border-bottom: 1px solid rgba(216, 221, 225, 1);
+        padding-bottom: 25px;
+
+        p {
+            margin-top: 5px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            margin-top: 15px;
+
+            @include breakpoint (max-xl){
+                font-size: 46px;
+            }
+
+            sub {
+                font-size: 16px;
+                font-weight: 500;
+                margin-left: -5px;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 16px;
+        font-weight: 800;
+        margin-top: 25px;
+    }
+
+    .pricing-list {
+        margin-top: 20px;
+        @include transition;
+
+        li {
+            @include transition;
+            color: rgba(0, 13, 68, 1);
+
+            &.style-2 {
+                color: rgba(120, 128, 148, 1);
+            }
+
+            i {
+                color: $theme-color;
+                margin-right: 10px;
+                @include transition;
+
+                &.color-2 {
+                    color: rgba(120, 128, 148, 1);
+                }
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .theme-btn {
+        background-color: transparent;
+        border: 1px solid rgba(216, 221, 225, 1);
+        width: 100%;
+        color: $header-color;
+        margin-top: 30px;
+
+        @include breakpoint (max-xl){
+            padding: 18px 22px;
+        }
+
+        i {
+            color: $header-color;
+        }
+
+        &::before {
+            background-color: $theme-color;
+        }
+
+        &:hover {
+            color: $white;
+
+            i {
+              color: $white;  
+            }
+        }
+    }
+
+    &.style-2 {
+        border: none;
+
+        span {
+            background-color: $theme-color;
+            color: $white;
+            padding: 10px 12px;
+            line-height: 1;
+            border-radius: 100px;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .pricing-header {
+            border-bottom: none;
+            padding-bottom: 0;
+
+            h2 {
+                border-top: 1px solid rgba(216, 221, 225, 1);
+                padding-top: 25px;
+                margin-top: 20px;
+            }
+        }
+
+        .theme-btn {
+            background-color: $header-color;
+            color: $white;
+
+            i {
+                color: $white;
+            }
+
+            &.color-2 {
+                background-color: $theme-color;
+
+                &::before {
+                    background-color: $header-color;
+                }
+            }
+        }
+    }
+
+    &.active {
+        .theme-btn {
+            color: $white;
+            background-color: $theme-color;
+
+            i {
+                color: $white;
+            }
+
+            &::before {
+                background-color: $header-color;
+            }
+        }
+    }
+}
